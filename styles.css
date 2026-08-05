@@ -135,20 +135,20 @@ h1,h2,h3{font-family:var(--display);letter-spacing:-.02em;line-height:1.1;margin
 .kapanis .dugme.birincil{background:var(--altin);color:var(--asfalt)}
 .kapanis .dugme.birincil:hover{background:#fff}
 
-/* ---------------- Kahraman ---------------- */
-.kahraman{
+/* ---------------- hero ---------------- */
+.hero{
   max-width:var(--en);margin:0 auto;
   padding:clamp(2.5rem,7vw,5rem) clamp(1.1rem,4vw,2.5rem) clamp(2rem,5vw,4rem);
   display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);
   gap:clamp(2rem,5vw,4rem);align-items:center;
 }
 
-.kahraman h1{
+.hero h1{
   font-size:clamp(2.4rem,6.4vw,4.15rem);
   font-weight:800;margin:0 0 1.4rem;
 }
-.kahraman h1 em{font-style:normal;color:var(--sikisik);position:relative;white-space:nowrap}
-.kahraman h1 em::after{
+.hero h1 em{font-style:normal;color:var(--sikisik);position:relative;white-space:nowrap}
+.hero h1 em::after{
   content:"";position:absolute;left:0;right:0;bottom:.07em;height:.13em;
   background:var(--altin);opacity:.85;
 }
@@ -362,7 +362,7 @@ h1,h2,h3{font-family:var(--display);letter-spacing:-.02em;line-height:1.1;margin
 }
 .kapanis > *{max-width:64ch;margin-inline:auto}
 .kapanis h2{font-size:clamp(1.6rem,4vw,2.4rem);font-weight:700;color:#fff}
-.kapanis-giris{color:#A8B4C8;margin:1.1rem 0 0}
+.kapanis-giris{color:#A8B4C8;margin:1.1rem 0 0;}
 .kapanis .dugmeler{justify-content:center}
 
 /* ---------------- Alt bilgi ---------------- */
@@ -386,7 +386,7 @@ h1,h2,h3{font-family:var(--display);letter-spacing:-.02em;line-height:1.1;margin
 }
 
 @media (max-width:900px){
-  .kahraman{grid-template-columns:1fr}
+  .hero{grid-template-columns:1fr}
   .ikili{grid-template-columns:1fr}
 }
 
