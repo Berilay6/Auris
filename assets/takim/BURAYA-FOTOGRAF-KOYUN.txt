@@ -1,0 +1,8 @@
+Takım fotoğraflarını bu klasöre şu adlarla koyun:
+
+  beril.jpg    kaan.jpg    duygu.jpg    yanki.jpg
+
+Öneri: kare (1:1), en az 300x300 piksel.
+Fotoğraf koymazsanız site otomatik olarak baş harfleri gösterir; hata vermez.
+
+Bu dosyayı sonra silebilirsiniz.
