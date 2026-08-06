@@ -1,8 +1,3 @@
-/* ============================================================
-   Auris — tanıtım sitesi etkileşimleri
-   1) Kahraman bölümündeki yol ağı şeması (temsilî)
-   2) Mobil menü
-   ============================================================ */
 
 (function () {
   "use strict";
@@ -65,7 +60,7 @@
     return null;
   }
 
-  // Yoğunluğu renge çevirir: yeşil → amber → koyu kırmızı
+  // Yoğunluğu renge çevirir: yeşil - amber - koyu kırmızı
   function renk(y) {
     if (y < 0.45) return "#1B8E63";
     if (y < 0.70) return "#D99A0B";
@@ -94,7 +89,7 @@
     dugumKat.appendChild(c);
   });
 
-  // Kural tabanlı uyarı pini (müdahale senaryosunda görünür)
+  // Kural tabanlı uyarı pini 
   var up = bul(UYARI_DUGUM);
   var pin = document.createElementNS(NS, "g");
   pin.setAttribute("class", "uyari-pin");

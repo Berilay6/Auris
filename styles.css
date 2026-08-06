@@ -1,8 +1,3 @@
-/* ============================================================
-   Auris — proje tanıtım sitesi
-   Palet: asfalt / beton / sinyal renkleri
-   ============================================================ */
-
 :root{
   --asfalt:#141A26;
   --asfalt-yumusak:#1E2739;
@@ -154,7 +149,7 @@ h1,h2,h3{font-family:var(--display);letter-spacing:-.02em;line-height:1.1;margin
 }
 .giris{font-size:1.09rem;color:#3A4459;margin:0;max-width:48ch}
 
-/* --- İmza: ağ sahnesi --- */
+/* --- Ağ sahnesi --- */
 .sahne{
   margin:0;background:var(--serit);border:1px solid var(--cizgi);
   border-radius:3px;overflow:hidden;

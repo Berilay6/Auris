@@ -1,7 +1,7 @@
 # Auris — Proje Tanıtım Sitesi
 
 Akıllı Trafik Akış Simülasyonu ve Yol Tasarım Karar Destek Sistemi projesinin
-kamuya açık tanıtım sitesi. Statik site: derleme adımı yok, bağımlılık yok.
+kamuya açık tanıtım sitesi. 
 
 ## Dosya düzeni
 
