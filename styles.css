@@ -339,10 +339,13 @@ h1,h2,h3{font-family:var(--display);letter-spacing:-.02em;line-height:1.1;margin
 }
 .uye-bio{font-size:.9rem;color:#4A5468;margin:0 0 1rem;line-height:1.55}
 .uye-link{
+  display:table;
   font-family:var(--veri);font-size:.75rem;font-weight:600;
   color:var(--asfalt);text-decoration:none;
   border-bottom:1.5px solid var(--altin);padding-bottom:1px;
+  margin-bottom:.5rem;
 }
+.uye-link:last-child{margin-bottom:0}
 .uye-link:hover{color:var(--lacivert)}
 
 .danisman{
