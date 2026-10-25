@@ -1,0 +1,221 @@
+auris/
+├── auris-data/
+│   ├── base_network/
+│   ├── demand/
+│   │   └── sources/
+│   ├── jobs/
+│   ├── results/
+│   └── scenarios/
+├── backend/
+│   ├── auris/
+│   │   ├── analysis/
+│   │   │   ├── parsers/
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── edgedata_parser.py
+│   │   │   │   └── fcd_parser.py
+│   │   │   ├── validation/
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── geh.py
+│   │   │   │   └── kl_divergence.py
+│   │   │   ├── __init__.py
+│   │   │   ├── alerts.py
+│   │   │   ├── comparison.py
+│   │   │   ├── metrics.py
+│   │   │   └── serializer.py
+│   │   ├── api/
+│   │   │   ├── routes/
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── health.py
+│   │   │   │   ├── jobs.py
+│   │   │   │   ├── network.py
+│   │   │   │   ├── results.py
+│   │   │   │   ├── scenarios.py
+│   │   │   │   └── simulate.py
+│   │   │   ├── schemas/
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── errors.py
+│   │   │   │   ├── intervention.py
+│   │   │   │   ├── job.py
+│   │   │   │   ├── result.py
+│   │   │   │   └── scenario.py
+│   │   │   ├── __init__.py
+│   │   │   ├── deps.py
+│   │   │   └── main.py
+│   │   ├── cli/
+│   │   │   ├── __init__.py
+│   │   │   ├── bootstrap_network.py
+│   │   │   ├── prepare_demand.py
+│   │   │   ├── run_baseline.py
+│   │   │   └── run_validation.py
+│   │   ├── core/
+│   │   │   ├── __init__.py
+│   │   │   ├── config.py
+│   │   │   ├── errors.py
+│   │   │   ├── logging.py
+│   │   │   └── security.py
+│   │   ├── demand/
+│   │   │   ├── __init__.py
+│   │   │   ├── cleaning.py
+│   │   │   ├── gravity_model.py
+│   │   │   ├── land_use.py
+│   │   │   ├── trip_builder.py
+│   │   │   └── volume_profile.py
+│   │   ├── domain/
+│   │   │   ├── __init__.py
+│   │   │   ├── demand.py
+│   │   │   ├── intervention.py
+│   │   │   ├── job.py
+│   │   │   ├── network.py
+│   │   │   ├── result.py
+│   │   │   └── scenario.py
+│   │   ├── network/
+│   │   │   ├── interventions/
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── base.py
+│   │   │   │   ├── bypass.py
+│   │   │   │   ├── junction_conversion.py
+│   │   │   │   ├── lane_change.py
+│   │   │   │   ├── one_way.py
+│   │   │   │   ├── registry.py
+│   │   │   │   ├── road_type_speed.py
+│   │   │   │   └── slip_lane.py
+│   │   │   ├── __init__.py
+│   │   │   ├── bootstrap.py
+│   │   │   ├── copy_manager.py
+│   │   │   └── validator.py
+│   │   ├── orchestration/
+│   │   │   ├── __init__.py
+│   │   │   ├── circuit_breaker.py
+│   │   │   ├── job_service.py
+│   │   │   ├── scenario_service.py
+│   │   │   └── simulation_service.py
+│   │   ├── simulation/
+│   │   │   ├── __init__.py
+│   │   │   ├── celery_app.py
+│   │   │   ├── routing.py
+│   │   │   ├── runner.py
+│   │   │   ├── tasks.py
+│   │   │   └── workspace.py
+│   │   ├── storage/
+│   │   │   ├── __init__.py
+│   │   │   ├── atomic.py
+│   │   │   ├── cleanup.py
+│   │   │   ├── demand_store.py
+│   │   │   ├── job_store.py
+│   │   │   ├── layout.py
+│   │   │   ├── result_store.py
+│   │   │   └── scenario_store.py
+│   │   ├── sumo/
+│   │   │   ├── __init__.py
+│   │   │   ├── cli.py
+│   │   │   └── tools.py
+│   │   └── __init__.py
+│   ├── requirements/
+│   │   ├── api.txt
+│   │   ├── base.txt
+│   │   └── worker.txt
+│   ├── tests/
+│   │   ├── fixtures/
+│   │   ├── integration/
+│   │   ├── unit/
+│   │   ├── __init__.py
+│   │   └── conftest.py
+│   ├── .dockerignore
+│   ├── Dockerfile.api
+│   ├── Dockerfile.worker
+│   └── pyproject.toml
+├── config/
+│   ├── sumo/
+│   │   ├── duarouter.duarcfg
+│   │   ├── edgedata.add.xml
+│   │   ├── netconvert.netccfg
+│   │   └── sumo.sumocfg.template
+│   ├── interventions.yaml
+│   ├── pilot_region.yaml
+│   └── thresholds.yaml
+├── deploy/
+│   ├── proxy/
+│   │   ├── .htpasswd.example
+│   │   └── nginx-tls.conf
+│   └── docker-compose.shared.yml
+├── docs/
+│   ├── adr/
+│   │   ├── MK1-sumo-kara-kutu.md
+│   │   ├── MK2-degismez-temel-ag.md
+│   │   ├── MK3-senkron-dogrulama-kapisi.md
+│   │   ├── MK4-asenkron-is-kuyrugu.md
+│   │   ├── MK5-dosya-tabanli-kalicilik.md
+│   │   └── MK6-sunucu-tarafi-toplulastirma.md
+│   ├── api/
+│   │   └── openapi.md
+│   ├── reports/
+│   ├── data-layout.md
+│   └── traceability.md
+├── frontend/
+│   ├── nginx/
+│   │   └── default.conf
+│   ├── public/
+│   │   └── favicon.svg
+│   ├── src/
+│   │   ├── api/
+│   │   │   ├── client.js
+│   │   │   ├── jobApi.js
+│   │   │   ├── networkApi.js
+│   │   │   ├── resultApi.js
+│   │   │   └── scenarioApi.js
+│   │   ├── components/
+│   │   │   ├── charts/
+│   │   │   │   └── TimeSeriesChart.jsx
+│   │   │   ├── common/
+│   │   │   │   ├── ModelDisclaimer.jsx
+│   │   │   │   ├── ScenarioToggle.jsx
+│   │   │   │   └── Stepper.jsx
+│   │   │   ├── map/
+│   │   │   │   ├── AlertMarker.jsx
+│   │   │   │   ├── CongestionLayer.jsx
+│   │   │   │   ├── ElementSelector.jsx
+│   │   │   │   └── NetworkMap.jsx
+│   │   │   └── panels/
+│   │   │       ├── GainTable.jsx
+│   │   │       ├── InterventionCatalog.jsx
+│   │   │       ├── KpiCards.jsx
+│   │   │       ├── ScenarioCart.jsx
+│   │   │       └── TimeRangePicker.jsx
+│   │   ├── constants/
+│   │   │   ├── colorScale.js
+│   │   │   └── interventionTypes.js
+│   │   ├── hooks/
+│   │   │   ├── useJobPolling.js
+│   │   │   ├── useNetwork.js
+│   │   │   └── useScenario.js
+│   │   ├── screens/
+│   │   │   ├── AlertTooltip.jsx
+│   │   │   ├── ComparisonScreen.jsx
+│   │   │   ├── InterventionDrawer.jsx
+│   │   │   ├── MapDashboardScreen.jsx
+│   │   │   ├── SimulationProgressModal.jsx
+│   │   │   └── ValidationErrorModal.jsx
+│   │   ├── state/
+│   │   │   └── ScenarioCartContext.jsx
+│   │   ├── styles/
+│   │   │   └── global.css
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   ├── tests/
+│   ├── .dockerignore
+│   ├── Dockerfile
+│   ├── index.html
+│   ├── package.json
+│   └── vite.config.js
+├── scripts/
+│   ├── backup.ps1
+│   ├── backup.sh
+│   ├── bootstrap.ps1
+│   ├── bootstrap.sh
+│   └── export_scenario.sh
+├── .env.example
+├── .gitignore
+├── LICENSE
+├── README.md
+├── THIRD_PARTY_NOTICES.md
+└── docker-compose.yml

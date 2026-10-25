@@ -1,0 +1,10 @@
+.env
+node_modules/
+frontend/dist/
+__pycache__/
+*.pyc
+.pytest_cache/
+# Üretilen veri sürüm kontrolüne alınmaz; yalnızca dizin iskeleti tutulur
+auris-data/**
+!auris-data/**/
+!auris-data/**/.gitkeep

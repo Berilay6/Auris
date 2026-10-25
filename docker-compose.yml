@@ -1,0 +1,191 @@
+# ============================================================================
+# AURIS — Akıllı Trafik Akış Simülasyonu ve Yol Tasarım Karar Destek Sistemi
+# Varsayılan (yerel, tek makine) dağıtım — HLD §3.3
+#
+#   auris-frontend  (AS1)            Nginx: statik React SPA + /api ters vekil
+#   auris-backend   (AS2,AS3,AS4,AS6) FastAPI/Uvicorn: orkestrasyon, senkron ağ doğrulama
+#   auris-worker    (AS5)            Celery + SUMO (duarouter, sumo), eşzamanlılık = 1
+#   auris-broker    (altyapı)        Valkey (BSD) — Redis protokolü uyumlu iş kuyruğu
+#   auris-data      «volume»         Dosya tabanlı kalıcı depo (MK5) — VERİTABANI YOK
+#
+# Başlangıç sırası (HLD §3.7.1): broker → backend → worker → frontend
+# Kullanım:  cp .env.example .env  &&  docker compose up -d --build
+# ============================================================================
+
+name: auris
+
+x-python-env: &python-env
+  PYTHONUNBUFFERED: "1"
+  PYTHONDONTWRITEBYTECODE: "1"
+  AURIS_DATA_DIR: /data
+  AURIS_CONFIG_DIR: /config
+  CELERY_BROKER_URL: redis://auris-broker:6379/0
+  CELERY_RESULT_BACKEND: redis://auris-broker:6379/1
+  SUMO_HOME: /usr/share/sumo
+  SIMULATION_TIMEOUT_SECONDS: ${SIMULATION_TIMEOUT_SECONDS:-180}
+  LOG_LEVEL: ${LOG_LEVEL:-INFO}
+
+x-hardening: &hardening
+  security_opt:
+    - no-new-privileges:true
+  cap_drop:
+    - ALL
+
+services:
+
+  # --------------------------------------------------------------------------
+  # Mesaj kuyruğu — sistemdeki TEK durum tutan altyapı servisi (TH7)
+  # --------------------------------------------------------------------------
+  auris-broker:
+    image: valkey/valkey:8-alpine
+    container_name: auris-broker
+    # AOF açık: kapatma sırasında kuyrukta bekleyen işler bir sonraki açılışta
+    # yeniden kuyruğa alınabilsin (HLD §3.7.2 adım 3).
+    command: ["valkey-server", "--appendonly", "yes", "--save", ""]
+    volumes:
+      - broker-state:/data
+    networks: [internal]
+    healthcheck:
+      test: ["CMD", "valkey-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    deploy:
+      resources:
+        limits: { cpus: "0.25", memory: 128M }
+    restart: unless-stopped
+
+  # --------------------------------------------------------------------------
+  # Orkestrasyon sunucusu — AS2 + süreç içi AS3, AS4, AS6
+  # Senkron doğrulama kapısı (MK3) → HTTP 400 | kuyruğa al → HTTP 202 + jobId (MK4)
+  # --------------------------------------------------------------------------
+  auris-backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.api
+    image: auris/backend:latest
+    container_name: auris-backend
+    <<: *hardening
+    user: "${AURIS_UID:-1000}:${AURIS_GID:-1000}"
+    environment:
+      <<: *python-env
+      UVICORN_HOST: 0.0.0.0
+      UVICORN_PORT: "8000"
+    volumes:
+      # Okuma-yazma: scenarios/ (çalışma kopyası), demand/, results/, jobs/ (okuma)
+      # base_network/ yazımı yalnızca bootstrap komutuyla yapılır (HLD §3.4.4).
+      - ${AURIS_DATA_DIR:-./auris-data}:/data
+      - ./config:/config:ro
+    networks: [internal, edge]
+    expose: ["8000"]
+    depends_on:
+      auris-broker:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request,sys; sys.exit(0 if urllib.request.urlopen('http://localhost:8000/api/health', timeout=2).status == 200 else 1)"]
+      interval: 10s
+      timeout: 3s
+      start_period: 20s
+      retries: 5
+    deploy:
+      resources:
+        limits: { cpus: "1.0", memory: 1G }
+    stop_grace_period: 15s
+    restart: unless-stopped
+
+  # --------------------------------------------------------------------------
+  # Simülasyon işçisi — AS5 (duarouter + sumo, kabuksuz alt süreç)
+  # Eşzamanlılık bilinçli olarak 1 (HLD §3.6.2); dış ağ erişimi yok (HLD §3.5.3)
+  # --------------------------------------------------------------------------
+  auris-worker:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.worker
+    image: auris/worker:latest
+    container_name: auris-worker
+    <<: *hardening
+    user: "${AURIS_UID:-1000}:${AURIS_GID:-1000}"
+    command:
+      - celery
+      - --app=auris.simulation.celery_app
+      - worker
+      - --concurrency=1
+      - --prefetch-multiplier=1
+      - --queues=simulation
+      - --loglevel=${LOG_LEVEL:-INFO}
+    environment:
+      <<: *python-env
+    volumes:
+      - ${AURIS_DATA_DIR:-./auris-data}:/data
+      # Temel ağ işçi için salt-okunur (MK2, R5)
+      - ${AURIS_DATA_DIR:-./auris-data}/base_network:/data/base_network:ro
+      - ./config:/config:ro
+    read_only: true
+    tmpfs:
+      - /tmp
+    networks: [internal]          # yalnızca broker'a erişir
+    depends_on:
+      auris-broker:
+        condition: service_healthy
+      auris-backend:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "celery", "--app=auris.simulation.celery_app", "inspect", "ping", "--timeout=5"]
+      interval: 30s
+      timeout: 10s
+      start_period: 30s
+      retries: 3
+    deploy:
+      resources:
+        limits: { cpus: "3.0", memory: 4G }   # referans donanım: 4 çekirdek / 8 GB
+    # Graceful shutdown: SIGTERM → çalışan alt süreç sonlandırılır,
+    # iş BAŞARISIZ işaretlenir (HLD §3.7.2)
+    stop_signal: SIGTERM
+    stop_grace_period: 30s
+    restart: unless-stopped
+
+  # --------------------------------------------------------------------------
+  # Sunum — AS1 (React + Leaflet statik paket, Nginx)
+  # /api/* isteklerini auris-backend'e iletir (aynı köken → CORS gerekmez)
+  # --------------------------------------------------------------------------
+  auris-frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        VITE_POLL_INTERVAL_MS: ${POLL_INTERVAL_MS:-3000}
+    image: auris/frontend:latest
+    container_name: auris-frontend
+    ports:
+      - "${AURIS_HTTP_PORT:-8080}:80"
+    networks: [edge]
+    depends_on:
+      auris-backend:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost/"]
+      interval: 15s
+      timeout: 3s
+      retries: 3
+    deploy:
+      resources:
+        limits: { cpus: "0.25", memory: 128M }
+    restart: unless-stopped
+
+# ----------------------------------------------------------------------------
+# Ağlar
+#   internal : broker ↔ backend ↔ worker  (dış dünyaya kapalı)
+#   edge     : frontend ↔ backend         (yalnızca frontend port yayınlar)
+# Not: Bootstrap (OSM/NYC Open Data indirme) dış ağ ister; backend bu yüzden
+#      'edge' ağındadır. Worker hiçbir zaman dış ağa çıkmaz.
+# ----------------------------------------------------------------------------
+networks:
+  internal:
+    driver: bridge
+    internal: true
+  edge:
+    driver: bridge
+
+volumes:
+  # Yalnızca kuyruk durumu; uygulama verisi DEĞİL (o, auris-data bind mount'tadır)
+  broker-state:
