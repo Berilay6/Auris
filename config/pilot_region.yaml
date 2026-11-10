@@ -1,0 +1,67 @@
+# Auris pilot region — Midtown East, Manhattan (NYC)
+#
+# Single source of truth for downloading the base road network from OpenStreetMap.
+# `backend/auris/cli/bootstrap_network.py` reads the region boundary, the OSM
+# snapshot date and the tag lists from this file only.
+# To change the region, edit this file and re-run the script.
+#
+# Coordinates are WGS84 (EPSG:4326), always ordered [longitude, latitude].
+# (Google Maps gives "latitude, longitude" — swap the order when copying.)
+
+region:
+  # The output filename is derived from this: <id>.osm
+  id: midtown_east
+  name: "Midtown East (Park Ave – 3rd Ave, E 49th – E 61st St), Manhattan, New York"
+
+  boundary:
+    # "polygon" or "bbox". The Manhattan grid is rotated ~29°, so a polygon is used here.
+    type: polygon
+
+    # Corners are street-centerline intersections. The ring must be closed (first = last point).
+    polygon:
+      - [-73.969033, 40.764299]   # Park Ave & E 61st St
+      - [-73.965559, 40.762812]   # 3rd Ave & E 61st St
+      - [-73.971186, 40.755086]   # 3rd Ave & E 49th St
+      - [-73.974676, 40.756583]   # Park Ave & E 49th St
+      - [-73.969033, 40.764299]   # closing point
+
+    # Expands the boundary outward, in meters. The corners sit exactly on the
+    # centerlines of the boundary streets, so with 0 the nodes on Park Ave /
+    # 3rd Ave / 49th / 61st may fall inside or outside due to rounding. 0 = no buffer.
+    buffer_m: 20
+
+    # Used when type: bbox (example format):
+    # bbox: {west: -73.975, south: 40.755, east: -73.965, north: 40.765}
+
+osm:
+  # OSMnx network_type
+  network_type: drive
+
+  # Snapshot date for the Overpass "attic" query (ISO-8601, UTC).
+  # Same date = same OSM data → reproducible download.
+  # Change this date deliberately to refresh the network.
+  snapshot_date: "2026-10-01T00:00:00Z"
+
+  # Keep edges that cross the boundary in full (avoids dangling ends in netconvert)
+  truncate_by_edge: true
+
+  # Tags kept in addition to the OSMnx defaults
+  # (SUMO netconvert derives lane/turn/speed information from them).
+  extra_way_tags:
+    - lanes:forward
+    - lanes:backward
+    - turn:lanes
+    - turn:lanes:forward
+    - turn:lanes:backward
+    - maxspeed:forward
+    - maxspeed:backward
+    - oneway:bicycle
+  extra_node_tags:
+    - traffic_signals
+    - crossing
+
+output:
+  # Directory relative to AURIS_DATA_DIR (or <repo>/auris-data if unset)
+  dir: base_network
+  # Optional; defaults to "<region.id>.osm".
+  # filename: midtown_east.osm
