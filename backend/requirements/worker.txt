@@ -1,0 +1,6 @@
+# Simulation worker (auris-worker) dependencies — AS5
+# Shared packages live in base.txt; both api and worker use it.
+-r base.txt
+
+# Celery + Redis client. The broker is Valkey, which speaks the Redis protocol, so the standard "redis" client is sufficient.
+celery[redis]==5.5.3
