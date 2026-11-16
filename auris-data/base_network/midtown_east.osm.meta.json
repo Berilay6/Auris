@@ -1,0 +1,42 @@
+{
+  "region_id": "midtown_east",
+  "region_name": "Midtown East (Park Ave – 3rd Ave, E 49th – E 61st St), Manhattan, New York",
+  "file": "midtown_east.osm",
+  "sha256": "aa4f7eaf25d62f45ae327689e12ff3a11cb9ae1d11d1d45c350c04bac9e0b080",
+  "size_bytes": 135516,
+  "nodes": 372,
+  "edges": 411,
+  "boundary": {
+    "type": "polygon",
+    "polygon": [
+      [
+        -73.969033,
+        40.764299
+      ],
+      [
+        -73.965559,
+        40.762812
+      ],
+      [
+        -73.971186,
+        40.755086
+      ],
+      [
+        -73.974676,
+        40.756583
+      ],
+      [
+        -73.969033,
+        40.764299
+      ]
+    ],
+    "bbox": null,
+    "buffer_m": 20.0
+  },
+  "network_type": "drive",
+  "osm_snapshot_date": "2026-10-01T00:00:00Z",
+  "config_sha256": "1bfab63474ddbed81fef5cead7bf06da94b1d54a2a30c310d09c6caeae9780a4",
+  "osmnx_version": "2.1.1",
+  "generated_at": "2026-11-10T19:40:24Z",
+  "attribution": "© OpenStreetMap contributors, ODbL 1.0 (https://www.openstreetmap.org/copyright)"
+}
