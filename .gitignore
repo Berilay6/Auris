@@ -9,3 +9,4 @@ __pycache__/
 auris-data/**
 !auris-data/**/
 !auris-data/**/.gitkeep
+!auris-data/base_network/*.osm

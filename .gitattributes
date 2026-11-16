@@ -1,0 +1,2 @@
+# Keep .osm files byte-identical (no line-ending conversion) so their SHA-256 matches .meta.json
+auris-data/base_network/*.osm -text

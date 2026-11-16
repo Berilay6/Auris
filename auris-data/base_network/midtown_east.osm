@@ -1,0 +1,2539 @@
+<?xml version='1.0' encoding='utf-8'?>
+<osm attribution="https://www.openstreetmap.org/copyright" copyright="OpenStreetMap and contributors" generator="OSMnx 2.1.1" license="https://opendatacommons.org/licenses/odbl/1-0/" version="0.6">
+  <bounds maxlat="40.7647751" maxlon="-73.963562" minlat="40.7548973" minlon="-73.9759411" />
+  <node changeset="1" id="42432834" lat="40.7615775" lon="-73.970671" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="42432847" lat="40.7609304" lon="-73.9691328" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="42432856" lat="40.7602748" lon="-73.9675757" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+    <tag k="traffic_signals" v="signal" />
+  </node>
+  <node changeset="1" id="42436514" lat="40.76413" lon="-73.9688047" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="42436516" lat="40.7634846" lon="-73.9672732" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="42436519" lat="40.7628079" lon="-73.9656659" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="42436703" lat="40.7590253" lon="-73.9725324" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="42436705" lat="40.7583781" lon="-73.9709896" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="42436707" lat="40.7577077" lon="-73.9694066" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="42438886" lat="40.756526" lon="-73.974356" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="42438889" lat="40.75587" lon="-73.97282" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="42438891" lat="40.7552045" lon="-73.9712357" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="42440456" lat="40.7577792" lon="-73.9734395" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="42440459" lat="40.7571285" lon="-73.9719044" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="42440463" lat="40.7564579" lon="-73.9703198" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+    <tag k="traffic_signals" v="signal" />
+  </node>
+  <node changeset="1" id="42443613" lat="40.7609096" lon="-73.9711599" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="42443614" lat="40.7602528" lon="-73.9696237" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="42443615" lat="40.7596014" lon="-73.9680635" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="42446991" lat="40.756498" lon="-73.972362" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="42446994" lat="40.7577574" lon="-73.9714431" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="42446998" lat="40.7590024" lon="-73.970533" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="42447007" lat="40.7616103" lon="-73.9686382" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="42447009" lat="40.7622304" lon="-73.9681876" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="42447020" lat="40.7628736" lon="-73.9677191" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="42448317" lat="40.7628699" lon="-73.969724" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="42448338" lat="40.7602895" lon="-73.9716131" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="42448379" lat="40.75896" lon="-73.9684914" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="42449956" lat="40.7558333" lon="-73.9707763" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+    <tag k="traffic_signals" v="signal" />
+  </node>
+  <node changeset="1" id="42449961" lat="40.7570985" lon="-73.9698517" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+    <tag k="traffic_signals" v="signal" />
+  </node>
+  <node changeset="1" id="42449963" lat="40.7583399" lon="-73.9689446" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="42449971" lat="40.7609399" lon="-73.9670376" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+    <tag k="traffic_signals" v="signal" />
+  </node>
+  <node changeset="1" id="42452875" lat="40.7584106" lon="-73.9729808" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="42456598" lat="40.762252" lon="-73.9701729" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="42456611" lat="40.7596534" lon="-73.9720733" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="42459098" lat="40.7571447" lon="-73.9739026" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="596775867" lat="40.7565994" lon="-73.9745281" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="596775870" lat="40.7572198" lon="-73.9740765" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="596775876" lat="40.7578528" lon="-73.9736145" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="596775900" lat="40.7590978" lon="-73.9727039" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="596775907" lat="40.7603618" lon="-73.971784" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="596775914" lat="40.7584847" lon="-73.9731554" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="596775919" lat="40.7597298" lon="-73.9722474" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="596775930" lat="40.7642073" lon="-73.9689874" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="596775935" lat="40.761652" lon="-73.9708483" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="596775941" lat="40.7623289" lon="-73.9703537" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="596775946" lat="40.7629476" lon="-73.969903" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="596775951" lat="40.7609819" lon="-73.9713318" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="1745991209" lat="40.7562256" lon="-73.9736605" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="2165157806" lat="40.7612503" lon="-73.96776" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="2165157809" lat="40.7618695" lon="-73.9673247" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="3790180110" lat="40.7580701" lon="-73.9721792" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="3977886186" lat="40.756393" lon="-73.9701664" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="3977886187" lat="40.7564428" lon="-73.9724023" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="3977886188" lat="40.7564568" lon="-73.972264" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="3977886189" lat="40.7565113" lon="-73.9704458" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="3977886190" lat="40.7565397" lon="-73.9724715" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="3977886191" lat="40.7565603" lon="-73.9723168" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="3977886192" lat="40.7566391" lon="-73.9701874" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="3977886193" lat="40.757071" lon="-73.9719432" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="3977886194" lat="40.7570847" lon="-73.9718009" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="3977886195" lat="40.7570971" lon="-73.9739376" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="3977886196" lat="40.7570996" lon="-73.9737971" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="3977886197" lat="40.7571706" lon="-73.9741133" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="3977886198" lat="40.7571771" lon="-73.971869" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="3977886199" lat="40.7572046" lon="-73.9738623" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="3977886200" lat="40.7572636" lon="-73.9741841" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="3977886201" lat="40.7572765" lon="-73.9740342" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="3977886214" lat="40.7576927" lon="-73.9714922" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="3977886216" lat="40.7578094" lon="-73.9715655" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="3977886227" lat="40.7589702" lon="-73.9725727" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="3977886228" lat="40.7590412" lon="-73.9727444" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="3977886230" lat="40.7590673" lon="-73.9745723" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="3977886231" lat="40.7590883" lon="-73.9724881" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="3977886235" lat="40.7591605" lon="-73.9726578" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="4019254385" lat="40.7583195" lon="-73.9710331" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="4019254386" lat="40.7584459" lon="-73.9709394" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="4207124945" lat="40.7575488" lon="-73.9690254" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="4288677093" lat="40.7615618" lon="-73.966589" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+    <tag k="traffic_signals" v="signal" />
+  </node>
+  <node changeset="1" id="4550867477" lat="40.7549707" lon="-73.9706832" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="4550867479" lat="40.755449" lon="-73.9718188" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="4550867480" lat="40.7560253" lon="-73.9712321" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="4716936973" lat="40.7621357" lon="-73.9659893" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="4782442659" lat="40.755656" lon="-73.9703501" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="ref" v="402174" />
+  </node>
+  <node changeset="1" id="4782442661" lat="40.7563757" lon="-73.9720699" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="ref" v="402173" />
+  </node>
+  <node changeset="1" id="4782506037" lat="40.7559994" lon="-73.973126" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="ref" v="402186" />
+  </node>
+  <node changeset="1" id="4782506039" lat="40.7553349" lon="-73.9715474" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="ref" v="402185" />
+  </node>
+  <node changeset="1" id="4796291639" lat="40.7636742" lon="-73.9696511" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="ref" v="402444" />
+  </node>
+  <node changeset="1" id="4798293332" lat="40.7625747" lon="-73.9658425" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="ref" v="403545" />
+  </node>
+  <node changeset="1" id="4798293334" lat="40.7626976" lon="-73.9657494" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="ref" v="450050" />
+  </node>
+  <node changeset="1" id="4862610026" lat="40.7596371" lon="-73.970072" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="4918486100" lat="40.7616202" lon="-73.9665469" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="4918486104" lat="40.7615003" lon="-73.9666304" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="4918486110" lat="40.7619188" lon="-73.963562" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="4960527247" lat="40.7627472" lon="-73.9694281" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="4960527249" lat="40.7621161" lon="-73.9679144" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="5266098185" lat="40.7593687" lon="-73.9694455" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="5475605296" lat="40.7625556" lon="-73.9679575" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="5475605297" lat="40.761876" lon="-73.9684429" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="5475605298" lat="40.7575406" lon="-73.9728781" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="5475605299" lat="40.7583094" lon="-73.9747048" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="5607992554" lat="40.7605926" lon="-73.9683304" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="5995346750" lat="40.7611248" lon="-73.9716737" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="6177439750" lat="40.7635085" lon="-73.969259" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="6177439752" lat="40.7635851" lon="-73.9694394" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="6177439756" lat="40.7622468" lon="-73.966249" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="6177439758" lat="40.7628025" lon="-73.9675523" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="ref" v="402443" />
+  </node>
+  <node changeset="1" id="6177439759" lat="40.7621951" lon="-73.9661278" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="6186989597" lat="40.7614116" lon="-73.9662288" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="6186989598" lat="40.7616142" lon="-73.9667139" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="6188803956" lat="40.7600474" lon="-73.9649346" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="6680686184" lat="40.7595538" lon="-73.9679487" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="6680686985" lat="40.7602235" lon="-73.9674539" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+    <tag k="traffic_signals" v="signal" />
+  </node>
+  <node changeset="1" id="6680686986" lat="40.7591949" lon="-73.9682422" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="6680686987" lat="40.7603231" lon="-73.9673852" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="6680686988" lat="40.7592413" lon="-73.9683323" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="6746980151" lat="40.7555625" lon="-73.968204" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="7788529728" lat="40.7629936" lon="-73.9700122" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="7788529732" lat="40.7628222" lon="-73.9696115" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="7788529739" lat="40.7628958" lon="-73.9699398" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="7788529749" lat="40.7630149" lon="-73.9698548" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="7788529751" lat="40.7571905" lon="-73.9759411" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="7788529756" lat="40.7609576" lon="-73.9731998" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="7788529758" lat="40.7629381" lon="-73.9696725" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="7788529772" lat="40.7628229" lon="-73.9697591" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="8133385385" lat="40.7609988" lon="-73.9671716" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="8133385386" lat="40.7607126" lon="-73.9671026" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="8133385387" lat="40.7603724" lon="-73.9674998" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="8133385388" lat="40.7604309" lon="-73.9674577" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="8133385390" lat="40.7608801" lon="-73.9669001" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="8133385394" lat="40.7615046" lon="-73.9664519" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="8254182915" lat="40.7614267" lon="-73.9681916" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="8254199417" lat="40.7597974" lon="-73.9704506" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="8404061461" lat="40.7575625" lon="-73.9748893" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="8551468892" lat="40.7568344" lon="-73.9712093" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="8638499088" lat="40.7626878" lon="-73.9653817" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="8872058239" lat="40.7579857" lon="-73.9700699" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="8906253690" lat="40.7623849" lon="-73.9659866" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="8906433867" lat="40.7618349" lon="-73.9652887" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="8915549080" lat="40.7625775" lon="-73.9670246" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="8941697842" lat="40.7624118" lon="-73.9666361" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="8950382042" lat="40.76125" lon="-73.9698924" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="9075938182" lat="40.7586489" lon="-73.9677418" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="9140830303" lat="40.7607585" lon="-73.9671975" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="9140903899" lat="40.7594939" lon="-73.9679977" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="9140903900" lat="40.7595402" lon="-73.9681071" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="9140903901" lat="40.7596611" lon="-73.9680194" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="9140903902" lat="40.7596109" lon="-73.9679054" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="9140924704" lat="40.7602364" lon="-73.9714878" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="9140929852" lat="40.758894" lon="-73.9685396" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="9177540204" lat="40.7605454" lon="-73.9672227" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="9178272151" lat="40.7629206" lon="-73.9676833" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="9178272152" lat="40.7628033" lon="-73.9677726" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="9178272154" lat="40.7621696" lon="-73.9682273" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="9216586542" lat="40.7587002" lon="-73.9659221" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="9649576881" lat="40.7608777" lon="-73.9670931" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="9649576882" lat="40.7608634" lon="-73.967059" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="9649576883" lat="40.7609909" lon="-73.9670019" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="9883551035" lat="40.7567547" lon="-73.9710211" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="10006361869" lat="40.7580418" lon="-73.9682543" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="10125147533" lat="40.7635412" lon="-73.9672338" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125147534" lat="40.7640543" lon="-73.9668589" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125147536" lat="40.7635264" lon="-73.9673717" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125147537" lat="40.7634404" lon="-73.9671683" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125147538" lat="40.7632426" lon="-73.9674482" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="10125147539" lat="40.7629145" lon="-73.9678182" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125147540" lat="40.7628304" lon="-73.9676178" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125147541" lat="40.7622929" lon="-73.9681468" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125147542" lat="40.7616657" lon="-73.9685982" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125147543" lat="40.7616513" lon="-73.9687448" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125147544" lat="40.7615697" lon="-73.9685367" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125147545" lat="40.7610263" lon="-73.9690633" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125147546" lat="40.7615438" lon="-73.9686875" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125147547" lat="40.7608363" lon="-73.9692017" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125156112" lat="40.7625319" lon="-73.9708345" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="10125156113" lat="40.7622017" lon="-73.9700533" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125156114" lat="40.7623719" lon="-73.9704539" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125156115" lat="40.7617746" lon="-73.9690376" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="10125174398" lat="40.7636292" lon="-73.9695433" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125174399" lat="40.7641878" lon="-73.9708386" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125174405" lat="40.7622707" lon="-73.9682938" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125174406" lat="40.7634433" lon="-73.9711009" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="10125174407" lat="40.7621814" lon="-73.9680704" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125227965" lat="40.7640724" lon="-73.9688469" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125227966" lat="40.7641475" lon="-73.9690308" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125227967" lat="40.7642547" lon="-73.9691002" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125227968" lat="40.764086" lon="-73.9687005" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125227969" lat="40.7641935" lon="-73.9687585" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125227972" lat="40.7647751" lon="-73.9685745" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125227989" lat="40.7634584" lon="-73.9691411" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125227990" lat="40.7635591" lon="-73.9692235" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125227991" lat="40.7636379" lon="-73.9694011" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125227992" lat="40.763521" lon="-73.9694863" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125227993" lat="40.7634416" lon="-73.9693084" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125227994" lat="40.762307" lon="-73.9701331" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125227995" lat="40.7623825" lon="-73.9703164" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125227996" lat="40.7616785" lon="-73.9705964" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125227997" lat="40.7617539" lon="-73.9707739" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125227998" lat="40.7616983" lon="-73.9709577" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125227999" lat="40.7615274" lon="-73.9705519" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125228000" lat="40.7609644" lon="-73.9711197" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125228001" lat="40.7610377" lon="-73.9712915" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125228002" lat="40.7610268" lon="-73.9714394" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125228003" lat="40.76086" lon="-73.9710454" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125228004" lat="40.7614797" lon="-73.9707426" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125228005" lat="40.7615545" lon="-73.9709187" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125228006" lat="40.7609235" lon="-73.9713741" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125228007" lat="40.7608505" lon="-73.9712033" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125228008" lat="40.7604081" lon="-73.9718941" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125228009" lat="40.7603407" lon="-73.9715757" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125228010" lat="40.7604144" lon="-73.9717455" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125228011" lat="40.7597117" lon="-73.9720312" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125228012" lat="40.7597847" lon="-73.9722072" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125228013" lat="40.7597769" lon="-73.972359" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125228014" lat="40.7596019" lon="-73.9719514" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125228015" lat="40.7589654" lon="-73.9723896" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125228016" lat="40.7591449" lon="-73.9728171" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125233041" lat="40.756652" lon="-73.97449" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125233042" lat="40.7565793" lon="-73.9743169" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125233043" lat="40.7559556" lon="-73.9747701" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125233917" lat="40.7585299" lon="-73.9732616" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125233918" lat="40.7583579" lon="-73.972857" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125233919" lat="40.7585333" lon="-73.9731195" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125233920" lat="40.7584616" lon="-73.9729436" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125233921" lat="40.7579063" lon="-73.9735752" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125233922" lat="40.7578333" lon="-73.9734002" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125233923" lat="40.7578981" lon="-73.9737239" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125233924" lat="40.7577231" lon="-73.9733097" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125233925" lat="40.7577927" lon="-73.9736587" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125233926" lat="40.7577196" lon="-73.9734834" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125233927" lat="40.7577418" lon="-73.973467" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="10125255941" lat="40.7601763" lon="-73.967647" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125255942" lat="40.7601247" lon="-73.9675269" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125255943" lat="40.7603171" lon="-73.9676704" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125255944" lat="40.7601992" lon="-73.9673964" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125255945" lat="40.7596403" lon="-73.9681577" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125255946" lat="40.7595271" lon="-73.967884" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125255947" lat="40.7590254" lon="-73.9684619" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125255948" lat="40.7590137" lon="-73.9684342" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125255951" lat="40.7583947" lon="-73.9689045" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125255952" lat="40.7583891" lon="-73.9690625" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125255953" lat="40.7582782" lon="-73.9688028" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125255954" lat="40.7582707" lon="-73.9689951" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125255955" lat="40.7577648" lon="-73.9695431" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125255956" lat="40.7576503" lon="-73.9692699" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125255957" lat="40.7577689" lon="-73.9693618" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125255958" lat="40.7576508" lon="-73.9694481" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125255959" lat="40.7571471" lon="-73.9699801" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125255960" lat="40.7570416" lon="-73.9697036" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125255961" lat="40.7571422" lon="-73.9698198" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125255962" lat="40.7570281" lon="-73.9699032" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125255963" lat="40.7568465" lon="-73.9692444" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="10125255964" lat="40.7563939" lon="-73.9703666" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125255965" lat="40.7558863" lon="-73.9709021" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125255966" lat="40.7557727" lon="-73.9706286" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125255967" lat="40.7558952" lon="-73.970731" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125255968" lat="40.7557748" lon="-73.970819" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125255969" lat="40.7552621" lon="-73.9711936" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125255970" lat="40.7551489" lon="-73.9712763" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125260532" lat="40.7552661" lon="-73.9713827" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10125260533" lat="40.7551386" lon="-73.9710798" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10165922659" lat="40.7584276" lon="-73.9711075" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10165922664" lat="40.7589602" lon="-73.9704318" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10165922665" lat="40.759064" lon="-73.9704883" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10165922666" lat="40.7589406" lon="-73.970578" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10165922667" lat="40.7590505" lon="-73.9706468" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10165922672" lat="40.7595952" lon="-73.9699744" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10165922673" lat="40.7596919" lon="-73.9700323" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10165922674" lat="40.7595797" lon="-73.9701135" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10165922675" lat="40.7596858" lon="-73.9701868" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10165922683" lat="40.7602134" lon="-73.9695295" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10165922684" lat="40.7603094" lon="-73.9695827" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10165922685" lat="40.7601979" lon="-73.9696637" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10165922686" lat="40.7602986" lon="-73.969731" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10165922695" lat="40.7608876" lon="-73.9690311" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10165922696" lat="40.7609764" lon="-73.9692426" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10165922701" lat="40.7583483" lon="-73.9730238" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10165922702" lat="40.7584208" lon="-73.9732018" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10165922714" lat="40.7564789" lon="-73.9742471" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10165922715" lat="40.7564729" lon="-73.9743945" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10165922716" lat="40.7565455" lon="-73.9745675" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10165986917" lat="40.7566464" lon="-73.9746404" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10165986944" lat="40.7595946" lon="-73.9721165" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10165986945" lat="40.7596675" lon="-73.9722924" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10165986951" lat="40.7603223" lon="-73.973651" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10165986983" lat="40.7558266" lon="-73.9727165" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10165986984" lat="40.7559297" lon="-73.9727764" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10165986985" lat="40.7558203" lon="-73.9728551" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10165986986" lat="40.7559133" lon="-73.9729223" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10166509650" lat="40.7621932" lon="-73.9702164" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10166509651" lat="40.7622682" lon="-73.9703984" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10166509657" lat="40.7627522" lon="-73.9655341" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10166509658" lat="40.7628646" lon="-73.9656248" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10166509659" lat="40.7627486" lon="-73.9657108" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10166509660" lat="40.7628666" lon="-73.9658056" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10166509667" lat="40.7633698" lon="-73.965259" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10166509686" lat="40.7634215" lon="-73.9673172" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10168547784" lat="40.7602965" lon="-73.971832" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10168547785" lat="40.7602226" lon="-73.9716616" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10170605878" lat="40.759686" lon="-73.974119" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10173080162" lat="40.7571744" lon="-73.9720126" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="10173152535" lat="40.762247" lon="-73.9722532" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="11043134785" lat="40.7600623" lon="-73.9670715" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="ref" v="402215;405618;904045" />
+  </node>
+  <node changeset="1" id="11043134787" lat="40.7607458" lon="-73.9686942" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="11043182105" lat="40.7617431" lon="-73.9710634" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="11043182107" lat="40.7610896" lon="-73.9695114" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="11043182109" lat="40.7604434" lon="-73.9679763" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="11043182110" lat="40.7592078" lon="-73.9682316" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="11070055768" lat="40.7577181" lon="-73.9713489" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="11070055770" lat="40.7578131" lon="-73.9714024" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="11070055772" lat="40.7583321" lon="-73.970882" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="11140867101" lat="40.7588673" lon="-73.9721557" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="11240669720" lat="40.7642687" lon="-73.9689427" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="11336621689" lat="40.7588976" lon="-73.9683412" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="11336621690" lat="40.7590133" lon="-73.968616" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="11336621691" lat="40.7622426" lon="-73.9660926" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="11336621692" lat="40.7621313" lon="-73.9661743" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="12559421110" lat="40.761303" lon="-73.9667743" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="12673751272" lat="40.7553059" lon="-73.973227" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node changeset="1" id="12679690995" lat="40.7631988" lon="-73.9685097" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="12679744004" lat="40.7631128" lon="-73.9683004" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="12834723213" lat="40.7646631" lon="-73.9684174" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12834723214" lat="40.7643078" lon="-73.9689143" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12834723215" lat="40.7640354" lon="-73.968874" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12834723216" lat="40.7640609" lon="-73.9686408" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12834723217" lat="40.7636789" lon="-73.9693709" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12834723218" lat="40.763406" lon="-73.9693341" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12834723219" lat="40.7634373" lon="-73.9690897" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12834723220" lat="40.7630156" lon="-73.9700654" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12834723221" lat="40.7630559" lon="-73.9698249" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12834723222" lat="40.7627955" lon="-73.969779" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12834723223" lat="40.7621514" lon="-73.9702472" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12834723224" lat="40.7623975" lon="-73.9705148" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12834723225" lat="40.7624307" lon="-73.9702811" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12834723226" lat="40.7614495" lon="-73.9707647" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12834723227" lat="40.7615038" lon="-73.9704957" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12834723228" lat="40.7617225" lon="-73.9710148" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12834723229" lat="40.761791" lon="-73.9707468" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12834723230" lat="40.7608083" lon="-73.9712341" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12834723231" lat="40.7610846" lon="-73.9712577" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12834723232" lat="40.7610497" lon="-73.971494" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12834723233" lat="40.7604546" lon="-73.9717161" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12834723234" lat="40.7601854" lon="-73.9716885" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12834723235" lat="40.7602151" lon="-73.9714374" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12834723236" lat="40.7595512" lon="-73.9721484" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12834723237" lat="40.759807" lon="-73.9724304" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12834723238" lat="40.7598338" lon="-73.9721712" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12834723239" lat="40.7589272" lon="-73.9726041" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12834723244" lat="40.7589423" lon="-73.9723344" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12834723245" lat="40.7592088" lon="-73.972623" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12834723246" lat="40.7585535" lon="-73.9733191" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12834723247" lat="40.7585814" lon="-73.973084" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12834723248" lat="40.7582995" lon="-73.9730595" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12834723251" lat="40.7579538" lon="-73.9735407" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12834723252" lat="40.7577065" lon="-73.9732704" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12834723253" lat="40.7576782" lon="-73.9735139" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12834723254" lat="40.7573262" lon="-73.9739981" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12834723255" lat="40.7572772" lon="-73.9742161" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12834723256" lat="40.7570516" lon="-73.9739709" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12834723257" lat="40.7564261" lon="-73.9744285" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12834723258" lat="40.7566978" lon="-73.9744568" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12834723259" lat="40.7564532" lon="-73.9741876" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12834723262" lat="40.7560464" lon="-73.9749334" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="traffic_signals" />
+  </node>
+  <node changeset="1" id="12926009471" lat="40.7647205" lon="-73.9702074" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="13346921457" lat="40.7548973" lon="-73.9714602" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="13346921458" lat="40.7560995" lon="-73.9705817" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="13718252569" lat="40.7587001" lon="-73.9698082" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="13859238031" lat="40.7600501" lon="-73.9677382" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <node changeset="1" id="14173075572" lat="40.7639523" lon="-73.9691726" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="toll_gantry" />
+  </node>
+  <node changeset="1" id="14173108131" lat="40.7631009" lon="-73.9675529" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="toll_gantry" />
+  </node>
+  <node changeset="1" id="14173113810" lat="40.7638495" lon="-73.9690027" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="toll_gantry" />
+  </node>
+  <node changeset="1" id="14173113822" lat="40.7624599" lon="-73.9659292" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <tag k="highway" v="toll_gantry" />
+  </node>
+  <node changeset="1" id="14184096840" lat="40.7586484" lon="-73.971634" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true" />
+  <way changeset="1" id="5672118" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="3977886230" />
+    <nd ref="12834723246" />
+    <nd ref="10125233917" />
+    <nd ref="596775914" />
+    <tag k="highway" v="residential" />
+    <tag k="lanes" v="1" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="East 52nd Street" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="46240204" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42432834" />
+    <nd ref="10125227996" />
+    <nd ref="12834723223" />
+    <nd ref="10166509650" />
+    <nd ref="42456598" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes" v="3" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="Park Avenue" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="46334594" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42447020" />
+    <nd ref="10125147539" />
+    <nd ref="12679744004" />
+    <nd ref="12679690995" />
+    <nd ref="12834723219" />
+    <nd ref="10125227989" />
+    <nd ref="6177439750" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="2" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="East 60th Street" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="46521994" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42449963" />
+    <nd ref="10125255953" />
+    <nd ref="10006361869" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="2" />
+    <tag k="name" v="East 54th Street" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="46521995" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="6177439759" />
+    <nd ref="6177439756" />
+    <nd ref="8941697842" />
+    <nd ref="8915549080" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="2" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="East 60th Street" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="46521998" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42436707" />
+    <nd ref="10125255955" />
+    <nd ref="8872058239" />
+    <nd ref="11070055772" />
+    <nd ref="42436705" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="2" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="East 53rd Street" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="46522002" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42438891" />
+    <nd ref="10125260532" />
+    <nd ref="4782506039" />
+    <nd ref="4550867479" />
+    <nd ref="10165986983" />
+    <nd ref="42438889" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="1" />
+    <tag k="name" v="East 49th Street" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="46522003" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42449956" />
+    <nd ref="10125255966" />
+    <nd ref="4782442659" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="2" />
+    <tag k="name" v="East 50th Street" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="198595461" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42436519" />
+    <nd ref="10166509660" />
+    <nd ref="10125147537" />
+    <nd ref="42436516" />
+    <nd ref="10125147536" />
+    <nd ref="12834723216" />
+    <nd ref="10125227968" />
+    <nd ref="42436514" />
+    <tag k="highway" v="residential" />
+    <tag k="lanes" v="1" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="East 61st Street" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="198924552" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="10125174406" />
+    <nd ref="12834723220" />
+    <nd ref="7788529728" />
+    <nd ref="596775946" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="3" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="East 59th Street" />
+    <tag k="oneway" v="yes" />
+    <tag k="width" v="10" />
+  </way>
+  <way changeset="1" id="226041011" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="596775919" />
+    <nd ref="42456611" />
+    <nd ref="10125228014" />
+    <nd ref="10165922667" />
+    <nd ref="42446998" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="2" />
+    <tag k="name" v="East 54th Street" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="226041012" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="596775907" />
+    <nd ref="10125228008" />
+    <nd ref="7788529756" />
+    <tag k="highway" v="unclassified" />
+    <tag k="lanes" v="1" />
+    <tag k="name" v="East 55th Street" />
+    <tag k="oneway" v="yes" />
+    <tag k="width" v="10" />
+  </way>
+  <way changeset="1" id="226041013" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="8254199417" />
+    <nd ref="12834723235" />
+    <nd ref="9140924704" />
+    <tag k="highway" v="residential" />
+    <tag k="lanes" v="1" />
+    <tag k="name" v="East 55th Street" />
+    <tag k="oneway" v="yes" />
+    <tag k="width" v="9" />
+  </way>
+  <way changeset="1" id="375165500" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42449971" />
+    <nd ref="8133385390" />
+    <nd ref="6188803956" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="3" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="East 58th Street" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="375165501" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42449971" />
+    <nd ref="9649576883" />
+    <nd ref="12559421110" />
+    <nd ref="4918486104" />
+    <nd ref="4288677093" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes" v="5" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="3rd Avenue" />
+    <tag k="oneway" v="yes" />
+    <tag k="turn:lanes" v="|||right|right" />
+  </way>
+  <way changeset="1" id="375165664" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42432856" />
+    <nd ref="8133385387" />
+    <nd ref="8133385388" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes" v="2" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="3rd Avenue" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="375165665" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42432856" />
+    <nd ref="6680686985" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes:backward" v="2" />
+    <tag k="lanes:forward" v="2" />
+    <tag k="name" v="East 57th Street" />
+    <tag k="oneway" v="no" />
+  </way>
+  <way changeset="1" id="375165666" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="6177439759" />
+    <nd ref="11336621691" />
+    <nd ref="8906253690" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes" v="4" />
+    <tag k="name" v="3rd Avenue" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="388696206" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="10173152535" />
+    <nd ref="11043182105" />
+    <nd ref="12834723228" />
+    <nd ref="10125227998" />
+    <nd ref="596775935" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes:backward" v="2" />
+    <tag k="lanes:forward" v="2" />
+    <tag k="name" v="East 57th Street" />
+    <tag k="oneway" v="no" />
+  </way>
+  <way changeset="1" id="420496091" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="10125147534" />
+    <nd ref="10125147533" />
+    <nd ref="42436516" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="3" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="Lexington Avenue" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="420806145" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="4288677093" />
+    <nd ref="4918486100" />
+    <nd ref="11336621692" />
+    <nd ref="6177439759" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes" v="4" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="3rd Avenue" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="420806146" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="4207124945" />
+    <nd ref="10125255956" />
+    <nd ref="42436707" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="2" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="East 53rd Street" />
+    <tag k="oneway" v="yes" />
+    <tag k="turn:lanes" v="|right" />
+  </way>
+  <way changeset="1" id="441405436" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="8404061461" />
+    <nd ref="12834723255" />
+    <nd ref="3977886200" />
+    <nd ref="596775870" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="2" />
+    <tag k="name" v="East 50th Street" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="455122830" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="9075938182" />
+    <nd ref="11336621689" />
+    <nd ref="42448379" />
+    <tag k="highway" v="residential" />
+    <tag k="lanes" v="1" />
+    <tag k="name" v="East 55th Street" />
+    <tag k="oneway" v="yes" />
+    <tag k="width" v="10" />
+  </way>
+  <way changeset="1" id="455678353" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="4288677093" />
+    <nd ref="8133385394" />
+    <nd ref="6186989597" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="3" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="East 59th Street" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="458166897" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42449961" />
+    <nd ref="10125255961" />
+    <nd ref="10125255958" />
+    <nd ref="42436707" />
+    <nd ref="10125255957" />
+    <nd ref="10125255954" />
+    <nd ref="42449963" />
+    <nd ref="10125255951" />
+    <nd ref="9140929852" />
+    <nd ref="42448379" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes" v="4" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="3rd Avenue" />
+    <tag k="oneway" v="yes" />
+    <tag k="width" v="21.3" />
+  </way>
+  <way changeset="1" id="458180186" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42438889" />
+    <nd ref="10165986986" />
+    <nd ref="4782506037" />
+    <nd ref="1745991209" />
+    <nd ref="12834723259" />
+    <nd ref="10165922714" />
+    <nd ref="42438886" />
+    <nd ref="596775867" />
+    <nd ref="10165986917" />
+    <nd ref="7788529751" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="2" />
+    <tag k="name" v="East 49th Street" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="458180187" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42438889" />
+    <nd ref="10165986985" />
+    <nd ref="12673751272" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="3" />
+    <tag k="name" v="Lexington Avenue" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="458180188" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42446991" />
+    <nd ref="3977886188" />
+    <nd ref="4782442661" />
+    <nd ref="4550867480" />
+    <nd ref="10125255965" />
+    <nd ref="42449956" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="2" />
+    <tag k="name" v="East 50th Street" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="458180189" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42446991" />
+    <nd ref="3977886187" />
+    <nd ref="10165986984" />
+    <nd ref="42438889" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="4" />
+    <tag k="name" v="Lexington Avenue" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="458180192" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="596775900" />
+    <nd ref="10125228016" />
+    <nd ref="10170605878" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="2" />
+    <tag k="name" v="East 53rd Street" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="458180193" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42436705" />
+    <nd ref="4019254385" />
+    <nd ref="11070055770" />
+    <nd ref="42446994" />
+    <nd ref="3977886214" />
+    <nd ref="3977886198" />
+    <nd ref="42440459" />
+    <nd ref="3977886193" />
+    <nd ref="3977886191" />
+    <nd ref="42446991" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="4" />
+    <tag k="name" v="Lexington Avenue" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="458180194" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42446998" />
+    <nd ref="10165922664" />
+    <nd ref="13718252569" />
+    <nd ref="10125255952" />
+    <nd ref="42449963" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="2" />
+    <tag k="name" v="East 54th Street" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="458180195" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42446998" />
+    <nd ref="10165922666" />
+    <nd ref="4019254386" />
+    <nd ref="42436705" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="4" />
+    <tag k="name" v="Lexington Avenue" />
+    <tag k="oneway" v="yes" />
+    <tag k="turn:lanes" v="through|through|through|" />
+  </way>
+  <way changeset="1" id="458180200" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42447020" />
+    <nd ref="9178272152" />
+    <nd ref="5475605296" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="4" />
+    <tag k="name" v="Lexington Avenue" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="465000799" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42443615" />
+    <nd ref="9140903901" />
+    <nd ref="13859238031" />
+    <nd ref="10125255941" />
+    <nd ref="42432856" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes" v="3" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="3rd Avenue" />
+    <tag k="oneway" v="yes" />
+    <tag k="turn:lanes" v="left||" />
+  </way>
+  <way changeset="1" id="497165753" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="596775935" />
+    <nd ref="10125228005" />
+    <nd ref="12834723231" />
+    <nd ref="10125228001" />
+    <nd ref="596775951" />
+    <nd ref="10125228006" />
+    <nd ref="12834723233" />
+    <nd ref="10125228010" />
+    <nd ref="596775907" />
+    <nd ref="10168547784" />
+    <nd ref="12834723238" />
+    <nd ref="10125228012" />
+    <nd ref="596775919" />
+    <nd ref="10165986945" />
+    <nd ref="12834723245" />
+    <nd ref="3977886235" />
+    <nd ref="596775900" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes" v="3" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="Park Avenue" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="497165754" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="596775935" />
+    <nd ref="42432834" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes" v="4" />
+    <tag k="name" v="East 57th Street" />
+    <tag k="oneway" v="no" />
+  </way>
+  <way changeset="1" id="497165756" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42436703" />
+    <nd ref="3977886231" />
+    <nd ref="12834723236" />
+    <nd ref="10165986944" />
+    <nd ref="42456611" />
+    <nd ref="10125228011" />
+    <nd ref="12834723234" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes" v="3" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="Park Avenue" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="497165757" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42432834" />
+    <nd ref="10125227999" />
+    <nd ref="12834723227" />
+    <nd ref="8950382042" />
+    <nd ref="11043182107" />
+    <nd ref="10165922696" />
+    <nd ref="42432847" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes:backward" v="2" />
+    <tag k="lanes:forward" v="2" />
+    <tag k="name" v="East 57th Street" />
+    <tag k="oneway" v="no" />
+  </way>
+  <way changeset="1" id="505778913" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42432847" />
+    <nd ref="10165922695" />
+    <nd ref="11043134787" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes:backward" v="2" />
+    <tag k="lanes:forward" v="2" />
+    <tag k="name" v="East 57th Street" />
+    <tag k="oneway" v="no" />
+  </way>
+  <way changeset="1" id="511924978" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42459098" />
+    <nd ref="3977886196" />
+    <nd ref="3977886190" />
+    <nd ref="42446991" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="2" />
+    <tag k="name" v="East 50th Street" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="528748997" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="5995346750" />
+    <nd ref="12834723232" />
+    <nd ref="10125228002" />
+    <nd ref="596775951" />
+    <nd ref="42443613" />
+    <tag k="highway" v="residential" />
+    <tag k="lanes" v="1" />
+    <tag k="name" v="East 56th Street" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="541331485" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="10165986951" />
+    <nd ref="12834723237" />
+    <nd ref="10125228013" />
+    <nd ref="596775919" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="2" />
+    <tag k="name" v="East 54th Street" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="544549058" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42443615" />
+    <nd ref="6680686184" />
+    <tag k="highway" v="residential" />
+    <tag k="name" v="East 56th Street" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="544812894" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="5266098185" />
+    <nd ref="10165922672" />
+    <nd ref="4862610026" />
+    <tag k="highway" v="residential" />
+    <tag k="lanes" v="2" />
+    <tag k="name" v="East 55th Street" />
+    <tag k="oneway" v="yes" />
+    <tag k="turn:lanes" v="left|through" />
+    <tag k="width" v="10" />
+  </way>
+  <way changeset="1" id="569345468" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42447009" />
+    <nd ref="10125174407" />
+    <nd ref="4960527249" />
+    <nd ref="2165157809" />
+    <nd ref="6186989598" />
+    <nd ref="4288677093" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="3" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="East 59th Street" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="569345474" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42447009" />
+    <nd ref="9178272154" />
+    <nd ref="5475605297" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="4" />
+    <tag k="name" v="Lexington Avenue" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="569345480" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="5475605296" />
+    <nd ref="10125147541" />
+    <nd ref="42447009" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="5" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="Lexington Avenue" />
+    <tag k="oneway" v="yes" />
+    <tag k="turn:lanes" v="left|through|through||" />
+  </way>
+  <way changeset="1" id="569345486" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="5475605297" />
+    <nd ref="10125147542" />
+    <nd ref="42447007" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="5" />
+    <tag k="name" v="Lexington Avenue" />
+    <tag k="oneway" v="yes" />
+    <tag k="turn:lanes" v="left|through|through|through|" />
+  </way>
+  <way changeset="1" id="569345499" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42447007" />
+    <nd ref="10125147544" />
+    <nd ref="8254182915" />
+    <nd ref="2165157806" />
+    <nd ref="8133385385" />
+    <nd ref="42449971" />
+    <tag k="highway" v="residential" />
+    <tag k="lanes" v="2" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="East 58th Street" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="569345502" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42432847" />
+    <nd ref="10125147547" />
+    <nd ref="10165922684" />
+    <nd ref="42443614" />
+    <nd ref="10165922685" />
+    <nd ref="10165922673" />
+    <nd ref="4862610026" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="4" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="Lexington Avenue" />
+    <tag k="oneway" v="yes" />
+    <tag k="turn:lanes" v="through|through|through|none" />
+  </way>
+  <way changeset="1" id="569345508" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="5475605298" />
+    <nd ref="12834723252" />
+    <nd ref="10125233924" />
+    <nd ref="42440456" />
+    <tag k="highway" v="residential" />
+    <tag k="lanes" v="2" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="East 51st Street" />
+    <tag k="oneway" v="yes" />
+    <tag k="turn:lanes" v="through|right" />
+  </way>
+  <way changeset="1" id="569345515" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="596775876" />
+    <nd ref="10125233925" />
+    <nd ref="12834723254" />
+    <nd ref="3977886201" />
+    <nd ref="596775870" />
+    <nd ref="3977886197" />
+    <nd ref="12834723258" />
+    <nd ref="10125233041" />
+    <nd ref="596775867" />
+    <nd ref="10165922716" />
+    <nd ref="12834723262" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes" v="4" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="Park Avenue" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="569345518" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="596775876" />
+    <nd ref="10125233923" />
+    <nd ref="5475605299" />
+    <tag k="highway" v="residential" />
+    <tag k="lanes" v="1" />
+    <tag k="name" v="East 51st Street" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="573228989" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42443613" />
+    <nd ref="10125228000" />
+    <nd ref="12834723226" />
+    <nd ref="10125228004" />
+    <nd ref="42432834" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes" v="3" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="Park Avenue" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="587038082" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="5607992554" />
+    <nd ref="11043182109" />
+    <nd ref="10125255943" />
+    <nd ref="42432856" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes:backward" v="2" />
+    <tag k="lanes:forward" v="2" />
+    <tag k="name" v="East 57th Street" />
+    <tag k="oneway" v="no" />
+  </way>
+  <way changeset="1" id="588157336" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42447007" />
+    <nd ref="10125147546" />
+    <nd ref="10125147545" />
+    <nd ref="42432847" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="4" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="Lexington Avenue" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="658583340" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="6746980151" />
+    <nd ref="3977886186" />
+    <nd ref="42440463" />
+    <nd ref="3977886189" />
+    <nd ref="9883551035" />
+    <nd ref="8551468892" />
+    <nd ref="3977886194" />
+    <nd ref="42440459" />
+    <tag k="highway" v="residential" />
+    <tag k="lanes" v="1" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="East 51st Street" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="671208356" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42456598" />
+    <nd ref="10125156113" />
+    <nd ref="10125156115" />
+    <tag k="highway" v="residential" />
+    <tag k="lanes" v="3" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="East 58th Street" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="671208357" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="596775941" />
+    <nd ref="10166509651" />
+    <nd ref="12834723229" />
+    <nd ref="10125227997" />
+    <nd ref="596775935" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes" v="3" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="Park Avenue" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="710571387" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42448379" />
+    <nd ref="11336621690" />
+    <nd ref="5266098185" />
+    <tag k="highway" v="residential" />
+    <tag k="lanes" v="1" />
+    <tag k="name" v="East 55th Street" />
+    <tag k="oneway" v="yes" />
+    <tag k="width" v="10" />
+  </way>
+  <way changeset="1" id="710571388" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42448379" />
+    <nd ref="10125255947" />
+    <nd ref="6680686988" />
+    <nd ref="9140903900" />
+    <nd ref="42443615" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes" v="2" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="3rd Avenue" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="710571389" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42448379" />
+    <nd ref="10125255948" />
+    <nd ref="6680686986" />
+    <nd ref="11043182110" />
+    <nd ref="9140903899" />
+    <nd ref="6680686184" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes" v="2" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="3rd Avenue" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="710571390" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="6680686985" />
+    <nd ref="10125255944" />
+    <nd ref="11043134785" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes:backward" v="2" />
+    <tag k="lanes:forward" v="2" />
+    <tag k="name" v="East 57th Street" />
+    <tag k="oneway" v="no" />
+  </way>
+  <way changeset="1" id="710571391" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="6680686985" />
+    <nd ref="6680686987" />
+    <nd ref="9177540204" />
+    <nd ref="8133385386" />
+    <nd ref="9649576882" />
+    <nd ref="42449971" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes" v="2" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="3rd Avenue" />
+    <tag k="oneway" v="yes" />
+    <tag k="turn:lanes" v="through|through;right" />
+  </way>
+  <way changeset="1" id="710571392" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="6680686184" />
+    <nd ref="10125255946" />
+    <nd ref="9216586542" />
+    <tag k="highway" v="residential" />
+    <tag k="lanes" v="3" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="East 56th Street" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="710571393" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="6680686184" />
+    <nd ref="9140903902" />
+    <nd ref="10125255942" />
+    <nd ref="6680686985" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes" v="2" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="3rd Avenue" />
+    <tag k="oneway" v="yes" />
+    <tag k="turn:lanes" v="through;right|right" />
+  </way>
+  <way changeset="1" id="743358443" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42446994" />
+    <nd ref="11070055768" />
+    <nd ref="10125255959" />
+    <nd ref="42449961" />
+    <tag k="highway" v="residential" />
+    <tag k="lanes" v="1" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="East 52nd Street" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="743358444" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="596775914" />
+    <nd ref="42452875" />
+    <nd ref="10125233918" />
+    <nd ref="3790180110" />
+    <nd ref="3977886216" />
+    <nd ref="42446994" />
+    <tag k="highway" v="residential" />
+    <tag k="lanes" v="1" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="East 52nd Street" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="873372086" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="8133385388" />
+    <nd ref="9140830303" />
+    <nd ref="9649576881" />
+    <nd ref="42449971" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes" v="3" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="3rd Avenue" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="962813251" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="8906253690" />
+    <nd ref="14173113822" />
+    <nd ref="4798293332" />
+    <nd ref="4798293334" />
+    <nd ref="10166509659" />
+    <nd ref="42436519" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes" v="3" />
+    <tag k="name" v="3rd Avenue" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="962829746" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="8906433867" />
+    <nd ref="4716936973" />
+    <nd ref="6177439759" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="2" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="East 60th Street" />
+    <tag k="oneway" v="yes" />
+    <tag k="turn:lanes" v="through|right" />
+  </way>
+  <way changeset="1" id="963856064" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="8915549080" />
+    <nd ref="6177439758" />
+    <nd ref="10125147540" />
+    <nd ref="42447020" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="3" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="East 60th Street" />
+    <tag k="oneway" v="yes" />
+    <tag k="turn:lanes" v="left||" />
+  </way>
+  <way changeset="1" id="993383311" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="8133385388" />
+    <nd ref="9177540204" />
+    <tag k="highway" v="primary_link" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="1049841323" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42440456" />
+    <nd ref="596775876" />
+    <tag k="highway" v="residential" />
+    <tag k="lanes" v="1" />
+    <tag k="name" v="East 51st Street" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="1106471568" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="10125147538" />
+    <nd ref="14173108131" />
+    <nd ref="9178272151" />
+    <nd ref="42447020" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="4" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="Lexington Avenue" />
+    <tag k="oneway" v="yes" />
+    <tag k="turn:lanes" v="|||right" />
+  </way>
+  <way changeset="1" id="1106474774" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="10125156112" />
+    <nd ref="12834723224" />
+    <nd ref="10125156114" />
+    <nd ref="596775941" />
+    <tag k="highway" v="residential" />
+    <tag k="lanes" v="3" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="East 58th Street" />
+    <tag k="oneway" v="yes" />
+    <tag k="turn:lanes" v="||right" />
+  </way>
+  <way changeset="1" id="1106474775" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="10125156115" />
+    <nd ref="10125147543" />
+    <nd ref="42447007" />
+    <tag k="highway" v="residential" />
+    <tag k="lanes" v="3" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="East 58th Street" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="1115153280" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="596775941" />
+    <nd ref="42456598" />
+    <tag k="highway" v="residential" />
+    <tag k="lanes" v="3" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="East 58th Street" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="1135661890" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="4550867477" />
+    <nd ref="10125260533" />
+    <nd ref="42438891" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="3" />
+    <tag k="name" v="East 49th Street" />
+    <tag k="oneway" v="yes" />
+    <tag k="turn:lanes" v="none|through|right" />
+  </way>
+  <way changeset="1" id="1201651432" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42436705" />
+    <nd ref="10165922659" />
+    <nd ref="14184096840" />
+    <nd ref="11140867101" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="2" />
+    <tag k="name" v="East 53rd Street" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="1201651434" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="11140867101" />
+    <nd ref="12834723244" />
+    <nd ref="10125228015" />
+    <nd ref="42436703" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="3" />
+    <tag k="name" v="East 53rd Street" />
+    <tag k="oneway" v="yes" />
+    <tag k="turn:lanes" v="|through|right" />
+  </way>
+  <way changeset="1" id="1201651435" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42440456" />
+    <nd ref="10125233922" />
+    <nd ref="12834723248" />
+    <nd ref="10165922701" />
+    <nd ref="42452875" />
+    <nd ref="10125233920" />
+    <nd ref="12834723239" />
+    <nd ref="3977886227" />
+    <nd ref="42436703" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes" v="3" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="Park Avenue" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="1201651436" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42436703" />
+    <nd ref="596775900" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="2" />
+    <tag k="name" v="East 53rd Street" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="1201651437" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="596775900" />
+    <nd ref="3977886228" />
+    <nd ref="12834723247" />
+    <nd ref="10125233919" />
+    <nd ref="596775914" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes" v="3" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="Park Avenue" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="1250866957" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="4862610026" />
+    <nd ref="10165922674" />
+    <nd ref="10165922665" />
+    <nd ref="42446998" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="4" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="Lexington Avenue" />
+    <tag k="oneway" v="yes" />
+    <tag k="turn:lanes" v="through|through|through|none" />
+  </way>
+  <way changeset="1" id="1250866958" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="11043134787" />
+    <nd ref="5607992554" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes:backward" v="2" />
+    <tag k="lanes:forward" v="2" />
+    <tag k="name" v="East 57th Street" />
+    <tag k="oneway" v="no" />
+  </way>
+  <way changeset="1" id="1376704198" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="10125233043" />
+    <nd ref="12834723257" />
+    <nd ref="10165922715" />
+    <nd ref="42438886" />
+    <nd ref="10125233042" />
+    <nd ref="12834723256" />
+    <nd ref="3977886195" />
+    <nd ref="42459098" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes" v="3" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="Park Avenue" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="1388287829" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42440459" />
+    <nd ref="10173080162" />
+    <nd ref="5475605298" />
+    <tag k="highway" v="residential" />
+    <tag k="lanes" v="1" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="East 51st Street" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="1455345751" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="13346921457" />
+    <nd ref="10125255970" />
+    <nd ref="42438891" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes" v="5" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="3rd Avenue" />
+    <tag k="oneway" v="yes" />
+    <tag k="turn:lanes" v="left||||" />
+    <tag k="width" v="21.3" />
+  </way>
+  <way changeset="1" id="1455345752" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42438891" />
+    <nd ref="10125255969" />
+    <nd ref="10125255968" />
+    <nd ref="42449956" />
+    <nd ref="10125255967" />
+    <nd ref="13346921458" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes" v="4" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="3rd Avenue" />
+    <tag k="oneway" v="yes" />
+    <tag k="width" v="21.3" />
+  </way>
+  <way changeset="1" id="1455345753" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="13346921458" />
+    <nd ref="10125255964" />
+    <nd ref="42440463" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes" v="5" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="3rd Avenue" />
+    <tag k="oneway" v="yes" />
+    <tag k="turn:lanes" v="left||||" />
+    <tag k="width" v="21.3" />
+  </way>
+  <way changeset="1" id="1498928836" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="9140924704" />
+    <nd ref="42448338" />
+    <tag k="highway" v="residential" />
+    <tag k="lanes" v="1" />
+    <tag k="name" v="East 55th Street" />
+    <tag k="oneway" v="yes" />
+    <tag k="width" v="9" />
+  </way>
+  <way changeset="1" id="1498928837" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="4862610026" />
+    <nd ref="10165922675" />
+    <nd ref="8254199417" />
+    <tag k="highway" v="residential" />
+    <tag k="lanes" v="1" />
+    <tag k="name" v="East 55th Street" />
+    <tag k="oneway" v="yes" />
+    <tag k="width" v="9" />
+  </way>
+  <way changeset="1" id="1498928838" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42448338" />
+    <nd ref="596775907" />
+    <tag k="highway" v="residential" />
+    <tag k="lanes" v="1" />
+    <tag k="name" v="East 55th Street" />
+    <tag k="oneway" v="yes" />
+    <tag k="width" v="9" />
+  </way>
+  <way changeset="1" id="1498928839" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="12834723234" />
+    <nd ref="10168547785" />
+    <nd ref="42448338" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes" v="3" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="Park Avenue" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="1498928840" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42448338" />
+    <nd ref="10125228009" />
+    <nd ref="12834723230" />
+    <nd ref="10125228007" />
+    <nd ref="42443613" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes" v="3" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="Park Avenue" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="1499246903" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="10125227972" />
+    <nd ref="12834723214" />
+    <nd ref="11240669720" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes" v="3" />
+    <tag k="lanes:forward" v="3" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="Park Avenue" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="1499246905" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="6177439752" />
+    <nd ref="10125227992" />
+    <nd ref="12834723221" />
+    <nd ref="7788529749" />
+    <nd ref="596775946" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes" v="4" />
+    <tag k="lanes:forward" v="3" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="Park Avenue" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="1499498641" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="596775930" />
+    <nd ref="10125227966" />
+    <nd ref="14173075572" />
+    <nd ref="12834723217" />
+    <nd ref="10125227991" />
+    <nd ref="6177439752" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes" v="4" />
+    <tag k="lanes:forward" v="3" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="Park Avenue" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="1499498642" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="6177439752" />
+    <nd ref="10125174398" />
+    <nd ref="4796291639" />
+    <nd ref="10125174399" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="2" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="East 60th Street" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="1499796505" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="6177439750" />
+    <nd ref="6177439752" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="2" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="East 60th Street" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="1499796506" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42456598" />
+    <nd ref="10125227994" />
+    <nd ref="12834723222" />
+    <nd ref="7788529772" />
+    <nd ref="42448317" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes" v="4" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="Park Avenue" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="1523390072" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42436514" />
+    <nd ref="10125227969" />
+    <nd ref="12834723213" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes" v="3" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="Park Avenue" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="1523390073" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="6177439750" />
+    <nd ref="10125227990" />
+    <nd ref="14173113810" />
+    <nd ref="12834723215" />
+    <nd ref="10125227965" />
+    <nd ref="42436514" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes" v="3" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="Park Avenue" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="1528347333" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="4918486110" />
+    <nd ref="8638499088" />
+    <nd ref="10166509657" />
+    <nd ref="42436519" />
+    <tag k="highway" v="residential" />
+    <tag k="lanes" v="1" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="East 61st Street" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="1528347334" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42436519" />
+    <nd ref="10166509658" />
+    <nd ref="10166509667" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes" v="3" />
+    <tag k="name" v="3rd Avenue" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="1528367866" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42436514" />
+    <nd ref="596775930" />
+    <nd ref="10125227967" />
+    <nd ref="12926009471" />
+    <tag k="highway" v="residential" />
+    <tag k="lanes" v="1" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="East 61st Street" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="1531577066" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42449961" />
+    <nd ref="10125255960" />
+    <nd ref="10125255963" />
+    <tag k="highway" v="residential" />
+    <tag k="lanes" v="1" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="East 52nd Street" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="1531577067" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42440463" />
+    <nd ref="3977886192" />
+    <nd ref="10125255962" />
+    <nd ref="42449961" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes" v="4" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="3rd Avenue" />
+    <tag k="oneway" v="yes" />
+    <tag k="width" v="21.3" />
+  </way>
+  <way changeset="1" id="1536092164" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="596775914" />
+    <nd ref="10165922702" />
+    <nd ref="12834723251" />
+    <nd ref="10125233921" />
+    <nd ref="596775876" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes" v="4" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="Park Avenue" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="1536593474" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42448317" />
+    <nd ref="7788529732" />
+    <nd ref="4960527247" />
+    <nd ref="10125174405" />
+    <nd ref="42447009" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="2" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="East 59th Street" />
+    <tag k="oneway" v="yes" />
+    <tag k="width" v="10" />
+  </way>
+  <way changeset="1" id="1536593475" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="596775946" />
+    <nd ref="7788529739" />
+    <nd ref="12834723225" />
+    <nd ref="10125227995" />
+    <nd ref="596775941" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes" v="4" />
+    <tag k="lanes:forward" v="3" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="Park Avenue" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="1537171332" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42448317" />
+    <nd ref="7788529758" />
+    <nd ref="12834723218" />
+    <nd ref="10125227993" />
+    <nd ref="6177439750" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes" v="4" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="Park Avenue" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="1537171333" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="596775946" />
+    <nd ref="42448317" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="2" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="East 59th Street" />
+    <tag k="oneway" v="yes" />
+    <tag k="width" v="10" />
+  </way>
+  <way changeset="1" id="1538411807" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42459098" />
+    <nd ref="3977886199" />
+    <nd ref="12834723253" />
+    <nd ref="10125233926" />
+    <nd ref="10125233927" />
+    <nd ref="42440456" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes" v="3" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="Park Avenue" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="1538411808" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="596775870" />
+    <nd ref="42459098" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="2" />
+    <tag k="name" v="East 50th Street" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="1538467118" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42443613" />
+    <nd ref="10125228003" />
+    <nd ref="10165922686" />
+    <nd ref="42443614" />
+    <nd ref="10165922683" />
+    <nd ref="10125255945" />
+    <nd ref="42443615" />
+    <tag k="highway" v="residential" />
+    <tag k="lanes" v="1" />
+    <tag k="name" v="East 56th Street" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="1549117543" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="11240669720" />
+    <nd ref="596775930" />
+    <tag k="highway" v="primary" />
+    <tag k="lanes" v="4" />
+    <tag k="lanes:forward" v="3" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="Park Avenue" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way changeset="1" id="1549117544" timestamp="2026-10-01T00:00:00Z" uid="1" user="OSMnx" version="1" visible="true">
+    <nd ref="42436516" />
+    <nd ref="10166509686" />
+    <nd ref="10125147538" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="3" />
+    <tag k="maxspeed" v="25 mph" />
+    <tag k="name" v="Lexington Avenue" />
+    <tag k="oneway" v="yes" />
+  </way>
+</osm>
