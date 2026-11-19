@@ -1,10 +1,13 @@
-import { useCallback, useMemo, useState } from 'react';
+import { useCallback, useMemo, useRef, useState } from 'react';
+import midtownEastOsmRaw from '../../../auris-data/base_network/midtown_east.osm?raw';
 import NetworkMap from '../components/map/NetworkMap.jsx';
 import KpiCards from '../components/panels/KpiCards.jsx';
 import TimeRangePicker from '../components/panels/TimeRangePicker.jsx';
+import { PILOT_REGION } from '../constants/mapConfig.js';
 import { DEFAULT_TIME_WINDOW_ID, getTimeWindow } from '../constants/timeWindows.js';
+import { parseOsmXml } from '../utils/osmParser.js';
 
-// Placeholder KPI'lar – "Bölgeyi Yükle" sonrası AS2 yanıtıyla değiştirilecek.
+// S1 başlangıç KPI kartları – simülasyon/AS2 yanıtıyla güncellenecek.
 const PLACEHOLDER_KPIS = [
   { key: 'totalVehicles', label: 'Toplam Araç', value: '1,284' },
   { key: 'avgSpeed', label: 'Ort. Hız', value: '23 km/s' },
@@ -13,20 +16,22 @@ const PLACEHOLDER_KPIS = [
 
 /**
  * S1 – Harita Paneli (Map Dashboard)
- * Sol %80: NetworkMap | Sağ %20: Karar Destek Paneli
- *
- * State, sonraki özelliklerin doğrudan bağlanabileceği şekilde tutulur:
- *  - network / selectedElement      -> yol ağı katmanı + S2 Müdahale Drawer
- *  - simulationStatus / results      -> S3 Stepper / S3b Hata modalı, Heatmap, S5 pinleri
+ * Sol %80: NetworkMap (auris-data/base_network/midtown_east.osm çevrimdışı yol ağı)
+ * Sağ %20: Karar Destek Paneli
  */
 export default function MapDashboardScreen() {
+  const mapRef = useRef(null);
+
+  // `midtown_east.osm` dosyasını internetten bağımsız olarak ayrıştır
+  const initialNetwork = useMemo(() => parseOsmXml(midtownEastOsmRaw), []);
+
   // --- Temel S1 state'leri ---
   const [selectedTimeWindow, setSelectedTimeWindow] = useState(DEFAULT_TIME_WINDOW_ID);
   const [activeScenario] = useState({ id: 'base', name: 'Base Scenario' });
   const [kpis, setKpis] = useState(PLACEHOLDER_KPIS); // eslint-disable-line no-unused-vars
 
-  // --- Yol ağı & seçim (sonraki görev: Edge/Node katmanı + S2 Drawer) ---
-  const [network, setNetwork] = useState(null); // eslint-disable-line no-unused-vars
+  // --- Yol ağı & seçim (Edge/Node katmanı + S2 Drawer) ---
+  const [network, setNetwork] = useState(initialNetwork);
   const [isRegionLoading, setIsRegionLoading] = useState(false);
   const [selectedElement, setSelectedElement] = useState(null);
 
@@ -45,12 +50,15 @@ export default function MapDashboardScreen() {
   const handleLoadRegion = useCallback(async () => {
     setIsRegionLoading(true);
     try {
-      // TODO: networkApi.fetchNetwork({ timeWindow: selectedTimeWindow }) -> GET /api/...
-      // setNetwork(data.network); setKpis(mapKpis(data.summary));
+      setNetwork((prev) => prev || parseOsmXml(midtownEastOsmRaw));
+      if (mapRef.current && PILOT_REGION.boundary?.length) {
+        mapRef.current.fitBounds(PILOT_REGION.boundary, { padding: [36, 36] });
+      }
+      // TODO: AS2 hazır olduğunda networkApi.fetchNetwork({ timeWindow: selectedTimeWindow })
     } finally {
       setIsRegionLoading(false);
     }
-  }, [selectedTimeWindow]);
+  }, []);
 
   return (
     <div className="dashboard">
@@ -60,8 +68,11 @@ export default function MapDashboardScreen() {
           network={network}
           selectedElement={selectedElement}
           onElementSelect={handleElementSelect}
+          onMapReady={(mapInstance) => {
+            mapRef.current = mapInstance;
+          }}
         >
-          {/* <ElementSelector />, <CongestionLayer />, <AlertMarker /> buraya eklenecek */}
+          {/* <CongestionLayer />, <AlertMarker /> buraya eklenecek */}
         </NetworkMap>
       </main>
 
