@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  AURIS — SUMO netconvert configuration (SCRUM-6, HLD MK2: immutable base network)
+
+  Converts the OSMnx snapshot (auris-data/base_network/midtown_east.osm) into
+  SUMO's immutable base network (auris-data/base_network/base.net.xml).
+
+  Keep `keep-edges.in-geo-boundary` aligned with `config/pilot_region.yaml`.
+  Can be invoked directly:
+      netconvert -c config/sumo/netconvert.netccfg
+  or reproducibly via:
+      cd backend && python -m auris.cli.build_base_network
+-->
+<netconvertConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <osm-files value="../../auris-data/base_network/midtown_east.osm"/>
+    </input>
+
+    <output>
+        <output-file value="../../auris-data/base_network/base.net.xml"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <edges.join value="true"/>
+        <no-turnarounds.except-deadend value="true"/>
+    </processing>
+
+    <tls_building>
+        <!-- Guess traffic lights at major/signalized intersections and join adjacent TLS clusters -->
+        <tls.guess-signals value="true"/>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.default-type value="static"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <edge_removal>
+        <!-- Exact 4-corner pilot polygon from config/pilot_region.yaml (Park–3rd Ave, E 49th–E 61st St) -->
+        <keep-edges.in-geo-boundary value="-73.969033,40.764299,-73.965559,40.762812,-73.971186,40.755086,-73.974676,40.756583,-73.969033,40.764299"/>
+        <!-- Keep all passenger-driveable streets (primary, secondary, residential) for full pilot grid -->
+        <keep-edges.by-vclass value="passenger"/>
+        <remove-edges.by-vclass value="rail_urban,rail,rail_electric,rail_fast,tram,pedestrian,bicycle"/>
+        <remove-edges.by-type value="highway.footway,highway.pedestrian,highway.cycleway,highway.path,highway.steps,highway.service,highway.track,highway.living_street,highway.primary_link,railway.rail,railway.subway,railway.light_rail,railway.tram"/>
+        <remove-edges.isolated value="true"/>
+        <keep-edges.components value="1"/>
+    </edge_removal>
+
+    <junctions>
+        <junctions.join value="true"/>
+    </junctions>
+
+    <report>
+        <verbose value="false"/>
+    </report>
+
+    <random_number>
+        <seed value="42"/>
+    </random_number>
+
+</netconvertConfiguration>

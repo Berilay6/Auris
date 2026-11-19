@@ -11,3 +11,5 @@ auris-data/**
 !auris-data/**/.gitkeep
 !auris-data/base_network/*.osm
 !auris-data/base_network/*.osm.meta.json
+!auris-data/base_network/base.net.xml
+!auris-data/base_network/base.net.xml.meta.json
