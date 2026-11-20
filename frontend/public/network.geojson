@@ -1,0 +1,4225 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "-375165665",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.967454,
+            40.760224
+          ],
+          [
+            -73.967488,
+            40.760271
+          ],
+          [
+            -73.96749,
+            40.760272
+          ],
+          [
+            -73.967576,
+            40.760275
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "-375165665",
+        "lanes": 2,
+        "speed": 27.78,
+        "speedKmh": 100.0,
+        "name": "East 57th Street",
+        "highway": "highway.primary",
+        "length": 0.2,
+        "fromNode": "6680686985",
+        "toNode": "42432856"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "-388696206#2",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.97076,
+            40.761615
+          ],
+          [
+            -73.970921,
+            40.761716
+          ],
+          [
+            -73.970939,
+            40.761724
+          ],
+          [
+            -73.970958,
+            40.761698
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "-388696206#2",
+        "lanes": 2,
+        "speed": 27.78,
+        "speedKmh": 100.0,
+        "name": "East 57th Street",
+        "highway": "highway.primary",
+        "length": 1.77,
+        "fromNode": "cluster_42432834_596775935",
+        "toNode": "10125227998"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "-497165757#3",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.969133,
+            40.76093
+          ],
+          [
+            -73.969223,
+            40.761001
+          ],
+          [
+            -73.969224,
+            40.761002
+          ],
+          [
+            -73.969493,
+            40.761115
+          ],
+          [
+            -73.969874,
+            40.761275
+          ],
+          [
+            -73.970477,
+            40.761529
+          ],
+          [
+            -73.970534,
+            40.761553
+          ],
+          [
+            -73.970561,
+            40.761564
+          ],
+          [
+            -73.97076,
+            40.761615
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "-497165757#3",
+        "lanes": 2,
+        "speed": 27.78,
+        "speedKmh": 100.0,
+        "name": "East 57th Street",
+        "highway": "highway.primary",
+        "length": 129.12,
+        "fromNode": "42432847",
+        "toNode": "cluster_42432834_596775935"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "-587038082#1",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.967576,
+            40.760275
+          ],
+          [
+            -73.967645,
+            40.760339
+          ],
+          [
+            -73.967652,
+            40.760342
+          ],
+          [
+            -73.967958,
+            40.760469
+          ],
+          [
+            -73.968312,
+            40.760618
+          ],
+          [
+            -73.968676,
+            40.760771
+          ],
+          [
+            -73.969007,
+            40.76091
+          ],
+          [
+            -73.969133,
+            40.76093
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "-587038082#1",
+        "lanes": 2,
+        "speed": 27.78,
+        "speedKmh": 100.0,
+        "name": "East 57th Street",
+        "highway": "highway.primary",
+        "length": 131.31,
+        "fromNode": "42432856",
+        "toNode": "42432847"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "-710571390#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.967396,
+            40.760199
+          ],
+          [
+            -73.967369,
+            40.760221
+          ],
+          [
+            -73.967371,
+            40.760221
+          ],
+          [
+            -73.967454,
+            40.760224
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "-710571390#0",
+        "lanes": 2,
+        "speed": 27.78,
+        "speedKmh": 100.0,
+        "name": "East 57th Street",
+        "highway": "highway.primary",
+        "length": 0.2,
+        "fromNode": "10125255944",
+        "toNode": "6680686985"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1106471568#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.967448,
+            40.763243
+          ],
+          [
+            -73.967471,
+            40.763211
+          ],
+          [
+            -73.967553,
+            40.763101
+          ],
+          [
+            -73.967668,
+            40.762942
+          ],
+          [
+            -73.967719,
+            40.762874
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "1106471568#0",
+        "lanes": 4,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "Lexington Avenue",
+        "highway": "highway.secondary",
+        "length": 34.14,
+        "fromNode": "10125147538",
+        "toNode": "42447020"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1201651432#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.97099,
+            40.758378
+          ],
+          [
+            -73.971097,
+            40.758423
+          ],
+          [
+            -73.971107,
+            40.758428
+          ],
+          [
+            -73.971634,
+            40.758648
+          ],
+          [
+            -73.972114,
+            40.75885
+          ],
+          [
+            -73.972156,
+            40.758867
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "1201651432#0",
+        "lanes": 2,
+        "speed": 27.78,
+        "speedKmh": 100.0,
+        "name": "East 53rd Street",
+        "highway": "highway.secondary",
+        "length": 98.02,
+        "fromNode": "42436705",
+        "toNode": "11140867101"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1201651434#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.972156,
+            40.758867
+          ],
+          [
+            -73.972197,
+            40.758885
+          ],
+          [
+            -73.972334,
+            40.758942
+          ],
+          [
+            -73.97239,
+            40.758965
+          ],
+          [
+            -73.972442,
+            40.758987
+          ],
+          [
+            -73.972685,
+            40.759089
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "1201651434#0",
+        "lanes": 3,
+        "speed": 27.78,
+        "speedKmh": 100.0,
+        "name": "East 53rd Street",
+        "highway": "highway.secondary",
+        "length": 23.59,
+        "fromNode": "11140867101",
+        "toNode": "cluster_10125228016_42436703_596775900"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1201651435#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.973593,
+            40.757843
+          ],
+          [
+            -73.973399,
+            40.757835
+          ],
+          [
+            -73.97306,
+            40.7583
+          ],
+          [
+            -73.973024,
+            40.758348
+          ],
+          [
+            -73.973012,
+            40.758366
+          ],
+          [
+            -73.973133,
+            40.758475
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "1201651435#0",
+        "lanes": 3,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "Park Avenue",
+        "highway": "highway.primary",
+        "length": 67.35,
+        "fromNode": "cluster_10125233923_42440456_596775876",
+        "toNode": "cluster_10125233917_42452875_596775914"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1201651435#4",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.973133,
+            40.758475
+          ],
+          [
+            -73.972949,
+            40.758455
+          ],
+          [
+            -73.972944,
+            40.758462
+          ],
+          [
+            -73.972604,
+            40.758927
+          ],
+          [
+            -73.972583,
+            40.758956
+          ],
+          [
+            -73.972685,
+            40.759089
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "1201651435#4",
+        "lanes": 3,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "Park Avenue",
+        "highway": "highway.primary",
+        "length": 63.67,
+        "fromNode": "cluster_10125233917_42452875_596775914",
+        "toNode": "cluster_10125228016_42436703_596775900"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1201651437#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.972685,
+            40.759089
+          ],
+          [
+            -73.972755,
+            40.759027
+          ],
+          [
+            -73.973084,
+            40.758581
+          ],
+          [
+            -73.973119,
+            40.758533
+          ],
+          [
+            -73.973123,
+            40.758528
+          ],
+          [
+            -73.973133,
+            40.758475
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "1201651437#0",
+        "lanes": 3,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "Park Avenue",
+        "highway": "highway.primary",
+        "length": 63.51,
+        "fromNode": "cluster_10125228016_42436703_596775900",
+        "toNode": "cluster_10125233917_42452875_596775914"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1250866957#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.970072,
+            40.759637
+          ],
+          [
+            -73.970124,
+            40.759566
+          ],
+          [
+            -73.970488,
+            40.759064
+          ],
+          [
+            -73.970492,
+            40.759059
+          ],
+          [
+            -73.970533,
+            40.759002
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "1250866957#0",
+        "lanes": 4,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "Lexington Avenue",
+        "highway": "highway.secondary",
+        "length": 64.2,
+        "fromNode": "4862610026",
+        "toNode": "42446998"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1376704198#3",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.974469,
+            40.756534
+          ],
+          [
+            -73.974315,
+            40.756582
+          ],
+          [
+            -73.973971,
+            40.757052
+          ],
+          [
+            -73.973944,
+            40.757088
+          ],
+          [
+            -73.974054,
+            40.757209
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "1376704198#3",
+        "lanes": 3,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "Park Avenue",
+        "highway": "highway.primary",
+        "length": 64.32,
+        "fromNode": "cluster_10165922715_10165986917_12834723257_42438886_#1more",
+        "toNode": "cluster_3977886200_42459098_596775870"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1388287829#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.971904,
+            40.757129
+          ],
+          [
+            -73.972012,
+            40.757174
+          ],
+          [
+            -73.972837,
+            40.757523
+          ],
+          [
+            -73.972878,
+            40.757541
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "1388287829#0",
+        "lanes": 1,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "East 51st Street",
+        "highway": "highway.residential",
+        "length": 79.67,
+        "fromNode": "42440459",
+        "toNode": "5475605298"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1455345751#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.97146,
+            40.754897
+          ],
+          [
+            -73.971276,
+            40.755149
+          ],
+          [
+            -73.971268,
+            40.75516
+          ],
+          [
+            -73.971158,
+            40.755172
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "1455345751#0",
+        "lanes": 5,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "3rd Avenue",
+        "highway": "highway.primary",
+        "length": 33.37,
+        "fromNode": "13346921457",
+        "toNode": "cluster_10125260533_42438891"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1455345752#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.971158,
+            40.755172
+          ],
+          [
+            -73.971204,
+            40.755248
+          ],
+          [
+            -73.971194,
+            40.755262
+          ],
+          [
+            -73.970819,
+            40.755775
+          ],
+          [
+            -73.970818,
+            40.755777
+          ],
+          [
+            -73.970702,
+            40.755803
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "1455345752#0",
+        "lanes": 4,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "3rd Avenue",
+        "highway": "highway.primary",
+        "length": 67.09,
+        "fromNode": "cluster_10125260533_42438891",
+        "toNode": "cluster_10125255966_42449956"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1455345752#3",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.970702,
+            40.755803
+          ],
+          [
+            -73.970735,
+            40.75589
+          ],
+          [
+            -73.970731,
+            40.755895
+          ],
+          [
+            -73.970605,
+            40.756068
+          ],
+          [
+            -73.970582,
+            40.7561
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "1455345752#3",
+        "lanes": 4,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "3rd Avenue",
+        "highway": "highway.primary",
+        "length": 22.63,
+        "fromNode": "cluster_10125255966_42449956",
+        "toNode": "13346921458"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1455345753#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.970582,
+            40.7561
+          ],
+          [
+            -73.970559,
+            40.756131
+          ],
+          [
+            -73.970367,
+            40.756394
+          ],
+          [
+            -73.970352,
+            40.756414
+          ],
+          [
+            -73.970243,
+            40.756425
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "1455345753#0",
+        "lanes": 5,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "3rd Avenue",
+        "highway": "highway.primary",
+        "length": 35.93,
+        "fromNode": "13346921458",
+        "toNode": "cluster_3977886186_42440463"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1498928837#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.970072,
+            40.759637
+          ],
+          [
+            -73.97018,
+            40.759683
+          ],
+          [
+            -73.970187,
+            40.759686
+          ],
+          [
+            -73.970451,
+            40.759797
+          ],
+          [
+            -73.971437,
+            40.760215
+          ],
+          [
+            -73.971488,
+            40.760236
+          ],
+          [
+            -73.971522,
+            40.760251
+          ],
+          [
+            -73.971764,
+            40.760353
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "1498928837#0",
+        "lanes": 1,
+        "speed": 13.89,
+        "speedKmh": 50.0,
+        "name": "East 55th Street",
+        "highway": "highway.residential",
+        "length": 129.66,
+        "fromNode": "4862610026",
+        "toNode": "cluster_10125228008_42448338_596775907"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1498928840#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.971764,
+            40.760353
+          ],
+          [
+            -73.971564,
+            40.760356
+          ],
+          [
+            -73.971234,
+            40.760808
+          ],
+          [
+            -73.971203,
+            40.76085
+          ],
+          [
+            -73.971193,
+            40.760865
+          ],
+          [
+            -73.97131,
+            40.760973
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "1498928840#0",
+        "lanes": 3,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "Park Avenue",
+        "highway": "highway.primary",
+        "length": 64.61,
+        "fromNode": "cluster_10125228008_42448338_596775907",
+        "toNode": "cluster_10125228002_42443613_596775951"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1499246905#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.969414,
+            40.763574
+          ],
+          [
+            -73.969481,
+            40.763529
+          ],
+          [
+            -73.969486,
+            40.763521
+          ],
+          [
+            -73.969825,
+            40.763056
+          ],
+          [
+            -73.969851,
+            40.763019
+          ],
+          [
+            -73.96988,
+            40.762937
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "1499246905#0",
+        "lanes": 3,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "Park Avenue",
+        "highway": "highway.primary",
+        "length": 64.65,
+        "fromNode": "cluster_10125174398_6177439750_6177439752",
+        "toNode": "cluster_42448317_596775946_7788529728"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1499498641#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.968919,
+            40.764211
+          ],
+          [
+            -73.969006,
+            40.764182
+          ],
+          [
+            -73.969031,
+            40.764148
+          ],
+          [
+            -73.969173,
+            40.763952
+          ],
+          [
+            -73.969371,
+            40.763679
+          ],
+          [
+            -73.969401,
+            40.763638
+          ],
+          [
+            -73.969414,
+            40.763574
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "1499498641#0",
+        "lanes": 3,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "Park Avenue",
+        "highway": "highway.primary",
+        "length": 69.03,
+        "fromNode": "cluster_10125227967_10125227969_11240669720_42436514_#1more",
+        "toNode": "cluster_10125174398_6177439750_6177439752"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1499796506#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.970327,
+            40.762318
+          ],
+          [
+            -73.970123,
+            40.762321
+          ],
+          [
+            -73.969779,
+            40.762795
+          ],
+          [
+            -73.969777,
+            40.762799
+          ],
+          [
+            -73.96988,
+            40.762937
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "1499796506#0",
+        "lanes": 4,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "Park Avenue",
+        "highway": "highway.primary",
+        "length": 60.55,
+        "fromNode": "cluster_10125156114_42456598_596775941",
+        "toNode": "cluster_42448317_596775946_7788529728"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1523390073#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.969414,
+            40.763574
+          ],
+          [
+            -73.96922,
+            40.763564
+          ],
+          [
+            -73.969003,
+            40.76385
+          ],
+          [
+            -73.968874,
+            40.764035
+          ],
+          [
+            -73.968847,
+            40.764072
+          ],
+          [
+            -73.968823,
+            40.764106
+          ],
+          [
+            -73.968919,
+            40.764211
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "1523390073#0",
+        "lanes": 3,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "Park Avenue",
+        "highway": "highway.primary",
+        "length": 68.81,
+        "fromNode": "cluster_10125174398_6177439750_6177439752",
+        "toNode": "cluster_10125227967_10125227969_11240669720_42436514_#1more"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1531577067#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.970243,
+            40.756425
+          ],
+          [
+            -73.970288,
+            40.756502
+          ],
+          [
+            -73.970187,
+            40.756639
+          ],
+          [
+            -73.969903,
+            40.757028
+          ],
+          [
+            -73.969886,
+            40.757052
+          ],
+          [
+            -73.969778,
+            40.75707
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "1531577067#0",
+        "lanes": 4,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "3rd Avenue",
+        "highway": "highway.primary",
+        "length": 69.83,
+        "fromNode": "cluster_3977886186_42440463",
+        "toNode": "cluster_10125255960_42449961"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1536092164#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.973133,
+            40.758475
+          ],
+          [
+            -73.973188,
+            40.75844
+          ],
+          [
+            -73.973202,
+            40.758421
+          ],
+          [
+            -73.973541,
+            40.757954
+          ],
+          [
+            -73.973574,
+            40.757909
+          ],
+          [
+            -73.973593,
+            40.757843
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "1536092164#0",
+        "lanes": 4,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "Park Avenue",
+        "highway": "highway.primary",
+        "length": 67.33,
+        "fromNode": "cluster_10125233917_42452875_596775914",
+        "toNode": "cluster_10125233923_42440456_596775876"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1536593474#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.96988,
+            40.762937
+          ],
+          [
+            -73.969616,
+            40.762824
+          ],
+          [
+            -73.969612,
+            40.762822
+          ],
+          [
+            -73.969428,
+            40.762747
+          ],
+          [
+            -73.968314,
+            40.762279
+          ],
+          [
+            -73.968188,
+            40.76223
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "1536593474#0",
+        "lanes": 2,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "East 59th Street",
+        "highway": "highway.secondary",
+        "length": 125.43,
+        "fromNode": "cluster_42448317_596775946_7788529728",
+        "toNode": "42447009"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1536593475#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.96988,
+            40.762937
+          ],
+          [
+            -73.969957,
+            40.762873
+          ],
+          [
+            -73.970281,
+            40.762431
+          ],
+          [
+            -73.970305,
+            40.762398
+          ],
+          [
+            -73.970327,
+            40.762318
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "1536593475#0",
+        "lanes": 3,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "Park Avenue",
+        "highway": "highway.primary",
+        "length": 60.42,
+        "fromNode": "cluster_42448317_596775946_7788529728",
+        "toNode": "cluster_10125156114_42456598_596775941"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1537171332#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.96988,
+            40.762937
+          ],
+          [
+            -73.969671,
+            40.762941
+          ],
+          [
+            -73.969334,
+            40.763406
+          ],
+          [
+            -73.969308,
+            40.763442
+          ],
+          [
+            -73.9693,
+            40.763453
+          ],
+          [
+            -73.969414,
+            40.763574
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "1537171332#0",
+        "lanes": 4,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "Park Avenue",
+        "highway": "highway.primary",
+        "length": 64.86,
+        "fromNode": "cluster_42448317_596775946_7788529728",
+        "toNode": "cluster_10125174398_6177439750_6177439752"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1538411807#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.974054,
+            40.757209
+          ],
+          [
+            -73.973865,
+            40.757201
+          ],
+          [
+            -73.973862,
+            40.757205
+          ],
+          [
+            -73.973514,
+            40.757678
+          ],
+          [
+            -73.973483,
+            40.75772
+          ],
+          [
+            -73.973481,
+            40.757723
+          ],
+          [
+            -73.973593,
+            40.757843
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "1538411807#0",
+        "lanes": 3,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "Park Avenue",
+        "highway": "highway.primary",
+        "length": 66.38,
+        "fromNode": "cluster_3977886200_42459098_596775870",
+        "toNode": "cluster_10125233923_42440456_596775876"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1538467118#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.97131,
+            40.760973
+          ],
+          [
+            -73.971069,
+            40.76087
+          ],
+          [
+            -73.971045,
+            40.76086
+          ],
+          [
+            -73.969731,
+            40.760299
+          ],
+          [
+            -73.969624,
+            40.760253
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "1538467118#0",
+        "lanes": 1,
+        "speed": 13.89,
+        "speedKmh": 50.0,
+        "name": "East 56th Street",
+        "highway": "highway.residential",
+        "length": 129.56,
+        "fromNode": "cluster_10125228002_42443613_596775951",
+        "toNode": "42443614"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1538467118#3",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.969624,
+            40.760253
+          ],
+          [
+            -73.969516,
+            40.760208
+          ],
+          [
+            -73.968158,
+            40.75964
+          ],
+          [
+            -73.968155,
+            40.759639
+          ],
+          [
+            -73.968063,
+            40.759601
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "1538467118#3",
+        "lanes": 1,
+        "speed": 13.89,
+        "speedKmh": 50.0,
+        "name": "East 56th Street",
+        "highway": "highway.residential",
+        "length": 131.1,
+        "fromNode": "42443614",
+        "toNode": "42443615"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1549117544#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.967253,
+            40.763513
+          ],
+          [
+            -73.967305,
+            40.763439
+          ],
+          [
+            -73.967317,
+            40.763422
+          ],
+          [
+            -73.967425,
+            40.763274
+          ],
+          [
+            -73.967448,
+            40.763243
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "1549117544#0",
+        "lanes": 3,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "Lexington Avenue",
+        "highway": "highway.secondary",
+        "length": 20.97,
+        "fromNode": "cluster_10125147533_42436516",
+        "toNode": "10125147538"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "198595461#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.965608,
+            40.762808
+          ],
+          [
+            -73.965757,
+            40.762846
+          ],
+          [
+            -73.965806,
+            40.762867
+          ],
+          [
+            -73.967168,
+            40.76344
+          ],
+          [
+            -73.967182,
+            40.763446
+          ],
+          [
+            -73.967253,
+            40.763513
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "198595461#0",
+        "lanes": 1,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "East 61st Street",
+        "highway": "highway.residential",
+        "length": 137.42,
+        "fromNode": "cluster_10166509657_10166509658_42436519",
+        "toNode": "cluster_10125147533_42436516"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "198595461#3",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.967253,
+            40.763513
+          ],
+          [
+            -73.967364,
+            40.763523
+          ],
+          [
+            -73.967372,
+            40.763526
+          ],
+          [
+            -73.968641,
+            40.764061
+          ],
+          [
+            -73.9687,
+            40.764086
+          ],
+          [
+            -73.968739,
+            40.764103
+          ],
+          [
+            -73.968919,
+            40.764211
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "198595461#3",
+        "lanes": 1,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "East 61st Street",
+        "highway": "highway.residential",
+        "length": 132.73,
+        "fromNode": "cluster_10125147533_42436516",
+        "toNode": "cluster_10125227967_10125227969_11240669720_42436514_#1more"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "226041011#1",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.972226,
+            40.75972
+          ],
+          [
+            -73.971982,
+            40.759615
+          ],
+          [
+            -73.971951,
+            40.759602
+          ],
+          [
+            -73.970647,
+            40.759051
+          ],
+          [
+            -73.970641,
+            40.759048
+          ],
+          [
+            -73.970533,
+            40.759002
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "226041011#1",
+        "lanes": 2,
+        "speed": 27.78,
+        "speedKmh": 100.0,
+        "name": "East 54th Street",
+        "highway": "highway.secondary",
+        "length": 129.57,
+        "fromNode": "cluster_10125228013_42456611_596775919",
+        "toNode": "42446998"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "375165501#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.966969,
+            40.76091
+          ],
+          [
+            -73.966996,
+            40.760999
+          ],
+          [
+            -73.966774,
+            40.761303
+          ],
+          [
+            -73.966635,
+            40.761493
+          ],
+          [
+            -73.96652,
+            40.761533
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "375165501#0",
+        "lanes": 5,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "3rd Avenue",
+        "highway": "highway.primary",
+        "length": 62.72,
+        "fromNode": "cluster_42449971_8133385390",
+        "toNode": "cluster_4288677093_8133385394"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "375165664#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.967576,
+            40.760275
+          ],
+          [
+            -73.967512,
+            40.760356
+          ],
+          [
+            -73.9675,
+            40.760372
+          ],
+          [
+            -73.96748,
+            40.7604
+          ],
+          [
+            -73.967458,
+            40.760431
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "375165664#0",
+        "lanes": 2,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "3rd Avenue",
+        "highway": "highway.primary",
+        "length": 5.55,
+        "fromNode": "42432856",
+        "toNode": "8133385388"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "375165665",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.967576,
+            40.760275
+          ],
+          [
+            -73.967526,
+            40.760221
+          ],
+          [
+            -73.967524,
+            40.76022
+          ],
+          [
+            -73.967454,
+            40.760224
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "375165665",
+        "lanes": 2,
+        "speed": 27.78,
+        "speedKmh": 100.0,
+        "name": "East 57th Street",
+        "highway": "highway.primary",
+        "length": 0.2,
+        "fromNode": "42432856",
+        "toNode": "6680686985"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "375165666#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.966059,
+            40.762165
+          ],
+          [
+            -73.966086,
+            40.762251
+          ],
+          [
+            -73.96601,
+            40.762354
+          ],
+          [
+            -73.965987,
+            40.762385
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "375165666#0",
+        "lanes": 4,
+        "speed": 27.78,
+        "speedKmh": 100.0,
+        "name": "3rd Avenue",
+        "highway": "highway.primary",
+        "length": 13.04,
+        "fromNode": "cluster_4716936973_6177439759",
+        "toNode": "8906253690"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "388696206#2",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.970958,
+            40.761698
+          ],
+          [
+            -73.970976,
+            40.761673
+          ],
+          [
+            -73.970958,
+            40.761665
+          ],
+          [
+            -73.97076,
+            40.761615
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "388696206#2",
+        "lanes": 2,
+        "speed": 27.78,
+        "speedKmh": 100.0,
+        "name": "East 57th Street",
+        "highway": "highway.primary",
+        "length": 1.77,
+        "fromNode": "10125227998",
+        "toNode": "cluster_42432834_596775935"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "420806145#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.96652,
+            40.761533
+          ],
+          [
+            -73.966539,
+            40.761631
+          ],
+          [
+            -73.966174,
+            40.762131
+          ],
+          [
+            -73.966169,
+            40.762139
+          ],
+          [
+            -73.966059,
+            40.762165
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "420806145#0",
+        "lanes": 4,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "3rd Avenue",
+        "highway": "highway.primary",
+        "length": 64.41,
+        "fromNode": "cluster_4288677093_8133385394",
+        "toNode": "cluster_4716936973_6177439759"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "458166897#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.969778,
+            40.75707
+          ],
+          [
+            -73.969823,
+            40.757137
+          ],
+          [
+            -73.96982,
+            40.757142
+          ],
+          [
+            -73.969448,
+            40.757651
+          ],
+          [
+            -73.969338,
+            40.757679
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "458166897#0",
+        "lanes": 4,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "3rd Avenue",
+        "highway": "highway.primary",
+        "length": 65.19,
+        "fromNode": "cluster_10125255960_42449961",
+        "toNode": "cluster_10125255956_42436707"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "458166897#3",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.969338,
+            40.757679
+          ],
+          [
+            -73.969365,
+            40.757764
+          ],
+          [
+            -73.969362,
+            40.757769
+          ],
+          [
+            -73.968995,
+            40.758271
+          ],
+          [
+            -73.968986,
+            40.758283
+          ],
+          [
+            -73.968874,
+            40.758309
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "458166897#3",
+        "lanes": 4,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "3rd Avenue",
+        "highway": "highway.primary",
+        "length": 65.92,
+        "fromNode": "cluster_10125255956_42436707",
+        "toNode": "cluster_10125255953_42449963"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "458166897#6",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.968874,
+            40.758309
+          ],
+          [
+            -73.968904,
+            40.758396
+          ],
+          [
+            -73.968543,
+            40.75889
+          ],
+          [
+            -73.968416,
+            40.758929
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "458166897#6",
+        "lanes": 4,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "3rd Avenue",
+        "highway": "highway.primary",
+        "length": 62.69,
+        "fromNode": "cluster_10125255953_42449963",
+        "toNode": "cluster_11336621689_42448379"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "458180186#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.97282,
+            40.75587
+          ],
+          [
+            -73.972928,
+            40.755916
+          ],
+          [
+            -73.973126,
+            40.755999
+          ],
+          [
+            -73.97366,
+            40.756226
+          ],
+          [
+            -73.974188,
+            40.756453
+          ],
+          [
+            -73.974247,
+            40.756479
+          ],
+          [
+            -73.974266,
+            40.756487
+          ],
+          [
+            -73.974469,
+            40.756534
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "458180186#0",
+        "lanes": 2,
+        "speed": 27.78,
+        "speedKmh": 100.0,
+        "name": "East 49th Street",
+        "highway": "highway.secondary",
+        "length": 129.58,
+        "fromNode": "42438889",
+        "toNode": "cluster_10165922715_10165986917_12834723257_42438886_#1more"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "458180187#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.97282,
+            40.75587
+          ],
+          [
+            -73.97286,
+            40.755814
+          ],
+          [
+            -73.973227,
+            40.755306
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "458180187#0",
+        "lanes": 3,
+        "speed": 27.78,
+        "speedKmh": 100.0,
+        "name": "Lexington Avenue",
+        "highway": "highway.secondary",
+        "length": 64.3,
+        "fromNode": "42438889",
+        "toNode": "12673751272"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "458180188#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.972362,
+            40.756498
+          ],
+          [
+            -73.972254,
+            40.756453
+          ],
+          [
+            -73.97207,
+            40.756376
+          ],
+          [
+            -73.971232,
+            40.756025
+          ],
+          [
+            -73.970928,
+            40.755897
+          ],
+          [
+            -73.970702,
+            40.755803
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "458180188#0",
+        "lanes": 2,
+        "speed": 27.78,
+        "speedKmh": 100.0,
+        "name": "East 50th Street",
+        "highway": "highway.secondary",
+        "length": 127.81,
+        "fromNode": "42446991",
+        "toNode": "cluster_10125255966_42449956"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "458180189#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.972362,
+            40.756498
+          ],
+          [
+            -73.972405,
+            40.756439
+          ],
+          [
+            -73.972776,
+            40.75593
+          ],
+          [
+            -73.972779,
+            40.755927
+          ],
+          [
+            -73.97282,
+            40.75587
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "458180189#0",
+        "lanes": 4,
+        "speed": 27.78,
+        "speedKmh": 100.0,
+        "name": "Lexington Avenue",
+        "highway": "highway.secondary",
+        "length": 65.04,
+        "fromNode": "42446991",
+        "toNode": "42438889"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "458180193#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.97099,
+            40.758378
+          ],
+          [
+            -73.971032,
+            40.758321
+          ],
+          [
+            -73.971033,
+            40.75832
+          ],
+          [
+            -73.971402,
+            40.757813
+          ],
+          [
+            -73.971411,
+            40.757802
+          ],
+          [
+            -73.971443,
+            40.757757
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "458180193#0",
+        "lanes": 4,
+        "speed": 27.78,
+        "speedKmh": 100.0,
+        "name": "Lexington Avenue",
+        "highway": "highway.secondary",
+        "length": 65.97,
+        "fromNode": "42436705",
+        "toNode": "42446994"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "458180193#3",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.971443,
+            40.757757
+          ],
+          [
+            -73.971477,
+            40.757713
+          ],
+          [
+            -73.971492,
+            40.757693
+          ],
+          [
+            -73.971869,
+            40.757177
+          ],
+          [
+            -73.971872,
+            40.757173
+          ],
+          [
+            -73.971904,
+            40.757129
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "458180193#3",
+        "lanes": 4,
+        "speed": 27.78,
+        "speedKmh": 100.0,
+        "name": "Lexington Avenue",
+        "highway": "highway.secondary",
+        "length": 68.63,
+        "fromNode": "42446994",
+        "toNode": "42440459"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "458180193#6",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.971904,
+            40.757129
+          ],
+          [
+            -73.971936,
+            40.757082
+          ],
+          [
+            -73.971943,
+            40.757071
+          ],
+          [
+            -73.972317,
+            40.75656
+          ],
+          [
+            -73.972321,
+            40.756555
+          ],
+          [
+            -73.972362,
+            40.756498
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "458180193#6",
+        "lanes": 4,
+        "speed": 27.78,
+        "speedKmh": 100.0,
+        "name": "Lexington Avenue",
+        "highway": "highway.secondary",
+        "length": 66.93,
+        "fromNode": "42440459",
+        "toNode": "42446991"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "458180194#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.970533,
+            40.759002
+          ],
+          [
+            -73.970425,
+            40.758957
+          ],
+          [
+            -73.969808,
+            40.7587
+          ],
+          [
+            -73.969097,
+            40.758403
+          ],
+          [
+            -73.968874,
+            40.758309
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "458180194#0",
+        "lanes": 2,
+        "speed": 27.78,
+        "speedKmh": 100.0,
+        "name": "East 54th Street",
+        "highway": "highway.secondary",
+        "length": 127.89,
+        "fromNode": "42446998",
+        "toNode": "cluster_10125255953_42449963"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "458180195#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.970533,
+            40.759002
+          ],
+          [
+            -73.970574,
+            40.758946
+          ],
+          [
+            -73.970578,
+            40.758941
+          ],
+          [
+            -73.970939,
+            40.758446
+          ],
+          [
+            -73.970948,
+            40.758434
+          ],
+          [
+            -73.97099,
+            40.758378
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "458180195#0",
+        "lanes": 4,
+        "speed": 27.78,
+        "speedKmh": 100.0,
+        "name": "Lexington Avenue",
+        "highway": "highway.secondary",
+        "length": 64.94,
+        "fromNode": "42446998",
+        "toNode": "42436705"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "458180200#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.967719,
+            40.762874
+          ],
+          [
+            -73.96777,
+            40.762807
+          ],
+          [
+            -73.967773,
+            40.762803
+          ],
+          [
+            -73.967934,
+            40.762587
+          ],
+          [
+            -73.967957,
+            40.762556
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "458180200#0",
+        "lanes": 4,
+        "speed": 27.78,
+        "speedKmh": 100.0,
+        "name": "Lexington Avenue",
+        "highway": "highway.secondary",
+        "length": 28.03,
+        "fromNode": "42447020",
+        "toNode": "5475605296"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "46240204#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.97076,
+            40.761615
+          ],
+          [
+            -73.97061,
+            40.761659
+          ],
+          [
+            -73.970596,
+            40.761679
+          ],
+          [
+            -73.970247,
+            40.762151
+          ],
+          [
+            -73.970224,
+            40.762183
+          ],
+          [
+            -73.970327,
+            40.762318
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "46240204#0",
+        "lanes": 3,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "Park Avenue",
+        "highway": "highway.primary",
+        "length": 66.7,
+        "fromNode": "cluster_42432834_596775935",
+        "toNode": "cluster_10125156114_42456598_596775941"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "46334594#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.967719,
+            40.762874
+          ],
+          [
+            -73.967827,
+            40.762918
+          ],
+          [
+            -73.9683,
+            40.763113
+          ],
+          [
+            -73.96851,
+            40.763199
+          ],
+          [
+            -73.96909,
+            40.763437
+          ],
+          [
+            -73.969141,
+            40.763458
+          ],
+          [
+            -73.969152,
+            40.763463
+          ],
+          [
+            -73.969414,
+            40.763574
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "46334594#0",
+        "lanes": 2,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "East 60th Street",
+        "highway": "highway.secondary",
+        "length": 127.17,
+        "fromNode": "42447020",
+        "toNode": "cluster_10125174398_6177439750_6177439752"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "465000799#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.968063,
+            40.759601
+          ],
+          [
+            -73.968031,
+            40.759646
+          ],
+          [
+            -73.968019,
+            40.759661
+          ],
+          [
+            -73.967738,
+            40.76005
+          ],
+          [
+            -73.967647,
+            40.760176
+          ],
+          [
+            -73.967635,
+            40.760193
+          ],
+          [
+            -73.967576,
+            40.760275
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "465000799#0",
+        "lanes": 3,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "3rd Avenue",
+        "highway": "highway.primary",
+        "length": 69.27,
+        "fromNode": "42443615",
+        "toNode": "42432856"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "46521995#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.966059,
+            40.762165
+          ],
+          [
+            -73.966235,
+            40.762241
+          ],
+          [
+            -73.966249,
+            40.762247
+          ],
+          [
+            -73.966636,
+            40.762412
+          ],
+          [
+            -73.966983,
+            40.76256
+          ],
+          [
+            -73.967025,
+            40.762578
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "46521995#0",
+        "lanes": 2,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "East 60th Street",
+        "highway": "highway.secondary",
+        "length": 72.42,
+        "fromNode": "cluster_4716936973_6177439759",
+        "toNode": "8915549080"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "46521998#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.969338,
+            40.757679
+          ],
+          [
+            -73.969559,
+            40.757771
+          ],
+          [
+            -73.97007,
+            40.757986
+          ],
+          [
+            -73.970883,
+            40.758332
+          ],
+          [
+            -73.97099,
+            40.758378
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "46521998#0",
+        "lanes": 2,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "East 53rd Street",
+        "highway": "highway.secondary",
+        "length": 127.93,
+        "fromNode": "cluster_10125255956_42436707",
+        "toNode": "42436705"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "46522002#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.971158,
+            40.755172
+          ],
+          [
+            -73.971388,
+            40.755268
+          ],
+          [
+            -73.971547,
+            40.755335
+          ],
+          [
+            -73.971819,
+            40.755449
+          ],
+          [
+            -73.972712,
+            40.755825
+          ],
+          [
+            -73.97282,
+            40.75587
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "46522002#0",
+        "lanes": 1,
+        "speed": 27.78,
+        "speedKmh": 100.0,
+        "name": "East 49th Street",
+        "highway": "highway.secondary",
+        "length": 127.73,
+        "fromNode": "cluster_10125260533_42438891",
+        "toNode": "42438889"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "497165753#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.97076,
+            40.761615
+          ],
+          [
+            -73.970908,
+            40.761569
+          ],
+          [
+            -73.970919,
+            40.761554
+          ],
+          [
+            -73.971258,
+            40.761085
+          ],
+          [
+            -73.971291,
+            40.761038
+          ],
+          [
+            -73.9713,
+            40.761026
+          ],
+          [
+            -73.97131,
+            40.760973
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "497165753#0",
+        "lanes": 3,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "Park Avenue",
+        "highway": "highway.primary",
+        "length": 68.78,
+        "fromNode": "cluster_42432834_596775935",
+        "toNode": "cluster_10125228002_42443613_596775951"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "497165753#12",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.972226,
+            40.75972
+          ],
+          [
+            -73.972291,
+            40.75967
+          ],
+          [
+            -73.972292,
+            40.759667
+          ],
+          [
+            -73.972623,
+            40.759209
+          ],
+          [
+            -73.972655,
+            40.759164
+          ],
+          [
+            -73.972685,
+            40.759089
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "497165753#12",
+        "lanes": 3,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "Park Avenue",
+        "highway": "highway.primary",
+        "length": 64.03,
+        "fromNode": "cluster_10125228013_42456611_596775919",
+        "toNode": "cluster_10125228016_42436703_596775900"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "497165753#4",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.97131,
+            40.760973
+          ],
+          [
+            -73.971364,
+            40.760937
+          ],
+          [
+            -73.971374,
+            40.760924
+          ],
+          [
+            -73.971716,
+            40.760455
+          ],
+          [
+            -73.971735,
+            40.760429
+          ],
+          [
+            -73.971764,
+            40.760353
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "497165753#4",
+        "lanes": 3,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "Park Avenue",
+        "highway": "highway.primary",
+        "length": 64.56,
+        "fromNode": "cluster_10125228002_42443613_596775951",
+        "toNode": "cluster_10125228008_42448338_596775907"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "497165753#8",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.971764,
+            40.760353
+          ],
+          [
+            -73.971833,
+            40.760295
+          ],
+          [
+            -73.972171,
+            40.759834
+          ],
+          [
+            -73.972207,
+            40.759785
+          ],
+          [
+            -73.972208,
+            40.759783
+          ],
+          [
+            -73.972226,
+            40.75972
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "497165753#8",
+        "lanes": 3,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "Park Avenue",
+        "highway": "highway.primary",
+        "length": 65.06,
+        "fromNode": "cluster_10125228008_42448338_596775907",
+        "toNode": "cluster_10125228013_42456611_596775919"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "497165756#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.972685,
+            40.759089
+          ],
+          [
+            -73.972484,
+            40.759094
+          ],
+          [
+            -73.972148,
+            40.759551
+          ],
+          [
+            -73.972116,
+            40.759595
+          ],
+          [
+            -73.972115,
+            40.759597
+          ],
+          [
+            -73.972226,
+            40.75972
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "497165756#0",
+        "lanes": 3,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "Park Avenue",
+        "highway": "highway.primary",
+        "length": 63.87,
+        "fromNode": "cluster_10125228016_42436703_596775900",
+        "toNode": "cluster_10125228013_42456611_596775919"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "497165756#4",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.972226,
+            40.75972
+          ],
+          [
+            -73.972032,
+            40.75971
+          ],
+          [
+            -73.972031,
+            40.759712
+          ],
+          [
+            -73.971688,
+            40.760185
+          ],
+          [
+            -73.971662,
+            40.760223
+          ],
+          [
+            -73.971764,
+            40.760353
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "497165756#4",
+        "lanes": 3,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "Park Avenue",
+        "highway": "highway.primary",
+        "length": 64.93,
+        "fromNode": "cluster_10125228013_42456611_596775919",
+        "toNode": "cluster_10125228008_42448338_596775907"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "497165757#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.97076,
+            40.761615
+          ],
+          [
+            -73.970598,
+            40.761514
+          ],
+          [
+            -73.97057,
+            40.761502
+          ],
+          [
+            -73.970514,
+            40.761479
+          ],
+          [
+            -73.969911,
+            40.761225
+          ],
+          [
+            -73.96953,
+            40.761064
+          ],
+          [
+            -73.969261,
+            40.760951
+          ],
+          [
+            -73.969259,
+            40.760951
+          ],
+          [
+            -73.969133,
+            40.76093
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "497165757#0",
+        "lanes": 2,
+        "speed": 27.78,
+        "speedKmh": 100.0,
+        "name": "East 57th Street",
+        "highway": "highway.primary",
+        "length": 129.13,
+        "fromNode": "cluster_42432834_596775935",
+        "toNode": "42432847"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "505778913#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.969133,
+            40.76093
+          ],
+          [
+            -73.969043,
+            40.76086
+          ],
+          [
+            -73.968713,
+            40.760721
+          ],
+          [
+            -73.968349,
+            40.760567
+          ],
+          [
+            -73.967994,
+            40.760418
+          ],
+          [
+            -73.967689,
+            40.760292
+          ],
+          [
+            -73.967683,
+            40.760289
+          ],
+          [
+            -73.967576,
+            40.760275
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "505778913#0",
+        "lanes": 2,
+        "speed": 27.78,
+        "speedKmh": 100.0,
+        "name": "East 57th Street",
+        "highway": "highway.primary",
+        "length": 131.15,
+        "fromNode": "42432847",
+        "toNode": "42432856"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "511924978#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.974054,
+            40.757209
+          ],
+          [
+            -73.973812,
+            40.757106
+          ],
+          [
+            -73.973797,
+            40.7571
+          ],
+          [
+            -73.972474,
+            40.756541
+          ],
+          [
+            -73.972362,
+            40.756498
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "511924978#0",
+        "lanes": 2,
+        "speed": 27.78,
+        "speedKmh": 100.0,
+        "name": "East 50th Street",
+        "highway": "highway.secondary",
+        "length": 129.21,
+        "fromNode": "cluster_3977886200_42459098_596775870",
+        "toNode": "42446991"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "544549058",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.968063,
+            40.759601
+          ],
+          [
+            -73.967999,
+            40.759575
+          ],
+          [
+            -73.967997,
+            40.759574
+          ],
+          [
+            -73.967916,
+            40.759541
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "544549058",
+        "lanes": 1,
+        "speed": 13.89,
+        "speedKmh": 50.0,
+        "name": "East 56th Street",
+        "highway": "highway.residential",
+        "length": 0.2,
+        "fromNode": "42443615",
+        "toNode": "cluster_10125255946_6680686184"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "544812894#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.969445,
+            40.759369
+          ],
+          [
+            -73.969461,
+            40.759375
+          ],
+          [
+            -73.969964,
+            40.759591
+          ],
+          [
+            -73.970072,
+            40.759637
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "544812894#0",
+        "lanes": 2,
+        "speed": 13.89,
+        "speedKmh": 50.0,
+        "name": "East 55th Street",
+        "highway": "highway.residential",
+        "length": 48.74,
+        "fromNode": "5266098185",
+        "toNode": "4862610026"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "569345468#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.968188,
+            40.76223
+          ],
+          [
+            -73.968065,
+            40.762179
+          ],
+          [
+            -73.967914,
+            40.762116
+          ],
+          [
+            -73.967325,
+            40.76187
+          ],
+          [
+            -73.966714,
+            40.761614
+          ],
+          [
+            -73.966712,
+            40.761613
+          ],
+          [
+            -73.96652,
+            40.761533
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "569345468#0",
+        "lanes": 3,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "East 59th Street",
+        "highway": "highway.secondary",
+        "length": 130.35,
+        "fromNode": "42447009",
+        "toNode": "cluster_4288677093_8133385394"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "569345474#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.968188,
+            40.76223
+          ],
+          [
+            -73.968236,
+            40.762158
+          ],
+          [
+            -73.96842,
+            40.761908
+          ],
+          [
+            -73.968443,
+            40.761876
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "569345474#0",
+        "lanes": 4,
+        "speed": 27.78,
+        "speedKmh": 100.0,
+        "name": "Lexington Avenue",
+        "highway": "highway.secondary",
+        "length": 31.8,
+        "fromNode": "42447009",
+        "toNode": "5475605297"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "569345480#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.967957,
+            40.762556
+          ],
+          [
+            -73.96798,
+            40.762524
+          ],
+          [
+            -73.96814,
+            40.762303
+          ],
+          [
+            -73.968188,
+            40.76223
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "569345480#0",
+        "lanes": 5,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "Lexington Avenue",
+        "highway": "highway.secondary",
+        "length": 28.0,
+        "fromNode": "5475605296",
+        "toNode": "42447009"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "569345486#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.968443,
+            40.761876
+          ],
+          [
+            -73.968466,
+            40.761845
+          ],
+          [
+            -73.968589,
+            40.761678
+          ],
+          [
+            -73.968638,
+            40.76161
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "569345486#0",
+        "lanes": 5,
+        "speed": 27.78,
+        "speedKmh": 100.0,
+        "name": "Lexington Avenue",
+        "highway": "highway.secondary",
+        "length": 21.26,
+        "fromNode": "5475605297",
+        "toNode": "42447007"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "569345499#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.968638,
+            40.76161
+          ],
+          [
+            -73.968512,
+            40.761559
+          ],
+          [
+            -73.968192,
+            40.761427
+          ],
+          [
+            -73.96776,
+            40.76125
+          ],
+          [
+            -73.967172,
+            40.760999
+          ],
+          [
+            -73.967162,
+            40.760995
+          ],
+          [
+            -73.966969,
+            40.76091
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "569345499#0",
+        "lanes": 2,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "East 58th Street",
+        "highway": "highway.residential",
+        "length": 130.08,
+        "fromNode": "42447007",
+        "toNode": "cluster_42449971_8133385390"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "569345502#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.969133,
+            40.76093
+          ],
+          [
+            -73.969193,
+            40.760848
+          ],
+          [
+            -73.969202,
+            40.760836
+          ],
+          [
+            -73.969583,
+            40.760309
+          ],
+          [
+            -73.969592,
+            40.760297
+          ],
+          [
+            -73.969624,
+            40.760253
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "569345502#0",
+        "lanes": 4,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "Lexington Avenue",
+        "highway": "highway.secondary",
+        "length": 69.82,
+        "fromNode": "42432847",
+        "toNode": "42443614"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "569345502#3",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.969624,
+            40.760253
+          ],
+          [
+            -73.969656,
+            40.760209
+          ],
+          [
+            -73.969664,
+            40.760198
+          ],
+          [
+            -73.970021,
+            40.759708
+          ],
+          [
+            -73.970072,
+            40.759637
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "569345502#3",
+        "lanes": 4,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "Lexington Avenue",
+        "highway": "highway.secondary",
+        "length": 63.64,
+        "fromNode": "42443614",
+        "toNode": "4862610026"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "569345508#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.972878,
+            40.757541
+          ],
+          [
+            -73.97292,
+            40.757558
+          ],
+          [
+            -73.97327,
+            40.757707
+          ],
+          [
+            -73.97331,
+            40.757723
+          ],
+          [
+            -73.973349,
+            40.75774
+          ],
+          [
+            -73.973593,
+            40.757843
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "569345508#0",
+        "lanes": 2,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "East 51st Street",
+        "highway": "highway.residential",
+        "length": 41.52,
+        "fromNode": "5475605298",
+        "toNode": "cluster_10125233923_42440456_596775876"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "569345515#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.973593,
+            40.757843
+          ],
+          [
+            -73.973655,
+            40.757797
+          ],
+          [
+            -73.973659,
+            40.757793
+          ],
+          [
+            -73.973998,
+            40.757326
+          ],
+          [
+            -73.974034,
+            40.757277
+          ],
+          [
+            -73.97404,
+            40.757269
+          ],
+          [
+            -73.974054,
+            40.757209
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "569345515#0",
+        "lanes": 4,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "Park Avenue",
+        "highway": "highway.primary",
+        "length": 67.02,
+        "fromNode": "cluster_10125233923_42440456_596775876",
+        "toNode": "cluster_3977886200_42459098_596775870"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "569345515#4",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.974054,
+            40.757209
+          ],
+          [
+            -73.974118,
+            40.757164
+          ],
+          [
+            -73.974457,
+            40.756698
+          ],
+          [
+            -73.974488,
+            40.756655
+          ],
+          [
+            -73.974469,
+            40.756534
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "569345515#4",
+        "lanes": 4,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "Park Avenue",
+        "highway": "highway.primary",
+        "length": 64.45,
+        "fromNode": "cluster_3977886200_42459098_596775870",
+        "toNode": "cluster_10165922715_10165986917_12834723257_42438886_#1more"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "569345515#8",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.974469,
+            40.756534
+          ],
+          [
+            -73.974569,
+            40.756543
+          ],
+          [
+            -73.974933,
+            40.756046
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "569345515#8",
+        "lanes": 4,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "Park Avenue",
+        "highway": "highway.primary",
+        "length": 63.16,
+        "fromNode": "cluster_10165922715_10165986917_12834723257_42438886_#1more",
+        "toNode": "12834723262"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "573228989#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.97131,
+            40.760973
+          ],
+          [
+            -73.971128,
+            40.760953
+          ],
+          [
+            -73.97112,
+            40.760964
+          ],
+          [
+            -73.970765,
+            40.76145
+          ],
+          [
+            -73.970743,
+            40.76148
+          ],
+          [
+            -73.970731,
+            40.761496
+          ],
+          [
+            -73.97076,
+            40.761615
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "573228989#0",
+        "lanes": 3,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "Park Avenue",
+        "highway": "highway.primary",
+        "length": 68.89,
+        "fromNode": "cluster_10125228002_42443613_596775951",
+        "toNode": "cluster_42432834_596775935"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "588157336#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.968638,
+            40.76161
+          ],
+          [
+            -73.968691,
+            40.761539
+          ],
+          [
+            -73.969063,
+            40.761026
+          ],
+          [
+            -73.969073,
+            40.761012
+          ],
+          [
+            -73.969133,
+            40.76093
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "588157336#0",
+        "lanes": 4,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "Lexington Avenue",
+        "highway": "highway.secondary",
+        "length": 66.76,
+        "fromNode": "42447007",
+        "toNode": "42432847"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "658583340#2",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.970243,
+            40.756425
+          ],
+          [
+            -73.970471,
+            40.756522
+          ],
+          [
+            -73.971021,
+            40.756755
+          ],
+          [
+            -73.971209,
+            40.756834
+          ],
+          [
+            -73.971796,
+            40.757083
+          ],
+          [
+            -73.971904,
+            40.757129
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "658583340#2",
+        "lanes": 1,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "East 51st Street",
+        "highway": "highway.residential",
+        "length": 127.98,
+        "fromNode": "cluster_3977886186_42440463",
+        "toNode": "42440459"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "671208356#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.970327,
+            40.762318
+          ],
+          [
+            -73.970065,
+            40.762207
+          ],
+          [
+            -73.970053,
+            40.762202
+          ],
+          [
+            -73.969038,
+            40.761775
+          ],
+          [
+            -73.968763,
+            40.761659
+          ],
+          [
+            -73.968638,
+            40.76161
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "671208356#0",
+        "lanes": 3,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "East 58th Street",
+        "highway": "highway.residential",
+        "length": 125.65,
+        "fromNode": "cluster_10125156114_42456598_596775941",
+        "toNode": "42447007"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "671208357#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.970327,
+            40.762318
+          ],
+          [
+            -73.970404,
+            40.76226
+          ],
+          [
+            -73.970747,
+            40.761791
+          ],
+          [
+            -73.970774,
+            40.761754
+          ],
+          [
+            -73.970788,
+            40.761735
+          ],
+          [
+            -73.97076,
+            40.761615
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "671208357#0",
+        "lanes": 3,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "Park Avenue",
+        "highway": "highway.primary",
+        "length": 66.68,
+        "fromNode": "cluster_10125156114_42456598_596775941",
+        "toNode": "cluster_42432834_596775935"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "710571387#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.968416,
+            40.758929
+          ],
+          [
+            -73.968642,
+            40.759025
+          ],
+          [
+            -73.96943,
+            40.759362
+          ],
+          [
+            -73.969445,
+            40.759369
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "710571387#0",
+        "lanes": 1,
+        "speed": 13.89,
+        "speedKmh": 50.0,
+        "name": "East 55th Street",
+        "highway": "highway.residential",
+        "length": 76.31,
+        "fromNode": "cluster_11336621689_42448379",
+        "toNode": "5266098185"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "710571388#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.968416,
+            40.758929
+          ],
+          [
+            -73.968371,
+            40.759177
+          ],
+          [
+            -73.968332,
+            40.759241
+          ],
+          [
+            -73.968107,
+            40.75954
+          ],
+          [
+            -73.968095,
+            40.759557
+          ],
+          [
+            -73.968063,
+            40.759601
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "710571388#0",
+        "lanes": 2,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "3rd Avenue",
+        "highway": "highway.primary",
+        "length": 48.21,
+        "fromNode": "cluster_11336621689_42448379",
+        "toNode": "42443615"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "710571389#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.968416,
+            40.758929
+          ],
+          [
+            -73.968295,
+            40.759145
+          ],
+          [
+            -73.968242,
+            40.759195
+          ],
+          [
+            -73.968232,
+            40.759208
+          ],
+          [
+            -73.967998,
+            40.759494
+          ],
+          [
+            -73.967984,
+            40.75951
+          ],
+          [
+            -73.967916,
+            40.759541
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "710571389#0",
+        "lanes": 2,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "3rd Avenue",
+        "highway": "highway.primary",
+        "length": 48.37,
+        "fromNode": "cluster_11336621689_42448379",
+        "toNode": "cluster_10125255946_6680686184"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "710571390#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.967454,
+            40.760224
+          ],
+          [
+            -73.967408,
+            40.760171
+          ],
+          [
+            -73.967405,
+            40.76017
+          ],
+          [
+            -73.967396,
+            40.760199
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "710571390#0",
+        "lanes": 2,
+        "speed": 27.78,
+        "speedKmh": 100.0,
+        "name": "East 57th Street",
+        "highway": "highway.primary",
+        "length": 0.2,
+        "fromNode": "6680686985",
+        "toNode": "10125255944"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "710571391#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.967454,
+            40.760224
+          ],
+          [
+            -73.967396,
+            40.760307
+          ],
+          [
+            -73.967385,
+            40.760323
+          ],
+          [
+            -73.967223,
+            40.760545
+          ],
+          [
+            -73.967103,
+            40.760713
+          ],
+          [
+            -73.967101,
+            40.760719
+          ],
+          [
+            -73.966969,
+            40.76091
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "710571391#0",
+        "lanes": 2,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "3rd Avenue",
+        "highway": "highway.primary",
+        "length": 52.15,
+        "fromNode": "6680686985",
+        "toNode": "cluster_42449971_8133385390"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "710571393#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.967916,
+            40.759541
+          ],
+          [
+            -73.967917,
+            40.759596
+          ],
+          [
+            -73.967905,
+            40.759611
+          ],
+          [
+            -73.967527,
+            40.760125
+          ],
+          [
+            -73.967514,
+            40.760142
+          ],
+          [
+            -73.967454,
+            40.760224
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "710571393#0",
+        "lanes": 2,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "3rd Avenue",
+        "highway": "highway.primary",
+        "length": 69.44,
+        "fromNode": "cluster_10125255946_6680686184",
+        "toNode": "6680686985"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "743358443#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.971443,
+            40.757757
+          ],
+          [
+            -73.971335,
+            40.757712
+          ],
+          [
+            -73.970005,
+            40.757158
+          ],
+          [
+            -73.969778,
+            40.75707
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "743358443#0",
+        "lanes": 1,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "East 52nd Street",
+        "highway": "highway.residential",
+        "length": 128.01,
+        "fromNode": "42446994",
+        "toNode": "cluster_10125255960_42449961"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "743358444#1",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.973133,
+            40.758475
+          ],
+          [
+            -73.972889,
+            40.758372
+          ],
+          [
+            -73.972857,
+            40.758358
+          ],
+          [
+            -73.972179,
+            40.75807
+          ],
+          [
+            -73.971565,
+            40.757809
+          ],
+          [
+            -73.971551,
+            40.757803
+          ],
+          [
+            -73.971443,
+            40.757757
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "743358444#1",
+        "lanes": 1,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "East 52nd Street",
+        "highway": "highway.residential",
+        "length": 129.42,
+        "fromNode": "cluster_10125233917_42452875_596775914",
+        "toNode": "42446994"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "873372086#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.967458,
+            40.760431
+          ],
+          [
+            -73.967433,
+            40.760461
+          ],
+          [
+            -73.967201,
+            40.760754
+          ],
+          [
+            -73.966969,
+            40.76091
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "873372086#0",
+        "lanes": 3,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "3rd Avenue",
+        "highway": "highway.primary",
+        "length": 38.0,
+        "fromNode": "8133385388",
+        "toNode": "cluster_42449971_8133385390"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "962813251#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.965987,
+            40.762385
+          ],
+          [
+            -73.965963,
+            40.762416
+          ],
+          [
+            -73.965929,
+            40.76246
+          ],
+          [
+            -73.965842,
+            40.762575
+          ],
+          [
+            -73.965749,
+            40.762698
+          ],
+          [
+            -73.965711,
+            40.762749
+          ],
+          [
+            -73.965699,
+            40.762764
+          ],
+          [
+            -73.965608,
+            40.762808
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "962813251#0",
+        "lanes": 3,
+        "speed": 27.78,
+        "speedKmh": 100.0,
+        "name": "3rd Avenue",
+        "highway": "highway.primary",
+        "length": 44.53,
+        "fromNode": "8906253690",
+        "toNode": "cluster_10166509657_10166509658_42436519"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "963856064#0",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.967025,
+            40.762578
+          ],
+          [
+            -73.967066,
+            40.762595
+          ],
+          [
+            -73.967552,
+            40.762803
+          ],
+          [
+            -73.967612,
+            40.762828
+          ],
+          [
+            -73.967719,
+            40.762874
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "963856064#0",
+        "lanes": 3,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "East 60th Street",
+        "highway": "highway.secondary",
+        "length": 52.86,
+        "fromNode": "8915549080",
+        "toNode": "42447020"
+      }
+    }
+  ]
+}
