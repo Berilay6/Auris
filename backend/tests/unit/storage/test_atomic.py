@@ -41,7 +41,7 @@ def test_write_bytes(tmp_path: Path) -> None:
 def test_write_text_keeps_utf8_and_newlines(tmp_path: Path) -> None:
     path = tmp_path / "note.txt"
     atomic_write_text(path, "Kadıköy\nşehir\n")
-    assert path.read_bytes() == "Kadıköy\nşehir\n".encode("utf-8")
+    assert path.read_bytes() == "Kadıköy\nşehir\n".encode()
 
 
 # JSON is indented, keeps non-ASCII letters and ends with a newline.

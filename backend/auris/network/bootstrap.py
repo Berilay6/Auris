@@ -14,7 +14,7 @@ import os
 import re
 import xml.etree.ElementTree as ET
 from collections import Counter, defaultdict
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
@@ -271,7 +271,7 @@ def build_base_network(
         "pilot_region_config_sha256": sha256_of(pilot_config_path) if pilot_config_path and pilot_config_path.is_file() else None,
         "netconvert_version": netconvert_version,
         "topology": topology,
-        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "generated_at": datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ"),
     }
 
     meta_path = out_path.with_name(out_path.name + ".meta.json")

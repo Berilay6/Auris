@@ -1,3 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "auris"
+version = "0.1.0"
+description = "Akıllı Trafik Akış Simülasyonu ve Yol Tasarım Karar Destek Sistemi (Auris) - backend"
+requires-python = ">=3.11"
+
+[tool.setuptools.packages.find]
+include = ["auris*"]
+
 [tool.pytest.ini_options]
-pythonpath = ["."]
 testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+# Mevcut kod tabanında uzun satırlar var (ekip kodu); satır uzunluğu biçimlendirici
+# ile ayrıca ele alınacak. Hatalara yol açan kurallar açık kalıyor.
+ignore = ["E501"]

@@ -7,7 +7,7 @@ The real simulation task (duarouter + sumo) will be added here in Sprint 3.
 from __future__ import annotations
 
 import socket
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 
 from auris.simulation.celery_app import app
 
@@ -23,5 +23,5 @@ def ping() -> dict[str, str]:
     return {
         "status": "pong",
         "worker": socket.gethostname(),
-        "at": datetime.now(timezone.utc).isoformat(),
+        "at": datetime.now(UTC).isoformat(),
     }

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="12b5cf4d-2b7c-4003-a82d-013a10e38654" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/backend/auris/api/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/auris/api/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/auris/api/routes/health.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/auris/api/routes/health.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/auris/api/routes/jobs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/auris/api/routes/network.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/auris/api/routes/results.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/auris/api/routes/scenarios.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/auris/api/routes/simulate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/auris/core/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/auris/core/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/auris/core/logging.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/auris/core/logging.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tests/conftest.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3MTNvvo73ewlu7hXBU7SQg5jsi0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "sprint-1",
+    "last_opened_file_path": "C:/Users/duygu/OneDrive/Desktop/Auris",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50341a9f1f9c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.26222.68" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="12b5cf4d-2b7c-4003-a82d-013a10e38654" name="Changes" comment="" />
+      <created>1795370831406</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1795370831406</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/sprint-1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -28,7 +28,7 @@ import os
 import sys
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from importlib.metadata import version as pkg_version
 from pathlib import Path
 from typing import Any
@@ -256,7 +256,7 @@ def write_outputs(G, cfg: RegionConfig, config_path: Path, out_path: Path) -> di
         "osm_snapshot_date": cfg.snapshot_date,
         "config_sha256": sha256_of(config_path),
         "osmnx_version": pkg_version("osmnx"),
-        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "generated_at": datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "attribution": "© OpenStreetMap contributors, ODbL 1.0 (https://www.openstreetmap.org/copyright)",
     }
     meta_path = out_path.with_name(out_path.name + ".meta.json")
