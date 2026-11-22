@@ -18,6 +18,8 @@ For example, API code that writes job files must follow the storage note.
 | Code path | Note |
 |---|---|
 | `backend/auris/storage/` and any file under the data root | `notes/backend/storage.md` |
+| `frontend/src/api/` and any backend route the frontend calls | `notes/frontend/api.md` |
+| `frontend/src/styles/` | `notes/frontend/styles.md` |
 
 If no note exists for a path, no rules have been recorded for it yet.
 
@@ -33,3 +35,5 @@ Each note has two sections:
 - **Rules:** short, precise rules in English. Say what to do and what never to do.
 - **Decision log:** a table with the columns Date, Task, Decision, Who.
   Rows are never deleted. A removed rule gets a new row that starts with "Removed:".
+  Rows are never edited or deleted, even if they are not committed yet. To fix a
+  row, add a new row that starts with "Correction:".

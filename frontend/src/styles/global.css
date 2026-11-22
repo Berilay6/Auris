@@ -10,6 +10,12 @@
   --color-border: #d6dbe3;
   --color-panel-bg: #f7f8fa;
   --color-card-bg: #ffffff;
+  --color-success: #166534;
+  --color-success-bg: #dcfce7;
+  --color-success-border: #86efac;
+  --color-danger: #991b1b;
+  --color-danger-bg: #fee2e2;
+  --color-danger-border: #fca5a5;
   --font-sans: 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
 
@@ -259,4 +265,33 @@ body {
 .btn-primary:disabled {
   opacity: 0.6;
   cursor: not-allowed;
+}
+
+/* ---------- API status badge ---------- */
+.api-status {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 1000; /* Above the Leaflet panes, like .map-overlay-label */
+  padding: 6px 10px;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-muted);
+  pointer-events: none;
+}
+
+.api-status--ok {
+  background: var(--color-success-bg);
+  border-color: var(--color-success-border);
+  color: var(--color-success);
+}
+
+.api-status--down {
+  background: var(--color-danger-bg);
+  border-color: var(--color-danger-border);
+  color: var(--color-danger);
 }

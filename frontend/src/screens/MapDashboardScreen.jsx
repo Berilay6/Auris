@@ -1,6 +1,7 @@
 import { useCallback, useMemo, useRef, useState } from 'react';
 import midtownEastOsmRaw from '../../../auris-data/base_network/midtown_east.osm?raw';
 import NetworkMap from '../components/map/NetworkMap.jsx';
+import ApiStatusBadge from '../components/common/ApiStatusBadge.jsx';
 import KpiCards from '../components/panels/KpiCards.jsx';
 import TimeRangePicker from '../components/panels/TimeRangePicker.jsx';
 import { PILOT_REGION } from '../constants/mapConfig.js';
@@ -74,6 +75,7 @@ export default function MapDashboardScreen() {
         >
           {/* <CongestionLayer />, <AlertMarker /> buraya eklenecek */}
         </NetworkMap>
+        <ApiStatusBadge />
       </main>
 
       {/* Sağ %20 – Karar Destek Paneli */}
