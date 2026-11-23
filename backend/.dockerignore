@@ -1,0 +1,34 @@
+# Files kept out of the Docker build context (./backend)
+# Shared by Dockerfile.api and Dockerfile.worker.
+
+# Local virtual environments (never copy into container)
+.venv
+venv
+env
+
+# Python bytecode & caches
+__pycache__
+*.py[cod]
+*$py.class
+.pytest_cache
+.ruff_cache
+.mypy_cache
+.coverage
+htmlcov
+
+# Development, tests & docs
+tests
+pyproject.toml
+requirements/bootstrap.txt
+*.md
+*.log
+
+# Git & environment secrets
+.git
+.gitignore
+.env
+.env.*
+
+# Docker build files themselves
+Dockerfile*
+.dockerignore

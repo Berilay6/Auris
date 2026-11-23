@@ -1,0 +1,56 @@
+# syntax=docker/dockerfile:1
+# ============================================================================
+# Build context: ./backend  (docker-compose.yml → auris-backend.build)
+#
+# The "base" stage must be IDENTICAL to Dockerfile.worker (SCRUM-14): Python 3.11
+# slim + SUMO + non-root user. If you change one, update both so Docker BuildKit
+# shares the cached base + SUMO layers across both backend and worker images.
+# ============================================================================
+
+# ---------------------------------------------------------------------------
+# Shared base: Python + SUMO + non-root user
+# ---------------------------------------------------------------------------
+FROM python:3.11-slim-bookworm AS base
+
+ENV PYTHONUNBUFFERED=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
+    PIP_NO_CACHE_DIR=1 \
+    PIP_DISABLE_PIP_VERSION_CHECK=1 \
+    SUMO_HOME=/usr/share/sumo \
+    PYTHONPATH=/app
+
+# SUMO: sumo, duarouter, netconvert (sumo package) + randomTrips.py etc. (sumo-tools)
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends sumo sumo-tools \
+    && rm -rf /var/lib/apt/lists/*
+
+# Compose overrides the user with AURIS_UID/AURIS_GID
+ARG AURIS_UID=1000
+ARG AURIS_GID=1000
+RUN groupadd --gid "${AURIS_GID}" auris \
+    && useradd --uid "${AURIS_UID}" --gid auris --no-create-home \
+       --home-dir /nonexistent --shell /usr/sbin/nologin auris
+
+WORKDIR /app
+
+# ---------------------------------------------------------------------------
+# API image
+# ---------------------------------------------------------------------------
+FROM base AS api
+
+# Dependencies first: when only the code changes, this layer comes from cache.
+COPY requirements/base.txt requirements/api.txt ./requirements/
+RUN pip install -r requirements/api.txt
+
+COPY auris ./auris
+
+USER auris
+
+ENV UVICORN_HOST=0.0.0.0 \
+    UVICORN_PORT=8000
+
+EXPOSE 8000
+
+# Uvicorn reads UVICORN_HOST / UVICORN_PORT from the environment (set above
+# and configurable in docker-compose.yml).
+CMD ["uvicorn", "auris.api.main:app"]

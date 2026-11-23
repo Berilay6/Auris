@@ -6,4 +6,4 @@ httpx>=0.27,<1
 ruff>=0.5,<1
 # Testler (tests/unit/test_geojson_exporter.py) için SUMO ağ okuyucusu ve koordinat dönüşümü
 sumolib>=1.28,<2
-pyproj>=3.8,<4
+pyproj>=3.7,<4
