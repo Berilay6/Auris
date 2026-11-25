@@ -4,6 +4,5 @@ uvicorn[standard]>=0.29,<1
 pytest>=8,<9
 httpx>=0.27,<1
 ruff>=0.5,<1
-# Testler (tests/unit/test_geojson_exporter.py) için SUMO ağ okuyucusu ve koordinat dönüşümü
-sumolib>=1.28,<2
+# SUMO ağ koordinat dönüşümü (UTM -> WGS84) için pyproj; sumolib base.txt'ten gelir
 pyproj>=3.7,<4

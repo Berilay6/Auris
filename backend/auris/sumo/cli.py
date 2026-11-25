@@ -1,9 +1,10 @@
 """Thin subprocess wrappers for Eclipse SUMO CLI binaries (netconvert, sumo, duarouter, sumo-gui).
 
-Follows HLD MK1 (SUMO as a black-box CLI tool). Binary discovery works across:
-  1. The active Python environment's Scripts/bin folder (e.g. pip-installed `eclipse-sumo`)
-  2. `$SUMO_HOME/bin`
-  3. System `PATH` (e.g. Docker image `/usr/bin/netconvert` or system SUMO installer)
+Follows HLD MK1 (SUMO as a black-box CLI tool). Binary and SUMO_HOME discovery works across:
+  1. `$SUMO_HOME` environment variable (e.g. Docker container)
+  2. Native installation bundled inside pip-installed `eclipse-sumo` (`sumo.SUMO_HOME`)
+  3. Active Python environment's Scripts/bin folder
+  4. System `PATH`
 """
 
 from __future__ import annotations
@@ -16,7 +17,7 @@ from pathlib import Path
 
 
 class SumoNotFoundError(FileNotFoundError):
-    """Raised when a required SUMO executable cannot be located."""
+    """Raised when a required SUMO executable or SUMO_HOME cannot be located."""
 
 
 class SumoCommandError(RuntimeError):
@@ -29,6 +30,32 @@ class SumoCommandError(RuntimeError):
         super().__init__(
             f"SUMO command failed (exit={returncode}): {' '.join(cmd)}\n{stderr.strip()}"
         )
+
+
+def find_sumo_home() -> Path:
+    """Resolve SUMO_HOME: environment variable if set, otherwise `import sumo; sumo.SUMO_HOME`."""
+    env_home = os.environ.get("SUMO_HOME")
+    if env_home:
+        path = Path(env_home).resolve()
+        if path.is_dir():
+            return path
+        raise SumoNotFoundError(f"SUMO_HOME points to a missing directory: {path}")
+
+    try:
+        import sumo  # type: ignore[import-not-found]
+
+        pkg_home = getattr(sumo, "SUMO_HOME", None)
+        if pkg_home:
+            path = Path(pkg_home).resolve()
+            if path.is_dir():
+                return path
+    except ImportError:
+        pass
+
+    raise SumoNotFoundError(
+        "SUMO_HOME is not set and `eclipse-sumo` package is not installed. "
+        "Install `eclipse-sumo==1.28.0` or set SUMO_HOME."
+    )
 
 
 def find_sumo_binary(name: str) -> Path:

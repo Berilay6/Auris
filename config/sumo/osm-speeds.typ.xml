@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  AURIS — NYC statutory speed limit overrides for untagged OSM ways (SCRUM-6, A1).
+
+  Passed to netconvert AFTER `$SUMO_HOME/data/typemap/osmNetconvert.typ.xml` so only
+  the road types listed below are overridden; ways that carry an explicit OSM `maxspeed`
+  tag keep their tagged speed.
+
+  All attributes (`numLanes`, `priority`, `oneway`, `disallow`) are copied verbatim
+  from SUMO 1.28.0 `osmNetconvert.typ.xml`, changing only `speed` to `11.18` m/s
+  (25 mph = 40.25 km/h, NYC Vision Zero city-wide statutory default). Including
+  `residential` and `unclassified` alongside `primary`, `primary_link`, and `secondary`
+  also prevents untagged 1-lane side streets from keeping SUMO's 13.89 m/s (50 km/h)
+  default and looking faster than arterial avenues to `duarouter`.
+-->
+<types xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/types_file.xsd">
+    <type id="highway.primary"        numLanes="2" speed="11.18" priority="12" oneway="false" disallow="rail rail_urban rail_electric rail_fast tram drone aircraft scooter container wheelchair subway cable_car ship"/>
+    <type id="highway.secondary"      numLanes="1" speed="11.18" priority="11" oneway="false" disallow="rail rail_urban rail_electric rail_fast tram drone aircraft scooter container wheelchair subway cable_car ship"/>
+    <type id="highway.primary_link"   numLanes="1" speed="11.18" priority="7"  oneway="false" disallow="rail rail_urban rail_electric rail_fast tram drone aircraft scooter container wheelchair subway cable_car ship"/>
+    <type id="highway.unclassified"   numLanes="1" speed="11.18" priority="4"  oneway="false" disallow="rail rail_urban rail_electric rail_fast tram drone aircraft scooter container wheelchair subway cable_car ship"/>
+    <type id="highway.residential"    numLanes="1" speed="11.18" priority="3"  oneway="false" disallow="rail rail_urban rail_electric rail_fast tram drone aircraft scooter container wheelchair subway cable_car ship"/>
+</types>

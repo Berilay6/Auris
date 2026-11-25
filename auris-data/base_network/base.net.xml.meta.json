@@ -1,24 +1,26 @@
 {
   "file": "base.net.xml",
-  "sha256": "c77d902734946787302af087f414ee871f47eb1a757bfff470c8ade0cfda8b15",
-  "size_bytes": 428733,
+  "sha256": "3b49d1128de67eab08bb9ca61330df1a1bf7702e7a25d7310035cc3d60a21818",
+  "size_bytes": 429526,
   "source_osm_file": "midtown_east.osm",
   "source_osm_sha256": "aa4f7eaf25d62f45ae327689e12ff3a11cb9ae1d11d1d45c350c04bac9e0b080",
   "netccfg_file": "netconvert.netccfg",
-  "netccfg_sha256": "1dd1d6bbeaa26e39525f5027a3e5b5100dcbb500167f55b24db5c58637143b0b",
-  "pilot_region_config_sha256": "bf62994e2d455166b201ae324a5bcc4213a1547cc042f0a9ef04070259c8d477",
+  "netccfg_sha256": "97069142b4e5f013cfcae6728f52b9e3bb28ccd1d22209181086db039021c6f3",
+  "pilot_region_config_sha256": "1bfab63474ddbed81fef5cead7bf06da94b1d54a2a30c310d09c6caeae9780a4",
+  "typemap_file": "osm-speeds.typ.xml",
+  "typemap_sha256": "27538655ab6b3f4f17d18f2765b14a5964adb649bfe2186ca9022014f1528f31",
   "netconvert_version": "Eclipse SUMO netconvert 1.28.0",
   "topology": {
-    "total_edges": 99,
-    "internal_edges": 179,
-    "total_lanes": 281,
-    "total_length_m": 6999.05,
-    "total_length_km": 6.999,
-    "total_junctions": 56,
+    "total_edges": 101,
+    "internal_edges": 182,
+    "total_lanes": 284,
+    "total_length_m": 6973.5,
+    "total_length_km": 6.973,
+    "total_junctions": 57,
     "internal_junctions": 15,
     "traffic_light_junctions": 41,
     "tl_logic_count": 39,
-    "priority_junctions": 12,
+    "priority_junctions": 13,
     "dead_end_junctions": 3,
     "dead_end_ids": [
       "12673751272",
@@ -27,24 +29,26 @@
     ],
     "weakly_connected_components": 1,
     "strongly_connected_component_sizes": [
-      52,
+      53,
       1,
       1,
       1,
       1
     ],
-    "main_scc_ratio": 0.929,
+    "main_scc_ratio": 0.93,
     "proj_parameter": "+proj=utm +zone=18 +ellps=WGS84 +datum=WGS84 +units=m +no_defs",
     "net_offset": "-586527.44,-4512057.69",
     "conv_boundary": "0.00,0.00,778.31,1036.39",
     "orig_boundary": "-73.975941,40.754897,-73.963562,40.764775",
     "highway_type_counts": {
-      "highway.primary": 54,
+      "highway.primary": 55,
+      "highway.primary_link": 1,
       "highway.residential": 15,
       "highway.secondary": 30
     },
     "street_edge_counts": {
-      "3rd Avenue": 19,
+      "(unnamed)": 1,
+      "3rd Avenue": 20,
       "East 49th Street": 2,
       "East 50th Street": 2,
       "East 51st Street": 3,
@@ -66,7 +70,7 @@
         "southbound": 16
       },
       "3rd Avenue": {
-        "northbound": 19
+        "northbound": 20
       },
       "Park Avenue": {
         "northbound": 12,
@@ -74,19 +78,14 @@
       }
     },
     "warnings": [
-      "Warning: Not joining junctions 42432856,6680686985 (parallel incoming 465000799#2,710571393#2).",
+      "Warning: Reducing junction cluster 42432856,6680686985,6680686987,8133385387,8133385388,9177540204 (parallel incoming 465000799#2,710571393#2).",
+      "Warning: Not joining junctions 42432856,6680686985,6680686987,8133385387,8133385388,9177540204 (after reduction).",
       "Warning: Reducing junction cluster 10125255946,42443615,6680686184 (parallel incoming 710571388#2,710571389#2).",
       "Warning: The traffic light '12673751272' does not control any links; it will not be build.",
       "Warning: Could not build program '0' for traffic light '12673751272'",
       "Warning: The traffic light '12834723262' does not control any links; it will not be build.",
-      "Warning: Could not build program '0' for traffic light '12834723262'",
-      "Warning: Minor green from edge '-587038082#1' to edge '569345502#0' exceeds 19.44m/s. Maybe a left-turn lane is missing.",
-      "Warning: Minor green from edge '-497165757#3' to edge '497165753#0' exceeds 19.44m/s. Maybe a left-turn lane is missing.",
-      "Warning: Minor green from edge '388696206#2' to edge '46240204#0' exceeds 19.44m/s. Maybe a left-turn lane is missing.",
-      "Warning: Minor green from edge '505778913#0' to edge '375165664#0' exceeds 19.44m/s. Maybe a left-turn lane is missing.",
-      "Warning: Minor green from edge '375165665' to edge '710571391#0' exceeds 19.44m/s. Maybe a left-turn lane is missing.",
-      "Warning: 12 total messages of type: Minor green from edge '%' to edge '%' exceeds %m/s. Maybe a left-turn lane is missing."
+      "Warning: Could not build program '0' for traffic light '12834723262'"
     ]
   },
-  "generated_at": "2026-11-19T12:58:46Z"
+  "generated_at": "2026-11-25T07:13:03Z"
 }

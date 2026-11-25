@@ -27,7 +27,7 @@ def test_feature_collection_structure(pilot_geojson: dict) -> None:
     assert pilot_geojson["type"] == "FeatureCollection"
     features = pilot_geojson["features"]
     assert isinstance(features, list)
-    assert len(features) == 99  # All non-internal edges of base.net.xml
+    assert len(features) == 101  # All non-internal edges of base.net.xml
 
 
 def test_required_properties_and_types(pilot_geojson: dict) -> None:
@@ -37,7 +37,7 @@ def test_required_properties_and_types(pilot_geojson: dict) -> None:
 
         assert isinstance(props["edgeId"], str) and props["edgeId"]
         assert isinstance(props["lanes"], int) and props["lanes"] >= 1
-        assert isinstance(props["speed"], float) and props["speed"] > 0
+        assert isinstance(props["speed"], float) and 0 < props["speed"] < 20.0
 
 
 def test_internal_edges_are_excluded(pilot_geojson: dict) -> None:
@@ -70,7 +70,7 @@ def test_export_writes_deterministic_json(tmp_path: Path) -> None:
 
     parsed = json.loads(raw1)
     assert parsed["type"] == "FeatureCollection"
-    assert len(parsed["features"]) == 99
+    assert len(parsed["features"]) == 101
 
 
 def test_missing_input_raises_file_not_found(tmp_path: Path) -> None:

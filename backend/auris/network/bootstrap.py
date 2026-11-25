@@ -1,34 +1,40 @@
 """Immutable base network builder (SCRUM-6, HLD MK2).
 
 Generates `auris-data/base_network/base.net.xml` from `midtown_east.osm` using
-`config/sumo/netconvert.netccfg`, normalizes the generated timestamp for byte-level
+`config/sumo/netconvert.netccfg`, `config/pilot_region.yaml`, and optional custom
+SUMO typemap overrides, normalizes the output to LF for cross-platform byte-level
 reproducibility, inspects the resulting SUMO topology, and writes a sibling
-`base.net.xml.meta.json` manifest with SHA-256 checksums and quality metrics.
+`base.net.xml.meta.json` manifest atomically via `auris.storage.atomic`.
 """
 
 from __future__ import annotations
 
 import hashlib
 import json
-import os
 import re
+import tempfile
 import xml.etree.ElementTree as ET
 from collections import Counter, defaultdict
 from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
-from auris.sumo.cli import find_sumo_binary, get_binary_version, run_netconvert
+import yaml
+
+from auris.storage.atomic import atomic_write_json, atomic_write_text
+from auris.sumo.cli import find_sumo_binary, find_sumo_home, get_binary_version, run_netconvert
 
 # Matches SUMO's runtime timestamp comment:
 #   <!-- generated on 2026-11-19 15:40:00 by Eclipse SUMO netconvert 1.28.0
 _GENERATED_ON_RE = re.compile(r"(<!-- generated on )([^b]+?)( by Eclipse SUMO)")
-# Matches absolute file paths that SUMO embeds inside the header comment
+# Matches machine-specific file paths that SUMO embeds inside the header comment
 _OSM_ATTR_RE = re.compile(r'(<osm-files value=")([^"]+)("/>)')
 _OUT_ATTR_RE = re.compile(r'(<output-file value=")([^"]+)("/>)')
+_TYPE_ATTR_RE = re.compile(r'(<type-files value=")([^"]+)("/>)')
 
 
 def sha256_of(path: Path) -> str:
+    """Raw byte-level SHA-256 (used for binary-preserved `.osm` and `base.net.xml` files)."""
     h = hashlib.sha256()
     with path.open("rb") as f:
         for chunk in iter(lambda: f.read(1 << 20), b""):
@@ -36,13 +42,63 @@ def sha256_of(path: Path) -> str:
     return h.hexdigest()
 
 
-def normalize_net_xml_header(path: Path, *, snapshot_date: str, osm_name: str, out_name: str) -> None:
-    """Replace non-deterministic timestamp and machine-specific paths in the header comment."""
-    text = path.read_text(encoding="utf-8")
-    text = _GENERATED_ON_RE.sub(rf"\g<1>{snapshot_date}\g<3>", text, count=1)
-    text = _OSM_ATTR_RE.sub(rf"\g<1>{osm_name}\g<3>", text, count=1)
-    text = _OUT_ATTR_RE.sub(rf"\g<1>{out_name}\g<3>", text, count=1)
-    path.write_text(text, encoding="utf-8")
+def sha256_of_text(path: Path) -> str:
+    """SHA-256 of a text file with CRLF normalized to LF (same on every OS)."""
+    return hashlib.sha256(path.read_bytes().replace(b"\r\n", b"\n")).hexdigest()
+
+
+def load_netconvert_boundary(pilot_config_path: Path) -> str:
+    """Read `region.boundary.polygon` (unbuffered) from `pilot_region.yaml` as 'lon,lat,lon,lat,...'.
+
+    Note: `buffer_m` in `pilot_region.yaml` is only for OSMnx download (`bootstrap_network.py`);
+    `netconvert` clips against the exact unbuffered polygon.
+    """
+    if not pilot_config_path.is_file():
+        raise FileNotFoundError(f"Pilot region config not found: {pilot_config_path}")
+
+    raw = yaml.safe_load(pilot_config_path.read_text(encoding="utf-8")) or {}
+    boundary = (raw.get("region") or {}).get("boundary") or {}
+    btype = boundary.get("type")
+
+    if btype == "polygon":
+        pts = boundary.get("polygon")
+        if not isinstance(pts, list) or len(pts) < 4:
+            raise ValueError(f"{pilot_config_path}: region.boundary.polygon must contain at least 4 [lon, lat] points")
+        pairs: list[str] = []
+        for idx, pt in enumerate(pts):
+            if not (isinstance(pt, list) and len(pt) == 2):
+                raise ValueError(f"{pilot_config_path}: region.boundary.polygon[{idx}] must be [lon, lat]")
+            lon, lat = float(pt[0]), float(pt[1])
+            pairs.append(f"{lon:.6f},{lat:.6f}")
+        return ",".join(pairs)
+
+    if btype == "bbox":
+        bbox = boundary.get("bbox") or {}
+        west = float(bbox["west"])
+        south = float(bbox["south"])
+        east = float(bbox["east"])
+        north = float(bbox["north"])
+        return f"{west:.6f},{south:.6f},{east:.6f},{north:.6f}"
+
+    raise ValueError(f"{pilot_config_path}: unsupported region.boundary.type={btype!r}")
+
+
+def normalize_net_xml_header(
+    text: str,
+    *,
+    snapshot_date: str,
+    osm_name: str,
+    out_name: str,
+    type_names: str | None = None,
+) -> str:
+    """Normalize non-deterministic timestamp, machine-specific paths, and line endings (LF)."""
+    normalized = text.replace("\r\n", "\n").replace("\r", "\n")
+    normalized = _GENERATED_ON_RE.sub(rf"\g<1>{snapshot_date}\g<3>", normalized, count=1)
+    normalized = _OSM_ATTR_RE.sub(rf"\g<1>{osm_name}\g<3>", normalized, count=1)
+    normalized = _OUT_ATTR_RE.sub(rf"\g<1>{out_name}\g<3>", normalized, count=1)
+    if type_names is not None:
+        normalized = _TYPE_ATTR_RE.sub(rf"\g<1>{type_names}\g<3>", normalized, count=1)
+    return normalized
 
 
 def _tarjan_scc_sizes(nodes: set[str], adj: dict[str, set[str]]) -> list[int]:
@@ -54,7 +110,6 @@ def _tarjan_scc_sizes(nodes: set[str], adj: dict[str, set[str]]) -> list[int]:
     lowlink: dict[str, int] = {}
     sizes: list[int] = []
 
-    # Iterative Tarjan to avoid recursion limit issues on larger networks
     for start in sorted(nodes):
         if start in indices:
             continue
@@ -226,35 +281,57 @@ def build_base_network(
     osm_path: Path,
     netccfg_path: Path,
     out_path: Path,
-    pilot_config_path: Path | None = None,
+    pilot_config_path: Path,
+    typemap_path: Path | None = None,
     force: bool = False,
 ) -> dict[str, Any]:
-    """Run netconvert atomically, verify topology, and write `base.net.xml` + `.meta.json`."""
+    """Run netconvert, normalize to LF, verify topology, and write `base.net.xml` + `.meta.json` atomically."""
     if not osm_path.is_file():
         raise FileNotFoundError(f"Source OSM file not found: {osm_path}")
     if not netccfg_path.is_file():
         raise FileNotFoundError(f"netconvert config not found: {netccfg_path}")
+    if not pilot_config_path.is_file():
+        raise FileNotFoundError(f"Pilot region config not found: {pilot_config_path}")
+    if typemap_path is not None and not typemap_path.is_file():
+        raise FileNotFoundError(f"Speed typemap config not found: {typemap_path}")
     if out_path.exists() and not force:
         raise FileExistsError(f"{out_path} already exists. Pass --force to overwrite.")
+
+    boundary_arg = load_netconvert_boundary(pilot_config_path)
+    extra_args = ["--keep-edges.in-geo-boundary", boundary_arg]
+
+    type_names: str | None = None
+    if typemap_path is not None:
+        sumo_home = find_sumo_home()
+        base_osm_typemap = sumo_home / "data" / "typemap" / "osmNetconvert.typ.xml"
+        if not base_osm_typemap.is_file():
+            raise FileNotFoundError(f"SUMO default OSM typemap not found: {base_osm_typemap}")
+        extra_args += ["--type-files", f"{base_osm_typemap},{typemap_path}"]
+        type_names = f"{base_osm_typemap.name},{typemap_path.name}"
 
     netconvert_bin = find_sumo_binary("netconvert")
     netconvert_version = get_binary_version(netconvert_bin)
     snapshot_date = _read_snapshot_date(osm_path)
 
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    tmp_path = out_path.with_name(out_path.name + ".tmp")
-
-    try:
-        res = run_netconvert(netccfg_path, osm_file=osm_path, output_file=tmp_path)
-        normalize_net_xml_header(
-            tmp_path,
-            snapshot_date=snapshot_date,
-            osm_name=osm_path.name,
-            out_name=out_path.name,
+    with tempfile.TemporaryDirectory() as td:
+        raw_out = Path(td) / out_path.name
+        res = run_netconvert(
+            netccfg_path,
+            osm_file=osm_path,
+            output_file=raw_out,
+            extra_args=extra_args,
         )
-        os.replace(tmp_path, out_path)
-    finally:
-        tmp_path.unlink(missing_ok=True)
+        # read_text converts any Windows CRLF to '\n'; atomic_write_text preserves '\n' byte-for-byte.
+        raw_text = raw_out.read_text(encoding="utf-8")
+
+    normalized_text = normalize_net_xml_header(
+        raw_text,
+        snapshot_date=snapshot_date,
+        osm_name=osm_path.name,
+        out_name=out_path.name,
+        type_names=type_names,
+    )
+    atomic_write_text(out_path, normalized_text)
 
     warnings = [line.strip() for line in res.stderr.splitlines() if "Warning:" in line]
     topology = inspect_net_xml(out_path)
@@ -267,13 +344,15 @@ def build_base_network(
         "source_osm_file": osm_path.name,
         "source_osm_sha256": sha256_of(osm_path),
         "netccfg_file": netccfg_path.name,
-        "netccfg_sha256": sha256_of(netccfg_path),
-        "pilot_region_config_sha256": sha256_of(pilot_config_path) if pilot_config_path and pilot_config_path.is_file() else None,
+        "netccfg_sha256": sha256_of_text(netccfg_path),
+        "pilot_region_config_sha256": sha256_of_text(pilot_config_path),
+        "typemap_file": typemap_path.name if typemap_path is not None else None,
+        "typemap_sha256": sha256_of_text(typemap_path) if typemap_path is not None else None,
         "netconvert_version": netconvert_version,
         "topology": topology,
         "generated_at": datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ"),
     }
 
     meta_path = out_path.with_name(out_path.name + ".meta.json")
-    meta_path.write_text(json.dumps(meta, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    atomic_write_json(meta_path, meta)
     return meta

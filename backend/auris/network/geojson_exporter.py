@@ -8,11 +8,12 @@ the static `frontend/public/network.geojson`. In S2 it is imported directly by t
 from __future__ import annotations
 
 import json
-import os
 from pathlib import Path
 from typing import Any
 
 import sumolib
+
+from auris.storage.atomic import atomic_write_text
 
 
 def _is_internal_edge(edge: Any) -> bool:
@@ -124,16 +125,6 @@ def export_network_geojson(
         precision=precision,
     )
 
-    out = Path(output_path)
-    out.parent.mkdir(parents=True, exist_ok=True)
-    tmp = out.with_name(out.name + ".tmp")
-    try:
-        tmp.write_text(
-            json.dumps(geojson, indent=2, ensure_ascii=False) + "\n",
-            encoding="utf-8",
-        )
-        os.replace(tmp, out)
-    finally:
-        tmp.unlink(missing_ok=True)
-
+    text = json.dumps(geojson, indent=2, ensure_ascii=False, allow_nan=False) + "\n"
+    atomic_write_text(output_path, text)
     return geojson

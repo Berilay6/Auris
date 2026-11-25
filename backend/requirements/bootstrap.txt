@@ -1,6 +1,8 @@
-# Offline network preparation tools (auris.cli.bootstrap_network).
+# Offline network preparation tools (auris.cli.bootstrap_network, auris.cli.build_base_network).
 # Not included in the API/worker images; install on developer machines only:
 #   python -m venv backend/.venv && backend/.venv/Scripts/pip install -r backend/requirements/bootstrap.txt
-# Pinned: byte-identical .osm output depends on the OSMnx version.
+# Pinned: byte-identical .osm and base.net.xml outputs depend on OSMnx and SUMO versions.
 osmnx==2.1.1
 PyYAML==6.0.3
+eclipse-sumo==1.28.0
+sumolib==1.28.0

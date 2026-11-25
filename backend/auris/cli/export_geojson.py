@@ -10,28 +10,20 @@ from __future__ import annotations
 
 import argparse
 import logging
-import os
 import sys
 from pathlib import Path
 
 from auris.network.geojson_exporter import export_network_geojson
+from auris.storage.layout import DataLayout
 
 log = logging.getLogger("auris.export_geojson")
 
 REPO_ROOT = Path(__file__).resolve().parents[3]
-DEFAULT_DATA_DIR = REPO_ROOT / "auris-data"
 DEFAULT_OUTPUT = REPO_ROOT / "frontend" / "public" / "network.geojson"
 
 
-def resolve_data_dir() -> Path:
-    value = os.environ.get("AURIS_DATA_DIR")
-    if not value:
-        return DEFAULT_DATA_DIR
-    p = Path(value)
-    return p if p.is_absolute() else (REPO_ROOT / p).resolve()
-
-
 def parse_args(argv: list[str] | None) -> argparse.Namespace:
+    default_input = DataLayout.from_env().base_network_dir() / "base.net.xml"
     p = argparse.ArgumentParser(
         prog="python -m auris.cli.export_geojson",
         description="Convert SUMO base.net.xml into a WGS84 GeoJSON FeatureCollection.",
@@ -39,7 +31,7 @@ def parse_args(argv: list[str] | None) -> argparse.Namespace:
     p.add_argument(
         "--input",
         type=Path,
-        default=resolve_data_dir() / "base_network" / "base.net.xml",
+        default=default_input,
         help="input SUMO .net.xml file (default: <data-dir>/base_network/base.net.xml)",
     )
     p.add_argument(

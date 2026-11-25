@@ -3,12 +3,12 @@
 # Build context: ./backend  (docker-compose.yml → auris-backend.build)
 #
 # The "base" stage must be IDENTICAL to Dockerfile.worker (SCRUM-14): Python 3.11
-# slim + SUMO + non-root user. If you change one, update both so Docker BuildKit
-# shares the cached base + SUMO layers across both backend and worker images.
+# slim + pip SUMO 1.28.0 + non-root user. If you change one, update both so
+# Docker BuildKit shares the cached base + SUMO layers across both images.
 # ============================================================================
 
 # ---------------------------------------------------------------------------
-# Shared base: Python + SUMO + non-root user
+# Shared base: Python + SUMO 1.28.0 + non-root user
 # ---------------------------------------------------------------------------
 FROM python:3.11-slim-bookworm AS base
 
@@ -16,13 +16,15 @@ ENV PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1 \
     PIP_NO_CACHE_DIR=1 \
     PIP_DISABLE_PIP_VERSION_CHECK=1 \
-    SUMO_HOME=/usr/share/sumo \
+    SUMO_HOME=/usr/local/lib/python3.11/site-packages/sumo \
     PYTHONPATH=/app
 
-# SUMO: sumo, duarouter, netconvert (sumo package) + randomTrips.py etc. (sumo-tools)
+# Shared libraries the pip SUMO binaries link against (also needed by headless sumo)
 RUN apt-get update \
-    && apt-get install -y --no-install-recommends sumo sumo-tools \
+    && apt-get install -y --no-install-recommends \
+       libgl1 libx11-6 libxext6 libxrender1 libatomic1 libexpat1 \
     && rm -rf /var/lib/apt/lists/*
+RUN pip install "eclipse-sumo==1.28.0"
 
 # Compose overrides the user with AURIS_UID/AURIS_GID
 ARG AURIS_UID=1000

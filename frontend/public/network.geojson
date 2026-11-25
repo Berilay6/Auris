@@ -28,8 +28,8 @@
       "properties": {
         "edgeId": "-375165665",
         "lanes": 2,
-        "speed": 27.78,
-        "speedKmh": 100.0,
+        "speed": 11.18,
+        "speedKmh": 40.2,
         "name": "East 57th Street",
         "highway": "highway.primary",
         "length": 0.2,
@@ -64,8 +64,8 @@
       "properties": {
         "edgeId": "-388696206#2",
         "lanes": 2,
-        "speed": 27.78,
-        "speedKmh": 100.0,
+        "speed": 11.18,
+        "speedKmh": 40.2,
         "name": "East 57th Street",
         "highway": "highway.primary",
         "length": 1.77,
@@ -120,8 +120,8 @@
       "properties": {
         "edgeId": "-497165757#3",
         "lanes": 2,
-        "speed": 27.78,
-        "speedKmh": 100.0,
+        "speed": 11.18,
+        "speedKmh": 40.2,
         "name": "East 57th Street",
         "highway": "highway.primary",
         "length": 129.12,
@@ -172,8 +172,8 @@
       "properties": {
         "edgeId": "-587038082#1",
         "lanes": 2,
-        "speed": 27.78,
-        "speedKmh": 100.0,
+        "speed": 11.18,
+        "speedKmh": 40.2,
         "name": "East 57th Street",
         "highway": "highway.primary",
         "length": 131.31,
@@ -208,8 +208,8 @@
       "properties": {
         "edgeId": "-710571390#0",
         "lanes": 2,
-        "speed": 27.78,
-        "speedKmh": 100.0,
+        "speed": 11.18,
+        "speedKmh": 40.2,
         "name": "East 57th Street",
         "highway": "highway.primary",
         "length": 0.2,
@@ -292,8 +292,8 @@
       "properties": {
         "edgeId": "1201651432#0",
         "lanes": 2,
-        "speed": 27.78,
-        "speedKmh": 100.0,
+        "speed": 11.18,
+        "speedKmh": 40.2,
         "name": "East 53rd Street",
         "highway": "highway.secondary",
         "length": 98.02,
@@ -336,8 +336,8 @@
       "properties": {
         "edgeId": "1201651434#0",
         "lanes": 3,
-        "speed": 27.78,
-        "speedKmh": 100.0,
+        "speed": 11.18,
+        "speedKmh": 40.2,
         "name": "East 53rd Street",
         "highway": "highway.secondary",
         "length": 23.59,
@@ -796,8 +796,8 @@
       "properties": {
         "edgeId": "1498928837#0",
         "lanes": 1,
-        "speed": 13.89,
-        "speedKmh": 50.0,
+        "speed": 11.18,
+        "speedKmh": 40.2,
         "name": "East 55th Street",
         "highway": "highway.residential",
         "length": 129.66,
@@ -1324,8 +1324,8 @@
       "properties": {
         "edgeId": "1538467118#0",
         "lanes": 1,
-        "speed": 13.89,
-        "speedKmh": 50.0,
+        "speed": 11.18,
+        "speedKmh": 40.2,
         "name": "East 56th Street",
         "highway": "highway.residential",
         "length": 129.56,
@@ -1364,8 +1364,8 @@
       "properties": {
         "edgeId": "1538467118#3",
         "lanes": 1,
-        "speed": 13.89,
-        "speedKmh": 50.0,
+        "speed": 11.18,
+        "speedKmh": 40.2,
         "name": "East 56th Street",
         "highway": "highway.residential",
         "length": 131.1,
@@ -1540,8 +1540,8 @@
       "properties": {
         "edgeId": "226041011#1",
         "lanes": 2,
-        "speed": 27.78,
-        "speedKmh": 100.0,
+        "speed": 11.18,
+        "speedKmh": 40.2,
         "name": "East 54th Street",
         "highway": "highway.secondary",
         "length": 129.57,
@@ -1608,8 +1608,8 @@
             40.760372
           ],
           [
-            -73.96748,
-            40.7604
+            -73.967466,
+            40.760419
           ],
           [
             -73.967458,
@@ -1624,7 +1624,7 @@
         "speedKmh": 40.2,
         "name": "3rd Avenue",
         "highway": "highway.primary",
-        "length": 5.55,
+        "length": 8.02,
         "fromNode": "42432856",
         "toNode": "8133385388"
       }
@@ -1656,8 +1656,8 @@
       "properties": {
         "edgeId": "375165665",
         "lanes": 2,
-        "speed": 27.78,
-        "speedKmh": 100.0,
+        "speed": 11.18,
+        "speedKmh": 40.2,
         "name": "East 57th Street",
         "highway": "highway.primary",
         "length": 0.2,
@@ -1692,8 +1692,8 @@
       "properties": {
         "edgeId": "375165666#0",
         "lanes": 4,
-        "speed": 27.78,
-        "speedKmh": 100.0,
+        "speed": 11.18,
+        "speedKmh": 40.2,
         "name": "3rd Avenue",
         "highway": "highway.primary",
         "length": 13.04,
@@ -1728,8 +1728,8 @@
       "properties": {
         "edgeId": "388696206#2",
         "lanes": 2,
-        "speed": 27.78,
-        "speedKmh": 100.0,
+        "speed": 11.18,
+        "speedKmh": 40.2,
         "name": "East 57th Street",
         "highway": "highway.primary",
         "length": 1.77,
@@ -1940,8 +1940,8 @@
       "properties": {
         "edgeId": "458180186#0",
         "lanes": 2,
-        "speed": 27.78,
-        "speedKmh": 100.0,
+        "speed": 11.18,
+        "speedKmh": 40.2,
         "name": "East 49th Street",
         "highway": "highway.secondary",
         "length": 129.58,
@@ -1972,8 +1972,8 @@
       "properties": {
         "edgeId": "458180187#0",
         "lanes": 3,
-        "speed": 27.78,
-        "speedKmh": 100.0,
+        "speed": 11.18,
+        "speedKmh": 40.2,
         "name": "Lexington Avenue",
         "highway": "highway.secondary",
         "length": 64.3,
@@ -2016,8 +2016,8 @@
       "properties": {
         "edgeId": "458180188#0",
         "lanes": 2,
-        "speed": 27.78,
-        "speedKmh": 100.0,
+        "speed": 11.18,
+        "speedKmh": 40.2,
         "name": "East 50th Street",
         "highway": "highway.secondary",
         "length": 127.81,
@@ -2056,8 +2056,8 @@
       "properties": {
         "edgeId": "458180189#0",
         "lanes": 4,
-        "speed": 27.78,
-        "speedKmh": 100.0,
+        "speed": 11.18,
+        "speedKmh": 40.2,
         "name": "Lexington Avenue",
         "highway": "highway.secondary",
         "length": 65.04,
@@ -2100,8 +2100,8 @@
       "properties": {
         "edgeId": "458180193#0",
         "lanes": 4,
-        "speed": 27.78,
-        "speedKmh": 100.0,
+        "speed": 11.18,
+        "speedKmh": 40.2,
         "name": "Lexington Avenue",
         "highway": "highway.secondary",
         "length": 65.97,
@@ -2144,8 +2144,8 @@
       "properties": {
         "edgeId": "458180193#3",
         "lanes": 4,
-        "speed": 27.78,
-        "speedKmh": 100.0,
+        "speed": 11.18,
+        "speedKmh": 40.2,
         "name": "Lexington Avenue",
         "highway": "highway.secondary",
         "length": 68.63,
@@ -2188,8 +2188,8 @@
       "properties": {
         "edgeId": "458180193#6",
         "lanes": 4,
-        "speed": 27.78,
-        "speedKmh": 100.0,
+        "speed": 11.18,
+        "speedKmh": 40.2,
         "name": "Lexington Avenue",
         "highway": "highway.secondary",
         "length": 66.93,
@@ -2228,8 +2228,8 @@
       "properties": {
         "edgeId": "458180194#0",
         "lanes": 2,
-        "speed": 27.78,
-        "speedKmh": 100.0,
+        "speed": 11.18,
+        "speedKmh": 40.2,
         "name": "East 54th Street",
         "highway": "highway.secondary",
         "length": 127.89,
@@ -2272,8 +2272,8 @@
       "properties": {
         "edgeId": "458180195#0",
         "lanes": 4,
-        "speed": 27.78,
-        "speedKmh": 100.0,
+        "speed": 11.18,
+        "speedKmh": 40.2,
         "name": "Lexington Avenue",
         "highway": "highway.secondary",
         "length": 64.94,
@@ -2312,8 +2312,8 @@
       "properties": {
         "edgeId": "458180200#0",
         "lanes": 4,
-        "speed": 27.78,
-        "speedKmh": 100.0,
+        "speed": 11.18,
+        "speedKmh": 40.2,
         "name": "Lexington Avenue",
         "highway": "highway.secondary",
         "length": 28.03,
@@ -2584,8 +2584,8 @@
       "properties": {
         "edgeId": "46522002#0",
         "lanes": 1,
-        "speed": 27.78,
-        "speedKmh": 100.0,
+        "speed": 11.18,
+        "speedKmh": 40.2,
         "name": "East 49th Street",
         "highway": "highway.secondary",
         "length": 127.73,
@@ -2908,8 +2908,8 @@
       "properties": {
         "edgeId": "497165757#0",
         "lanes": 2,
-        "speed": 27.78,
-        "speedKmh": 100.0,
+        "speed": 11.18,
+        "speedKmh": 40.2,
         "name": "East 57th Street",
         "highway": "highway.primary",
         "length": 129.13,
@@ -2960,8 +2960,8 @@
       "properties": {
         "edgeId": "505778913#0",
         "lanes": 2,
-        "speed": 27.78,
-        "speedKmh": 100.0,
+        "speed": 11.18,
+        "speedKmh": 40.2,
         "name": "East 57th Street",
         "highway": "highway.primary",
         "length": 131.15,
@@ -3000,8 +3000,8 @@
       "properties": {
         "edgeId": "511924978#0",
         "lanes": 2,
-        "speed": 27.78,
-        "speedKmh": 100.0,
+        "speed": 11.18,
+        "speedKmh": 40.2,
         "name": "East 50th Street",
         "highway": "highway.secondary",
         "length": 129.21,
@@ -3036,8 +3036,8 @@
       "properties": {
         "edgeId": "544549058",
         "lanes": 1,
-        "speed": 13.89,
-        "speedKmh": 50.0,
+        "speed": 11.18,
+        "speedKmh": 40.2,
         "name": "East 56th Street",
         "highway": "highway.residential",
         "length": 0.2,
@@ -3072,8 +3072,8 @@
       "properties": {
         "edgeId": "544812894#0",
         "lanes": 2,
-        "speed": 13.89,
-        "speedKmh": 50.0,
+        "speed": 11.18,
+        "speedKmh": 40.2,
         "name": "East 55th Street",
         "highway": "highway.residential",
         "length": 48.74,
@@ -3156,8 +3156,8 @@
       "properties": {
         "edgeId": "569345474#0",
         "lanes": 4,
-        "speed": 27.78,
-        "speedKmh": 100.0,
+        "speed": 11.18,
+        "speedKmh": 40.2,
         "name": "Lexington Avenue",
         "highway": "highway.secondary",
         "length": 31.8,
@@ -3228,8 +3228,8 @@
       "properties": {
         "edgeId": "569345486#0",
         "lanes": 5,
-        "speed": 27.78,
-        "speedKmh": 100.0,
+        "speed": 11.18,
+        "speedKmh": 40.2,
         "name": "Lexington Avenue",
         "highway": "highway.secondary",
         "length": 21.26,
@@ -3780,8 +3780,8 @@
       "properties": {
         "edgeId": "710571387#0",
         "lanes": 1,
-        "speed": 13.89,
-        "speedKmh": 50.0,
+        "speed": 11.18,
+        "speedKmh": 40.2,
         "name": "East 55th Street",
         "highway": "highway.residential",
         "length": 76.31,
@@ -3908,8 +3908,8 @@
       "properties": {
         "edgeId": "710571390#0",
         "lanes": 2,
-        "speed": 27.78,
-        "speedKmh": 100.0,
+        "speed": 11.18,
+        "speedKmh": 40.2,
         "name": "East 57th Street",
         "highway": "highway.primary",
         "length": 0.2,
@@ -3936,8 +3936,40 @@
             40.760323
           ],
           [
+            -73.967299,
+            40.760441
+          ],
+          [
             -73.967223,
             40.760545
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "710571391#0",
+        "lanes": 2,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "3rd Avenue",
+        "highway": "highway.primary",
+        "length": 16.94,
+        "fromNode": "6680686985",
+        "toNode": "9177540204"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "710571391#2",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.967223,
+            40.760545
+          ],
+          [
+            -73.967214,
+            40.760557
           ],
           [
             -73.967103,
@@ -3954,14 +3986,14 @@
         ]
       },
       "properties": {
-        "edgeId": "710571391#0",
+        "edgeId": "710571391#2",
         "lanes": 2,
         "speed": 11.18,
         "speedKmh": 40.2,
         "name": "3rd Avenue",
         "highway": "highway.primary",
-        "length": 52.15,
-        "fromNode": "6680686985",
+        "length": 20.4,
+        "fromNode": "9177540204",
         "toNode": "cluster_42449971_8133385390"
       }
     },
@@ -4104,8 +4136,8 @@
             40.760431
           ],
           [
-            -73.967433,
-            40.760461
+            -73.967351,
+            40.760565
           ],
           [
             -73.967201,
@@ -4124,7 +4156,7 @@
         "speedKmh": 40.2,
         "name": "3rd Avenue",
         "highway": "highway.primary",
-        "length": 38.0,
+        "length": 24.59,
         "fromNode": "8133385388",
         "toNode": "cluster_42449971_8133385390"
       }
@@ -4172,8 +4204,8 @@
       "properties": {
         "edgeId": "962813251#0",
         "lanes": 3,
-        "speed": 27.78,
-        "speedKmh": 100.0,
+        "speed": 11.18,
+        "speedKmh": 40.2,
         "name": "3rd Avenue",
         "highway": "highway.primary",
         "length": 44.53,
@@ -4219,6 +4251,42 @@
         "length": 52.86,
         "fromNode": "8915549080",
         "toNode": "42447020"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "993383311",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.967458,
+            40.760431
+          ],
+          [
+            -73.967319,
+            40.760498
+          ],
+          [
+            -73.967317,
+            40.760499
+          ],
+          [
+            -73.967223,
+            40.760545
+          ]
+        ]
+      },
+      "properties": {
+        "edgeId": "993383311",
+        "lanes": 1,
+        "speed": 11.18,
+        "speedKmh": 40.2,
+        "name": "",
+        "highway": "highway.primary_link",
+        "length": 0.2,
+        "fromNode": "8133385388",
+        "toNode": "9177540204"
       }
     }
   ]
