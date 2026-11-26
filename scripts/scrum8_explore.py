@@ -1,7 +1,7 @@
 """SCRUM-8: NYC Traffic Volume Counts ve PLUTO veri kaynaklarını keşfetme.
 
-Pilot bölge: Lexington Ave, 49th–61st St, Park Ave ile 3rd Ave arası
-(Auris_Pilot_Bolge_Secimi.pdf; ızgaraya hizalı poligon, 15 m dışa genişletilmiş).
+Pilot bölge sınırı config/pilot_region.yaml dosyasından okunur (projede tek kaynak;
+bootstrap_network.py de aynı dosyayı kullanır). Poligon ve buffer_m oradan gelir.
 
 Ne yapar:
   1. Manhattan'daki tüm ATVC sayım noktalarının konumunu çeker, pilot poligona
@@ -18,8 +18,8 @@ ve PLUTO (xcoord/ycoord) zaten bu sistemde.
   auris-data/demand/sources/pluto_pilot_raw.csv
   auris-data/demand/sources/scrum8_summary.md
 
-Kurulum:  py -m pip install requests pandas pyproj
-Kullanım: py scripts/scrum8_explore.py [--data-dir auris-data] [--buffer-m 15]
+Kurulum:  py -m pip install requests pandas pyproj pyyaml
+Kullanım: py scripts/scrum8_explore.py [--config config/pilot_region.yaml] [--data-dir auris-data]
 """
 from __future__ import annotations
 
@@ -32,25 +32,32 @@ from pathlib import Path
 
 import pandas as pd
 import requests
+import yaml
 from pyproj import Transformer
 
 ATVC_URL = "https://data.cityofnewyork.us/resource/7ym2-wayt.csv"
 PLUTO_URL = "https://data.cityofnewyork.us/resource/64uk-42ks.csv"
 PAGE = 50_000
 
-# Pilot polygon corners from the selection PDF (lat, lon), clockwise.
-PILOT_CORNERS = [
-    (40.764299, -73.969033),  # Park / 61st
-    (40.762812, -73.965559),  # 3rd / 61st
-    (40.755086, -73.971186),  # 3rd / 49th
-    (40.756583, -73.974676),  # Park / 49th
-]
 FT_PER_M = 3.28084
 
 
-def pilot_polygon_ft() -> list[tuple[float, float]]:
+def load_region(path: Path) -> tuple[str, list[tuple[float, float]], float]:
+    """Read name, polygon (EPSG:2263 feet) and buffer (m) from pilot_region.yaml."""
+    cfg = yaml.safe_load(path.read_text(encoding="utf-8"))["region"]
+    b = cfg["boundary"]
+    if b["type"] == "polygon":
+        ring = [tuple(p) for p in b["polygon"]]          # [lon, lat]
+        if ring[0] == ring[-1]:
+            ring = ring[:-1]
+    elif b["type"] == "bbox":
+        w, s_, e, n = (b["bbox"][k] for k in ("west", "south", "east", "north"))
+        ring = [(w, s_), (e, s_), (e, n), (w, n)]
+    else:
+        raise ValueError(f"Bilinmeyen boundary.type: {b['type']}")
     tr = Transformer.from_crs("EPSG:4326", "EPSG:2263", always_xy=True)
-    return [tr.transform(lon, lat) for lat, lon in PILOT_CORNERS]
+    return cfg.get("name", cfg.get("id", "pilot")), [tr.transform(lon, lat) for lon, lat in ring], \
+        float(b.get("buffer_m", 0) or 0)
 
 
 def _inside(x: float, y: float, poly) -> bool:
@@ -175,14 +182,14 @@ def summarize_pluto(df: pd.DataFrame) -> str:
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--data-dir", default="auris-data")
-    ap.add_argument("--buffer-m", type=float, default=15.0,
-                    help="Poligon kenarına bu mesafedeki noktalar da dahil edilir (m)")
+    ap.add_argument("--config", default="config/pilot_region.yaml")
     a = ap.parse_args()
 
     out = Path(a.data_dir) / "demand" / "sources"
     out.mkdir(parents=True, exist_ok=True)
-    poly = pilot_polygon_ft()
-    buf = a.buffer_m * FT_PER_M
+    name, poly, buffer_m = load_region(Path(a.config))
+    buf = buffer_m * FT_PER_M
+    print(f"Pilot bölge: {name} · {len(poly)} köşe · buffer {buffer_m:g} m")
     xs, ys = [p[0] for p in poly], [p[1] for p in poly]
     pad = buf + 100
 
@@ -209,13 +216,13 @@ def main() -> int:
                                   "$order": "bbl"})
     if not pluto.empty:
         px, py = pd.to_numeric(pluto["xcoord"], errors="coerce"), pd.to_numeric(pluto["ycoord"], errors="coerce")
-        pluto = pluto[[_inside(x, y, poly) if pd.notna(x) else False for x, y in zip(px, py)]]
+        pluto = pluto[[in_pilot(x, y, poly, buf) for x, y in zip(px, py)]]
     pluto.to_csv(out / "pluto_pilot_raw.csv", index=False)
 
     summary = (
         "## SCRUM-8 sonuç: pilot bölge veri kontrolü\n\n"
-        "Pilot bölge: Lexington Ave, 49th–61st St, Park–3rd Ave (Auris_Pilot_Bolge_Secimi.pdf poligonu; "
-        f"sayım noktalarında kenardan {a.buffer_m:g} m tampon)\n\n"
+        f"Pilot bölge: {name} (`{a.config}`, buffer {buffer_m:g} m; sayım noktaları ve PLUTO parselleri "
+        "aynı genişletilmiş sınırla seçildi)\n\n"
         f"{summarize_atvc(atvc)}\n{summarize_pluto(pluto)}\n"
         "Ham dosyalar: `auris-data/demand/sources/` (atvc_pilot_raw.csv, pluto_pilot_raw.csv)\n"
     )
